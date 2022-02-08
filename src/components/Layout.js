@@ -5,8 +5,8 @@
  *  - data: `[node || array]` **required**
  */
 
-import React, { useState } from 'react';
-import Helmet from 'react-helmet';
+import React, { useState, useMemo } from 'react';
+import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
@@ -25,6 +25,13 @@ function Layout({ children, lang }) {
   `);
 
   const [quantity, setQuantity] = useState(1);
+  const cart = useMemo(
+    () => ({
+      quantity,
+      setQuantity,
+    }),
+    [quantity, setQuantity]
+  );
 
   return (
     <>
@@ -40,7 +47,7 @@ function Layout({ children, lang }) {
         <meta property="og:url" content="https://lag6a.com" />
         <meta charSet="utf-8" />
       </Helmet>
-      <Quantity.Provider value={{ quantity, setQuantity }}>
+      <Quantity.Provider value={cart}>
         <App lang={lang}>
           {children}
         </App>

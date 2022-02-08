@@ -141,8 +141,6 @@ const ButtonCheckout = styled(({
   const { quantity, setQuantity } = useContext(Quantity);
 
   const handleCheckout = async () => {
-    const POPUP = window.open();
-
     const client = Client.buildClient({
       domain: 'checkout.lag6a.com',
       storefrontAccessToken: '2852f2ee022208a16a87322fc6f251a2',
@@ -160,7 +158,9 @@ const ButtonCheckout = styled(({
         ]
       );
 
-      POPUP.location = checkoutWithProducts.webUrl;
+      if (typeof window !== 'undefined') {
+        window.location = checkoutWithProducts.webUrl;
+      }
       setQuantity(1);
     }
 

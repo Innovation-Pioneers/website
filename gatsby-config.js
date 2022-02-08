@@ -2,8 +2,8 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: 'cli-lag6a-website',
-      siteUrl: 'https://www.lag6a.com',
+    title: 'Lag6a',
+    siteUrl: 'https://www.lag6a.com',
   },
   plugins: [
     'gatsby-plugin-image',
@@ -22,6 +22,11 @@ module.exports = {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ['collections'],
+      },
+    }, {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        useLangKeyLayout: false,
       },
     },
     'gatsby-plugin-react-helmet',

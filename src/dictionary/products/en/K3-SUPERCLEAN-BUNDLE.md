@@ -11,7 +11,7 @@ cover:
 introduction:
   introLine: ''
   label: ''
-  # image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/karcher.png'
+  image: ''
   title: THE SUPERCLEAN BUNDLE
   subtitle: Karcher’s 1800 PSI K3 Follow Me pressure washer is designed to “follow you” while you work
   text: Compact and convenient design delivers strong cleaning power for most household jobs. The Vario spray wand allows for quick adjustment between low and high pressure without the need to switch nozzles. For stubborn stains, the patented Dirtblaster® spray wand will clean up the toughest areas. Onboard detergent tank included!
@@ -70,40 +70,6 @@ store:
       subtitle: Made in Italy
       image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/bundle/3.png'
       description: Highly concentrated shampoo to remove grease, with high foam and easy rinse. Saves a lot of water and leaves no residue or marks after rinsing. Totally safe to use with aluminum, enameled edges, matte paints and wax layers.
-# testimonials:
-#   - date: "2019-11-17"
-#     name: "Dieuwert Donoghue"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-4.jpg'
-#     text: 'Definitely worth the investment. Balot calculator did exactly what you said
-#     it does. I would gladly pay double for it.'
-#   - date: "2018-12-07"
-#     name: "Nevenka Peterson"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-2.jpg'
-#     text: "Fantastic, I'm totally blown away by Balot Calculator. I can enjoy game more now. Love it!"
-#   - date: "2018-11-15"
-#     name: "Adissa Kirkovalski"
-#     rating: 4
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-3.jpg'
-#     text: 'This calculator should be nominated for the thing of the year. I will refer everyone I know'
-#   - date: "2019-11-17"
-#     name: "Abhishek Mhasalkar"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-6.jpg'
-#     text: "I am really satisfied with my balot calculator. Balot calculator is exactly
-#     what I've been lacking. This is simply unbelievable!"
-#   - date: "2019-11-17"
-#     name: "Grímhildr Favager"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-5.jpg'
-#     text: "Definitely worth the investment. Man, this thing is getting better and better
-#     as I keep using it."
-#   - date: "2017-11-07"
-#     name: "Meginhraat Simpkin"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-1.png'
-#     text: 'This is unbelievable. After using Balot Calculator I cant stop winning!'
 buyButton:
   text: Buy Now
 tutorialButton:

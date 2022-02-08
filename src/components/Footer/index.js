@@ -16,7 +16,9 @@ import { Paragraph, Link } from '../Text';
 import twitterSrc from '../../assets/icons/twitter.svg';
 import instagramSrc from '../../assets/icons/instagram.svg';
 import facebookSrc from '../../assets/icons/facebook.svg';
-import paymentsSrc from '../../assets/icons/payments.svg';
+import cardsSrc from '../../assets/icons/cards.svg';
+import tabbySrc from '../../assets/icons/tabby.svg';
+import maroofSrc from '../../assets/icons/maroof.png';
 
 const getYear = () => new Date().getFullYear();
 
@@ -143,9 +145,14 @@ const Payment = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 20px;
 
   img {
-    height: 40px;
+    height: 20px;
+  }
+
+  a, div {
+    display: flex;
   }
 
   @media(min-width: 1024px) {
@@ -160,13 +167,32 @@ function Footer({ data, className }) {
     facebook: facebookSrc,
     instagram: instagramSrc,
     twitter: twitterSrc,
+    cards: cardsSrc,
+    tabby: tabbySrc,
+    maroof: maroofSrc,
   };
 
   return (
     <ThemeProvider theme={{ mode: 'dark' }}>
       <Wrapper py={[4, 5]} className={className}>
         <Payment>
-          <img src={paymentsSrc} alt="payments" />
+          {data.payment.map((item) => {
+            const Component = item.path.length > 0 ? 'a' : 'div';
+
+            return (
+              <Component
+                key={item.name}
+                href={item.path}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={ICONS[item.name]}
+                  alt={item.name}
+                />
+              </Component>
+            );
+          })}
         </Payment>
         <LayoutSitewidth>
           <Text>

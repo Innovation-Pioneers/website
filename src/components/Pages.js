@@ -11,8 +11,7 @@ import Cover from './Cover';
 
 import logoSrcEn from '../assets/logos/logo-en.svg';
 import logoSrcAr from '../assets/logos/logo-ar.svg';
-// import comingSoonSrc1 from '../assets/images/coming-soon-1.png';
-// import comingSoonSrc2 from '../assets/imagescoming-soon-2.png';
+import maroofSrc from '../assets/icons/maroof.png';
 
 const Wrapper = styled.div`
   position: relative;
@@ -52,7 +51,6 @@ const PageWrapper = styled.div`
   @media (max-width: 1024px) {
     width: 100%;
 
-    /* height: ${({ active }) => (active ? 'auto' : '100vh')}; */
     height: ${({ active, clicked }) => (
       active
         ? 'auto'
@@ -62,36 +60,6 @@ const PageWrapper = styled.div`
       )};
   }
 `;
-
-// const ComingSoon = styled.div`
-//   position: relative;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: flex-end;
-//   flex: ${({ flex }) => flex} 1 auto;
-//   overflow: hidden;
-//   height: 100vh;
-//   transition: all 1500ms cubic-bezier(0.785, 0.135, 0.000, 1.000);
-//   pointer-events: none;
-//   width: 0;
-//   min-width: ${({ clicked }) => (clicked ? 0 : '31vw')};
-
-//   @media (max-width: 1024px) {
-//     width: 100%;
-//     height: ${({ active }) => (active ? '30vh' : '0vh')};
-//   }
-
-//   > img {
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     height: 100%;
-//     width: 100%;
-//     object-fit: cover;
-//   }
-// `;
 
 const TopBar = styled.div`
   display: flex;
@@ -132,6 +100,13 @@ const LanguageSwitch = styled(GatsbyLink)`
   ${(props) => props.fontFamily && css`font-family: ${props.fontFamily};`};
 `;
 
+const Actions = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+`;
+
 function Pages({
   data: {
     pageData,
@@ -165,12 +140,22 @@ function Pages({
         {
           active === null
             ? (
-              <LanguageSwitch
-                to={lang === 'en' ? '/' : '/en'}
-                fontFamily={lang === 'en' ? 'GESSTwo' : 'Montserrat'}
-              >
-            {lang === 'en' ? 'عربى' : 'English'}
-              </LanguageSwitch>
+              <Actions>
+                <LanguageSwitch
+                  to={lang === 'en' ? '/' : '/en'}
+                  fontFamily={lang === 'en' ? 'GESSTwo' : 'Montserrat'}
+                >
+                  {lang === 'en' ? 'عربى' : 'English'}
+                </LanguageSwitch>
+                <a
+                  href="https://maroof.sa/215084"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ pointerEvents: 'all' }}
+                >
+                  <img src={maroofSrc} alt="" width={60} />
+                </a>
+              </Actions>
           )
           : null
         }
@@ -229,25 +214,6 @@ function Pages({
           </ThemeProvider>
         );
       })}
-      {/* {[comingSoonSrc2].map((item, index) => (
-        <ComingSoon
-          key={item}
-          flex={active === null ? 1 : 0}
-          active={active === null}
-          clicked={clicked}
-        >
-          <img src={item} alt="coming soon" />
-          {active === null && (
-            <Cover
-              title={lang === 'en' ? 'DEAL COMING SOON' : 'صفقة قريبا'} // @TODO: Add to dictionary
-              active={active === null}
-              index={index + productData.length}
-              clicked={clicked}
-              lang={lang}
-            />
-          )}
-        </ComingSoon>
-      ))} */}
     </Wrapper>
   );
 }

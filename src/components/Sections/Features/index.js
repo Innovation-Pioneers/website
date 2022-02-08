@@ -86,6 +86,7 @@ function Features({ data, slides, className }) {
               ) : (
                 <GatsbyImage
                   image={data.image.childImageSharp.gatsbyImageData}
+                  alt={data.title}
                 />
               )}
           </VideoWrapper>

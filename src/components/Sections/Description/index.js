@@ -96,7 +96,10 @@ function Footer({ data, buyButton, className }) {
             <ImageWrapper>
               <ProductImage
               >
-                <Image image={data.images[0].childImageSharp.gatsbyImageData} />
+                <Image
+                  image={data.images[0].childImageSharp.gatsbyImageData}
+                  alt={data.title}
+                />
               </ProductImage>
             </ImageWrapper>
           </ImageWidth>

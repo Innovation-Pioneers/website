@@ -23,14 +23,14 @@ function IndexPage() {
               text
               link
             }
+            payment {
+              name
+              path
+            }
             social {
               text
               name
               link
-            }
-            modal {
-              name
-              text
             }
             copyright
           }

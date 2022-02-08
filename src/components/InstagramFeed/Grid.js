@@ -170,6 +170,7 @@ function Gallery({ gallery, lang }) {
             <Image
               key={item.id}
               image={item.image.childImageSharp.gatsbyImageData}
+              alt={item.id}
             />
           );
         }
@@ -220,7 +221,7 @@ function Gallery({ gallery, lang }) {
             >
               <Image
                 image={item.image.childImageSharp.gatsbyImageData}
-                alt=""
+                alt={item.id}
               />
               {item.video ? <Play src={iconPlay} /> : null}
             </FeatureImage>

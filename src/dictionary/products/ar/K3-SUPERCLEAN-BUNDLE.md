@@ -11,7 +11,7 @@ cover:
 introduction:
   introLine: ''
   label: ''
-  # image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/karcher.png'
+  image: ''
   title: مجموعة سوبر كلين
   subtitle: كارتشر 1800 PSI K3 اتبعني غسالة الضغط مصممة ل "تتبع لك" أثناء العمل
   text: يوفر التصميم المدمج والمريح قوة تنظيف قوية لمعظم الوظائف المنزلية. عصا رذاذ فاريو يسمح للتكيف السريع بين الضغط المنخفض والعالي دون الحاجة إلى تبديل الفوهات. للبقع العنيدة ، فإن مكبر الأوساخ الحاصل على براءة اختراع ® عصا الرش سينظف أصعب المناطق. وشملت خزان المنظفات على متن الطائرة!
@@ -70,40 +70,6 @@ store:
       subtitle: صنع في ايطاليا
       image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/bundle/3.png'
       description: شامبو عالي التركيز لازالة الشحوم مع رغوة عالية وسهل الشطف. يوفر الكثير من الماء ولا يترك أي بقايا أو علامات بعد الشطف. آمن تمامًا للاستخدام مع الألمنيوم والحواف المطلية بالمينا والدهانات غير اللامعة وطبقات الشمع.
-# testimonials:
-#   - date: "2019-11-17"
-#     name: "Dieuwert Donoghue"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-4.jpg'
-#     text: 'Definitely worth the investment. Balot calculator did exactly what you said
-#     it does. I would gladly pay double for it.'
-#   - date: "2018-12-07"
-#     name: "Nevenka Peterson"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-2.jpg'
-#     text: "Fantastic, I'm totally blown away by Balot Calculator. I can enjoy game more now. Love it!"
-#   - date: "2018-11-15"
-#     name: "Adissa Kirkovalski"
-#     rating: 4
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-3.jpg'
-#     text: 'This calculator should be nominated for the thing of the year. I will refer everyone I know'
-#   - date: "2019-11-17"
-#     name: "Abhishek Mhasalkar"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-6.jpg'
-#     text: "I am really satisfied with my balot calculator. Balot calculator is exactly
-#     what I've been lacking. This is simply unbelievable!"
-#   - date: "2019-11-17"
-#     name: "Grímhildr Favager"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-5.jpg'
-#     text: "Definitely worth the investment. Man, this thing is getting better and better
-#     as I keep using it."
-#   - date: "2017-11-07"
-#     name: "Meginhraat Simpkin"
-#     rating: 5
-#     image: '../../../assets/products/K3-SUPERCLEAN-BUNDLE/testimonials/customer-1.png'
-#     text: 'This is unbelievable. After using Balot Calculator I cant stop winning!'
 buyButton:
   text: اشتري الآن
 tutorialButton:

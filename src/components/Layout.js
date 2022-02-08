@@ -19,6 +19,7 @@ function Layout({ children, lang }) {
       site {
         siteMetadata {
           title
+          siteUrl
         }
       }
     }
@@ -33,10 +34,12 @@ function Layout({ children, lang }) {
     [quantity, setQuantity]
   );
 
+  const { title, siteUrl } = data.site.siteMetadata;
+
   return (
     <>
       <Helmet>
-        <title>{data.site.siteMetadata.title}</title>
+        <title>{title}</title>
         <meta property="og:title" content="Lag6a" />
         <meta property="og:type" content="website" />
         <meta
@@ -44,7 +47,7 @@ function Layout({ children, lang }) {
           content="Lag6a"
         />
         <meta property="og:image" content="/OGImage.png" />
-        <meta property="og:url" content="https://lag6a.com" />
+        <meta property="og:url" content={siteUrl} />
         <meta charSet="utf-8" />
       </Helmet>
       <Quantity.Provider value={cart}>

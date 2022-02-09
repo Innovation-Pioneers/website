@@ -164,19 +164,21 @@ function Gallery({ gallery, lang }) {
 
   return (
     <Grid numberOfImages={gallery.gallery.length}>
-      {gallery.gallery.map((item) => {
+      {gallery.gallery.map((item, index) => {
         if (item.type === 'image') {
           return (
             <Image
-              key={item.id}
+              // eslint-disable-next-line react/no-array-index-key
+              key={index}
               image={item.image.childImageSharp.gatsbyImageData}
-              alt={item.id}
+              alt=""
             />
           );
         }
         const isOpen = isItemOpen === item.id;
         return (
-          <div key={item.id}>
+          // eslint-disable-next-line react/no-array-index-key
+          <div key={index}>
             {isItemOpen ? <GlobalyStyle /> : null}
             {
               item.video
@@ -221,7 +223,7 @@ function Gallery({ gallery, lang }) {
             >
               <Image
                 image={item.image.childImageSharp.gatsbyImageData}
-                alt={item.id}
+                alt=""
               />
               {item.video ? <Play src={iconPlay} /> : null}
             </FeatureImage>

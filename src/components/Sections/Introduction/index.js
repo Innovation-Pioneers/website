@@ -243,7 +243,7 @@ function Introduction({ data, buyButton, tutorialButton, className, lang }) {
             <ImageWrapper>
               <ProductImage>
                 <Image
-                  image={data.images[0].childImageSharp.gatsbyImageData}
+                  image={data.image.childImageSharp.gatsbyImageData}
                   alt={data.title}
                 />
               </ProductImage>

@@ -97,7 +97,7 @@ function Footer({ data, buyButton, className }) {
               <ProductImage
               >
                 <Image
-                  image={data.images[0].childImageSharp.gatsbyImageData}
+                  image={data.image.childImageSharp.gatsbyImageData}
                   alt={data.title}
                 />
               </ProductImage>

@@ -124,7 +124,6 @@ function Pages({
       window.scrollTo(0, 0);
     }
   }, [clicked]);
-
   return (
     <Wrapper lang={lang}>
       <TopBar lang={lang} active={active === null}>

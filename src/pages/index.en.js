@@ -81,7 +81,7 @@ function IndexPage() {
                 title
                 subtitle
                 text
-                images {
+                image {
                   childImageSharp {
                     gatsbyImageData(
                       layout: FULL_WIDTH,
@@ -106,12 +106,10 @@ function IndexPage() {
                 video
               }
               slider {
-                id
                 title
                 text
               }
               highlights {
-                id
                 type
                 image {
                   childImageSharp {
@@ -151,7 +149,7 @@ function IndexPage() {
                 title
                 subtitle
                 text
-                images {
+                image {
                   childImageSharp {
                     gatsbyImageData(
                       layout: FULL_WIDTH,

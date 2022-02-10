@@ -195,8 +195,8 @@ function Pages({
               {active === null && (
                 <Cover
                   image={
-                    item.node.frontmatter.cover.image.childImageSharp
-                    .gatsbyImageData
+                    item.node.frontmatter.cover
+                    .image?.childImageSharp?.gatsbyImageData
                   }
                   title={item.node.frontmatter.cover.title}
                   text={item.node.frontmatter.cover.text}

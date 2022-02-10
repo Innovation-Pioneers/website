@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: 'https://www.lag6a.com',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -39,7 +40,19 @@ module.exports = {
               maxWidth: 1024,
             },
           },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            },
+          },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms.js`,
       },
     },
     {
@@ -55,8 +68,7 @@ module.exports = {
         useLangKeyLayout: false,
       },
     },
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-netlify',
   ],
 };

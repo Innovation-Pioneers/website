@@ -185,7 +185,7 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
             <ImageWrapper>
               <ProductImage>
                 <Image
-                  image={data.image.childImageSharp.gatsbyImageData}
+                  image={data.image?.childImageSharp?.gatsbyImageData}
                   alt={data.title}
                 />
               </ProductImage>

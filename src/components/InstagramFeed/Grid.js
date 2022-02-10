@@ -120,7 +120,7 @@ function Gallery({ gallery, lang }) {
             <Image
               // eslint-disable-next-line react/no-array-index-key
               key={index}
-              image={item.image.childImageSharp.gatsbyImageData}
+              image={item.image?.childImageSharp?.gatsbyImageData}
               alt=""
             />
           );
@@ -162,7 +162,7 @@ function Gallery({ gallery, lang }) {
               hasVideo={item.video.length > 0}
             >
               <Image
-                image={item.image.childImageSharp.gatsbyImageData}
+                image={item.image?.childImageSharp?.gatsbyImageData}
                 alt=""
               />
               {item.video ? <Play src={iconPlay} /> : null}

@@ -93,7 +93,7 @@ function Store({ store, className, lang }) {
                   return (
                     <Logos key={title}>
                       <Image
-                        image={image.childImageSharp.gatsbyImageData}
+                        image={image?.childImageSharp?.gatsbyImageData}
                         alt={title || description || ''}
                       />
                       {

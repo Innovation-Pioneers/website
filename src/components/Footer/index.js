@@ -155,6 +155,7 @@ const Payment = styled.div`
     display: flex;
   }
 
+  margin-bottom: 25px;
   @media(min-width: 1024px) {
     margin-bottom: 10px;
   }

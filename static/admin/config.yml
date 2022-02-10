@@ -36,7 +36,7 @@ collections:
         widget: string
       - name: color
         label: Color
-        hint: Brand color of product in HSL format
+        hint: Brand color of product in HSL or HEX format
         widget: string
       - name: cover
         label: Cover

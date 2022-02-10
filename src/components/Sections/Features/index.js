@@ -57,6 +57,9 @@ const Video = styled.video`
 `;
 
 function Features({ data, slides, className }) {
+  const hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+  // Since Gatsby cant resolve path normally
+
   return (
     <Wrapper>
       <Element name="features" />
@@ -79,9 +82,8 @@ function Features({ data, slides, className }) {
                   playsInline
                   muted
                   loop
-                  src={data.video}
+                  src={hackedVideoPath}
                   type="video/mp4"
-                  poster={data.image.childImageSharp.fluid.src}
                 />
               ) : (
                 <GatsbyImage

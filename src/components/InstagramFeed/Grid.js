@@ -112,7 +112,7 @@ function Gallery({ gallery, lang }) {
   return (
     <Grid numberOfImages={gallery.gallery.length}>
       {gallery.gallery.map((item, index) => {
-        const hackedVideoPath = item.video.split('/static')[1]; // @ HACK
+        const hackedVideoPath = item?.video?.split('/static')[1]; // @ HACK
         // Since Gatsby cant resolve path normally
 
         if (item.type === 'image') {
@@ -159,7 +159,7 @@ function Gallery({ gallery, lang }) {
             }
             <FeatureImage
               onClick={() => item.video && setIsOpenItem(item.id)}
-              hasVideo={item.video.length > 0}
+              hasVideo={item?.video.length > 0}
             >
               <Image
                 image={item.image?.childImageSharp?.gatsbyImageData}

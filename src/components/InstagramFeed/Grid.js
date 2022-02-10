@@ -165,6 +165,9 @@ function Gallery({ gallery, lang }) {
   return (
     <Grid numberOfImages={gallery.gallery.length}>
       {gallery.gallery.map((item, index) => {
+        const hackedVideoPath = item.video.split('/static')[1]; // @ HACK
+        // Since Gatsby cant resolve path normally
+
         if (item.type === 'image') {
           return (
             <Image
@@ -195,7 +198,7 @@ function Gallery({ gallery, lang }) {
                     <VideoContainer>
                       <PlayerWrapper>
                         <Player
-                          url={item.video}
+                          url={hackedVideoPath}
                           playing
                           playsinline
                           controls

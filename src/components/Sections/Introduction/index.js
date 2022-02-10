@@ -205,6 +205,9 @@ function Introduction({ data, buyButton, tutorialButton, className, lang }) {
     },
   };
 
+  const hackedVideoPath = data.video.split('/static')[1]; // @ HACK
+  // Since Gatsby cant resolve path normally
+
   return (
     <ThemeProvider theme={{ mode: 'light' }}>
       <Wrapper>
@@ -265,7 +268,7 @@ function Introduction({ data, buyButton, tutorialButton, className, lang }) {
                   <VideoContainer>
                     <PlayerWrapper>
                       <Player
-                        url={data.video}
+                        url={hackedVideoPath}
                         playing
                         playsinline
                         controls

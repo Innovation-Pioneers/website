@@ -117,7 +117,9 @@ const Slider = React.memo(({ slides, className }) => {
       config: config.stiff,
     });
     return transitions(
-      (style, item) => <Number key={item.id} style={style}>{item.id}</Number>
+      (style) => (
+        <Number key={activeSlide} style={style}>{activeSlide + 1}</Number>
+      )
     );
   }
 
@@ -130,7 +132,7 @@ const Slider = React.memo(({ slides, className }) => {
     });
     return transition(
       (style, item) => (
-        <Slide key={item.id} style={style}>
+        <Slide key={activeSlide} style={style}>
           <TextBlock title={item.title} text={item.text} as="h3" />
         </Slide>
       )

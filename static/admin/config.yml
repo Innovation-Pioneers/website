@@ -123,9 +123,14 @@ collections:
         fields:
           - name: type
             label: Type
-            hint: If type video provide video
-            widget: string
-            default: image
+            hint: Don't forget to choose type from the list
+            widget: select
+            options:
+              - image
+              - video
+            default:
+              - image
+            required: true
           - name: image
             label: Image
             widget: image

@@ -6,24 +6,16 @@
  */
 
 import React, { useState } from 'react';
-import
-  styled,
-  {
-    css,
-    ThemeProvider,
-    createGlobalStyle,
-  } from 'styled-components';
+import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPlayer from 'react-player';
 import { useHotkeys } from 'react-hotkeys-hook';
-import Modal from 'react-modal';
 
 import TextBlock from '../../TextBlock';
 import Sitewidth from '../../Sitewidth';
 import { ButtonIcon, ButtonCheckout } from '../../Button';
-
-import iconClose from '../../../assets/icons/x.svg';
+import Modal from '../../Modal';
 
 const Wrapper = styled.div`
   display: flex;
@@ -124,44 +116,6 @@ const Buttons = styled.div`
   }
 `;
 
-const ModalWrapper = styled.div`
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  background: hsla(0, 0%, 5%, 0.8);
-  z-index: 999999999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 300ms;
-  ${(props) => props.isOpen && css`
-    opacity: 1;
-    pointer-events: all;
-    z-index: 9999999999;
-  `}
-`;
-
-const Close = styled.img`
-  position: absolute;
-  z-index: 99999999999;
-  pointer-events: all;
-  top: 25px;
-  right: ${({ lang }) => (lang === 'en' ? '25px' : 'auto')};
-  left: ${({ lang }) => (lang === 'en' ? 'auto' : '25px')};
-
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  cursor: pointer;
-
-  transition: opacity 500ms;
-  opacity: 1;
-
-  &:hover { opacity: 0.5; }
-`;
-
 const VideoContainer = styled.div`
   width: 100%;
   max-width: 1000px;
@@ -185,25 +139,10 @@ const GlobalyStyle = createGlobalStyle`
   }
 `;
 
-function Introduction({ data, buyButton, tutorialButton, className, lang }) {
+// eslint-disable-next-line react/function-component-definition
+const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   useHotkeys('esc', () => setIsModalOpen(false));
-
-  const customStyles = {
-    overlay: {
-      background: 'none',
-      zIndex: 9,
-    },
-    content: {
-      border: 'none',
-      background: 'none',
-      borderRadius: 0,
-      padding: 0,
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-  };
 
   const hackedVideoPath = data.video.split('/static')[1]; // @ HACK
   // Since Gatsby cant resolve path normally
@@ -256,43 +195,33 @@ function Introduction({ data, buyButton, tutorialButton, className, lang }) {
         {
           data.video
             ? (
-              <ModalWrapper
+              <Modal
                 isOpen={isModalOpen}
-                onClick={() => setIsModalOpen(false)}
+                setIsOpen={setIsModalOpen}
+                ariaHideApp={false}
+                lang={lang}
               >
-                <Modal
-                  isOpen={isModalOpen}
-                  style={customStyles}
-                  ariaHideApp={false}
-                >
-                  <VideoContainer>
-                    <PlayerWrapper>
-                      <Player
-                        url={hackedVideoPath}
-                        playing
-                        playsinline
-                        controls
-                        width="100%"
-                        height="100%"
-                        onEnded={() => setIsModalOpen(false)}
-                        onClick={(e) => e.stopPropagation()}
-                      />
-                    </PlayerWrapper>
-                  </VideoContainer>
-                <Close
-                  onClick={() => setIsModalOpen(false)}
-                  src={iconClose}
-                  alt=""
-                  lang={lang}
-                />
-                </Modal>
-              </ModalWrapper>
+                <VideoContainer>
+                  <PlayerWrapper>
+                    <Player
+                      url={hackedVideoPath}
+                      playing
+                      playsinline
+                      controls
+                      width="100%"
+                      height="100%"
+                      onEnded={() => setIsModalOpen(false)}
+                      onClick={(e) => e.stopPropagation()}
+                    />
+                  </PlayerWrapper>
+                </VideoContainer>
+              </Modal>
             )
             : null
         }
       </Wrapper>
     </ThemeProvider>
   );
-}
+};
 
 export default Introduction;

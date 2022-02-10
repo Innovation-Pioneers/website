@@ -28,12 +28,11 @@ const Close = styled.img`
   z-index: 99999999999;
   pointer-events: all;
   top: 25px;
-  right: ${({ lang }) => (lang === 'en' ? '25px' : 'auto')};
-  left: ${({ lang }) => (lang === 'en' ? 'auto' : '25px')};
+  right: ${({ lang }) => (lang === 'en' ? '0' : 'auto')};
+  left: ${({ lang }) => (lang === 'en' ? 'auto' : '0')};
 
   width: 50px;
   height: 50px;
-  margin: 5px;
   cursor: pointer;
 
   transition: opacity 500ms;

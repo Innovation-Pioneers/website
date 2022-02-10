@@ -85,7 +85,6 @@ const Play = styled.img`
 const VideoContainer = styled.div`
   width: 100%;
   max-width: 1000px;
-  padding: 0 25px;
 `;
 
 const PlayerWrapper = styled.div`

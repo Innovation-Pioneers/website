@@ -1,7 +1,11 @@
+# backend:
+#   name: proxy
+#   proxy_url: http://localhost:8081/api/v1
+#   branch: master # optional, defaults to master
+
 backend:
-  name: proxy
-  proxy_url: http://localhost:8081/api/v1
-  branch: master # optional, defaults to master
+  name: git-gateway
+  branch: master
 
 # MEDIA
 media_folder: static/img

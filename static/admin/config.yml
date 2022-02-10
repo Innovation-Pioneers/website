@@ -8,8 +8,8 @@ public_folder: /img
 
 # COLLECTIONS
 collections:
-  # PRODUCTS
-  - name: products
+  # PRODUCTS ENGLISH
+  - name: productsEN
     label: English Products
     label_singular: Product
     slug: "{{fields.title}}"
@@ -17,6 +17,199 @@ collections:
       preview: false
     create: true
     folder: src/dictionary/products/en
+    identifier_field: title
+    fields:
+      - name: templateKey
+        label: Template Key
+        widget: hidden
+        default: post
+      - name: language
+        label: Language
+        widget: hidden
+        default: en
+      - name: sku
+        label: SKU
+        widget: string
+      - name: title
+        label: Title
+        widget: string
+      - name: color
+        label: Color
+        hint: Brand color of product in HSL or HEX format
+        widget: string
+      - name: cover
+        label: Cover
+        widget: object
+        fields:
+          - name: image
+            label: Image
+            widget: image
+          - name: title
+            label: Title
+            widget: string
+          - name: text
+            label: Text
+            widget: string
+          - name: button
+            label: Button text
+            widget: string
+      - name: introduction
+        label: Introduction
+        widget: object
+        fields:
+          - name: introline
+            label: Introline
+            widget: string
+            required: false
+          - name: label
+            label: Label
+            widget: string
+            required: false
+          - name: title
+            label: Title
+            widget: string
+          - name: subtitle
+            label: Subtitle
+            widget: string
+          - name: text
+            label: Text
+            widget: string
+          - name: video
+            label: Video
+            widget: file
+            required: false
+          - name: image
+            label: Image
+            widget: image
+      - name: features
+        label: About
+        widget: object
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: subtitle
+            label: Subtitle
+            widget: string
+            required: false
+          - name: text
+            label: Text
+            widget: string
+          - name: image
+            label: Image
+            widget: image
+          - name: video
+            label: Video
+            widget: file
+            required: false
+      - name: slider
+        label: Slider
+        widget: list
+        fields:
+          - name: type
+            label: Type
+            widget: string
+            default: slide
+          - name: title
+            label: Title
+            widget: string
+          - name: text
+            label: Text
+            widget: string
+      - name: highlights
+        label: Gallery
+        widget: list
+        fields:
+          - name: type
+            label: Type
+            hint: Don't forget to choose type from the list
+            widget: select
+            options:
+              - image
+              - video
+            default:
+              - image
+            required: true
+          - name: image
+            label: Image
+            widget: image
+          - name: video
+            label: Video
+            widget: file
+            required: false
+      - name: store
+        label: Bundle images
+        widget: object
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: text
+            label: Text
+            widget: string
+            required: false
+          - name: items
+            label: Items
+            widget: list
+            fields:
+              - name: title
+                label: Title
+                widget: string
+              - name: subtitle
+                label: Subtitle
+                widget: string
+                required: false
+              - name: description
+                label: Description
+                widget: string
+              - name: image
+                label: Image
+                widget: image
+      - name: buyButton
+        label: Buy button text
+        widget: object
+        fields:
+          - name: text
+            label: Text
+            widget: string
+      - name: tutorialButton
+        label: Watch video button text
+        widget: object
+        fields:
+          - name: text
+            label: Button text
+            widget: string
+          - name: icon
+            label: Icon
+            default: play
+            widget: hidden
+      - name: description
+        label: Description
+        widget: object
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: subtitle
+            label: Subtitle
+            widget: string
+            required: false
+          - name: text
+            label: Text
+            widget: string
+          - name: image
+            label: Image
+            widget: image
+
+# PRODUCTS ARABIC
+  - name: productsAR
+    label: Arabic Products
+    label_singular: Product
+    slug: "{{fields.title}}"
+    editor:
+      preview: false
+    create: true
+    folder: src/dictionary/products/ar
     identifier_field: title
     fields:
       - name: templateKey

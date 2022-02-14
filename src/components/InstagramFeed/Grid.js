@@ -137,6 +137,7 @@ function Gallery({ gallery, lang }) {
                   setIsOpen={setIsOpenItem}
                   ariaHideApp={false}
                   lang={lang}
+                  onRequestClose={() => setIsOpenItem(false)}
                 >
                   <VideoContainer>
                     <PlayerWrapper>

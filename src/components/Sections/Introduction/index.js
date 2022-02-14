@@ -199,6 +199,7 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
                 setIsOpen={setIsModalOpen}
                 ariaHideApp={false}
                 lang={lang}
+                onRequestClose={() => setIsModalOpen(false)}
               >
                 <VideoContainer>
                   <PlayerWrapper>

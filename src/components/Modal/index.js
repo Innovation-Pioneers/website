@@ -57,7 +57,14 @@ const customStyles = {
   },
 };
 
-function Modal({ children, isOpen, setIsOpen, lang, ariaHideApp }) {
+function Modal({
+  children,
+  isOpen,
+  setIsOpen,
+  lang,
+  ariaHideApp,
+  onRequestClose,
+}) {
   return (
     <Wrapper
       isOpen={isOpen}
@@ -67,6 +74,7 @@ function Modal({ children, isOpen, setIsOpen, lang, ariaHideApp }) {
         isOpen={isOpen}
         style={customStyles}
         ariaHideApp={ariaHideApp}
+        onRequestClose={onRequestClose}
       >
         {children}
         <Close

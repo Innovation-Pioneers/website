@@ -163,7 +163,7 @@ function Gallery({ gallery, lang }) {
               : null
             }
             <FeatureImage
-              onClick={() => setIsOpenItem(item)}
+              onClick={() => item.video && setIsOpenItem(item)}
               hasVideo={item?.video.length > 0}
             >
               <Image

@@ -8,7 +8,6 @@ import styled, { css, createGlobalStyle } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPlayer from 'react-player';
-import { useHotkeys } from 'react-hotkeys-hook';
 
 import Modal from '../Modal';
 
@@ -106,7 +105,6 @@ const GlobalyStyle = createGlobalStyle`
 
 function Gallery({ gallery, lang }) {
   const [isItemOpen, setIsOpenItem] = useState(false);
-  useHotkeys('esc', () => setIsOpenItem(false));
 
   return (
     <Grid numberOfImages={gallery.gallery.length}>
@@ -137,6 +135,7 @@ function Gallery({ gallery, lang }) {
                   setIsOpen={setIsOpenItem}
                   ariaHideApp={false}
                   lang={lang}
+                  onRequestClose={() => setIsOpenItem(false)}
                 >
                   <VideoContainer>
                     <PlayerWrapper>

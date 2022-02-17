@@ -2,6 +2,13 @@ backend:
   name: git-gateway
   branch: master
 
+# DEVELOPMENT MODE
+# access server via npx netlify-cms-proxy-server
+# backend:
+#   name: proxy
+#   proxy_url: http://localhost:8081/api/v1
+#   branch: master
+
 # MEDIA
 media_folder: static/img
 public_folder: /img
@@ -108,7 +115,7 @@ collections:
         fields:
           - name: type
             label: Type
-            widget: string
+            widget: hidden
             default: slide
           - name: title
             label: Title
@@ -122,14 +129,10 @@ collections:
         fields:
           - name: type
             label: Type
-            hint: Don't forget to choose type from the list
-            widget: select
+            widget: inline-select
             options:
               - image
               - video
-            default:
-              - image
-            required: true
           - name: image
             label: Image
             widget: image
@@ -301,7 +304,7 @@ collections:
         fields:
           - name: type
             label: Type
-            widget: string
+            widget: hidden
             default: slide
           - name: title
             label: Title
@@ -315,14 +318,10 @@ collections:
         fields:
           - name: type
             label: Type
-            hint: Don't forget to choose type from the list
-            widget: select
+            widget: inline-select
             options:
               - image
               - video
-            default:
-              - image
-            required: true
           - name: image
             label: Image
             widget: image

@@ -10,7 +10,6 @@ import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPlayer from 'react-player';
-import { useHotkeys } from 'react-hotkeys-hook';
 
 import TextBlock from '../../TextBlock';
 import Sitewidth from '../../Sitewidth';
@@ -141,7 +140,6 @@ const GlobalyStyle = createGlobalStyle`
 // eslint-disable-next-line react/function-component-definition
 const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  useHotkeys('esc', () => setIsModalOpen(false));
 
   const hackedVideoPath = data.video.split('/static')[1]; // @ HACK
   // Since Gatsby cant resolve path normally
@@ -199,6 +197,7 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
                 setIsOpen={setIsModalOpen}
                 ariaHideApp={false}
                 lang={lang}
+                onRequestClose={() => setIsModalOpen(false)}
               >
                 <VideoContainer>
                   <PlayerWrapper>

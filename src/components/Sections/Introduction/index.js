@@ -141,8 +141,13 @@ const GlobalyStyle = createGlobalStyle`
 const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const hackedVideoPath = data.video.split('/static')[1]; // @ HACK
+  let hackedVideoPath;
   // Since Gatsby cant resolve path normally
+  if (data.video.startsWith('https://')) {
+    hackedVideoPath = data.video;
+  } else {
+    hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+  }
 
   return (
     <ThemeProvider theme={{ mode: 'light' }}>

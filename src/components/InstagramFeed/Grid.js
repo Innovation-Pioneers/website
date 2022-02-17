@@ -104,13 +104,18 @@ const GlobalyStyle = createGlobalStyle`
 `;
 
 function Gallery({ gallery, lang }) {
-  const [isItemOpen, setIsOpenItem] = useState(false);
+  const [isItemOpen, setIsOpenItem] = useState();
 
   return (
     <Grid numberOfImages={gallery.gallery.length}>
       {gallery.gallery.map((item, index) => {
-        const hackedVideoPath = item?.video?.split('/static')[1]; // @ HACK
+        let hackedVideoPath;
         // Since Gatsby cant resolve path normally
+        if (item.video.startsWith('https://')) {
+          hackedVideoPath = item.video;
+        } else {
+          hackedVideoPath = item?.video?.split('/static')[1]; // @ HACK
+        }
 
         if (item.type === 'image') {
           return (
@@ -122,7 +127,9 @@ function Gallery({ gallery, lang }) {
             />
           );
         }
-        const isOpen = isItemOpen === item.id;
+
+        const isOpen = isItemOpen === item;
+
         return (
           // eslint-disable-next-line react/no-array-index-key
           <div key={index}>
@@ -156,7 +163,7 @@ function Gallery({ gallery, lang }) {
               : null
             }
             <FeatureImage
-              onClick={() => item.video && setIsOpenItem(item.id)}
+              onClick={() => setIsOpenItem(item)}
               hasVideo={item?.video.length > 0}
             >
               <Image

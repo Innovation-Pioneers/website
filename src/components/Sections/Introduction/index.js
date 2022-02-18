@@ -9,12 +9,12 @@ import React, { useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import ReactPlayer from 'react-player';
 
 import TextBlock from '../../TextBlock';
 import Sitewidth from '../../Sitewidth';
 import { ButtonIcon, ButtonCheckout } from '../../Button';
 import Modal from '../../Modal';
+import VideoPlayer from '../../VideoPlayer';
 
 const Wrapper = styled.div`
   display: flex;
@@ -115,22 +115,6 @@ const Buttons = styled.div`
   }
 `;
 
-const VideoContainer = styled.div`
-  width: 100%;
-  max-width: 1000px;
-`;
-
-const PlayerWrapper = styled.div`
-  position: relative;
-  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
-`;
-
-const Player = styled(ReactPlayer)`
-  position: absolute;
-  top: 0;
-  left: 0;
-`;
-
 // eslint-disable-next-line react/function-component-definition
 const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -197,20 +181,16 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
                 lang={lang}
                 onRequestClose={() => setIsModalOpen(false)}
               >
-                <VideoContainer>
-                  <PlayerWrapper>
-                    <Player
-                      url={hackedVideoPath}
-                      playing
-                      playsinline
-                      controls
-                      width="100%"
-                      height="100%"
-                      onEnded={() => setIsModalOpen(false)}
-                      onClick={(e) => e.stopPropagation()}
-                    />
-                  </PlayerWrapper>
-                </VideoContainer>
+                <VideoPlayer
+                  url={hackedVideoPath}
+                  playing
+                  playsinline
+                  controls
+                  width="100%"
+                  height="100%"
+                  onEnded={() => setIsModalOpen(false)}
+                  onClick={(e) => e.stopPropagation()}
+                />
               </Modal>
             )
             : null

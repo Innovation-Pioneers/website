@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import styled, { css, createGlobalStyle } from 'styled-components';
+import styled, { css } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPlayer from 'react-player';
@@ -97,12 +97,6 @@ const Player = styled(ReactPlayer)`
   left: 0;
 `;
 
-const GlobalyStyle = createGlobalStyle`
-  body, html {
-    overflow: hidden;
-  }
-`;
-
 function Gallery({ gallery, lang }) {
   const [isItemOpen, setIsOpenItem] = useState();
 
@@ -133,7 +127,6 @@ function Gallery({ gallery, lang }) {
         return (
           // eslint-disable-next-line react/no-array-index-key
           <div key={index}>
-            {isItemOpen ? <GlobalyStyle /> : null}
             {
               item.video
               ? (

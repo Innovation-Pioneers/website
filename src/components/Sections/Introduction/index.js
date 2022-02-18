@@ -6,7 +6,7 @@
  */
 
 import React, { useState } from 'react';
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import ReactPlayer from 'react-player';
@@ -131,12 +131,6 @@ const Player = styled(ReactPlayer)`
   left: 0;
 `;
 
-const GlobalyStyle = createGlobalStyle`
-  body, html {
-    overflow: hidden;
-  }
-`;
-
 // eslint-disable-next-line react/function-component-definition
 const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -152,7 +146,6 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
   return (
     <ThemeProvider theme={{ mode: 'light' }}>
       <Wrapper>
-        {isModalOpen ? <GlobalyStyle /> : null}
         <LayoutSitewidth>
           <Content className={className}>
             <TextBlock

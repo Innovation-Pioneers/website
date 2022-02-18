@@ -1,8 +1,14 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled, { css, createGlobalStyle } from 'styled-components';
 import ReactModal from 'react-modal';
 
 import iconClose from '../../assets/icons/x.svg';
+
+const GlobalyStyle = createGlobalStyle`
+  body, html {
+    overflow: hidden;
+  }
+`;
 
 const Wrapper = styled.div`
   position: fixed;
@@ -70,6 +76,7 @@ function Modal({
       isOpen={isOpen}
       onClick={() => setIsOpen(false)}
     >
+      {isOpen ? <GlobalyStyle /> : null}
       <ReactModal
         isOpen={isOpen}
         style={customStyles}

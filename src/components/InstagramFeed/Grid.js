@@ -4,12 +4,12 @@
  */
 
 import React, { useState } from 'react';
-import styled, { css, createGlobalStyle } from 'styled-components';
+import styled, { css } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import ReactPlayer from 'react-player';
 
 import Modal from '../Modal';
+import VideoPlayer from '../VideoPlayer';
 
 import iconPlay from '../../assets/icons/play-white.svg';
 
@@ -81,28 +81,6 @@ const Play = styled.img`
   height: 50px;
 `;
 
-const VideoContainer = styled.div`
-  width: 100%;
-  max-width: 1000px;
-`;
-
-const PlayerWrapper = styled.div`
-  position: relative;
-  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
-`;
-
-const Player = styled(ReactPlayer)`
-  position: absolute;
-  top: 0;
-  left: 0;
-`;
-
-const GlobalyStyle = createGlobalStyle`
-  body, html {
-    overflow: hidden;
-  }
-`;
-
 function Gallery({ gallery, lang }) {
   const [isItemOpen, setIsOpenItem] = useState();
 
@@ -133,7 +111,6 @@ function Gallery({ gallery, lang }) {
         return (
           // eslint-disable-next-line react/no-array-index-key
           <div key={index}>
-            {isItemOpen ? <GlobalyStyle /> : null}
             {
               item.video
               ? (
@@ -144,20 +121,16 @@ function Gallery({ gallery, lang }) {
                   lang={lang}
                   onRequestClose={() => setIsOpenItem(false)}
                 >
-                  <VideoContainer>
-                    <PlayerWrapper>
-                      <Player
-                        url={hackedVideoPath}
-                        playing
-                        playsinline
-                        controls
-                        width="100%"
-                        height="100%"
-                        onEnded={() => setIsOpenItem(false)}
-                        onClick={(e) => e.stopPropagation()}
-                      />
-                    </PlayerWrapper>
-                  </VideoContainer>
+                  <VideoPlayer
+                    url={hackedVideoPath}
+                    playing
+                    playsinline
+                    controls
+                    width="100%"
+                    height="100%"
+                    onEnded={() => setIsOpenItem(false)}
+                    onClick={(e) => e.stopPropagation()}
+                  />
                 </Modal>
               )
               : null

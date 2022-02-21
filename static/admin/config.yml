@@ -37,6 +37,12 @@ collections:
       - name: sku
         label: SKU
         widget: string
+      - name: stock
+        label: Stock
+        widget: number
+        value_type: int
+        default: 0
+        min: 0
       - name: title
         label: Title
         widget: string
@@ -165,6 +171,7 @@ collections:
               - name: description
                 label: Description
                 widget: string
+                required: false
               - name: image
                 label: Image
                 widget: image
@@ -186,6 +193,18 @@ collections:
             label: Icon
             default: play
             widget: hidden
+      - name: productQuantity
+        label: text for product availability
+        widget: object
+        fields:
+          - name: sold
+            label: Sold
+            widget: string
+            default: sold
+          - name: remaining
+            label: Remaining
+            widget: string
+            default: remaining
       - name: description
         label: Description
         widget: object
@@ -226,6 +245,12 @@ collections:
       - name: sku
         label: SKU
         widget: string
+      - name: stock
+        label: Stock
+        widget: number
+        value_type: int
+        default: 0
+        min: 0
       - name: title
         label: Title
         widget: string
@@ -354,6 +379,7 @@ collections:
               - name: description
                 label: Description
                 widget: string
+                required: false
               - name: image
                 label: Image
                 widget: image
@@ -375,6 +401,18 @@ collections:
             label: Icon
             default: play
             widget: hidden
+      - name: productQuantity
+        label: text for product availability
+        widget: object
+        fields:
+          - name: sold
+            label: Sold
+            widget: string
+            default: sold
+          - name: remaining
+            label: Remaining
+            widget: string
+            default: remaining
       - name: description
         label: Description
         widget: object

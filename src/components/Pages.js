@@ -207,6 +207,13 @@ function Pages({
                   setClicked={setClicked}
                   index={index}
                   lang={lang}
+                  product={product}
+                  sku={item.node.frontmatter.sku}
+                  textSold={item.node.frontmatter.productQuantity.sold}
+                  textRemaining={
+                    item.node.frontmatter.productQuantity.remaining
+                  }
+                  productStock={item.node.frontmatter.stock}
                 />
               )}
             </PageWrapper>

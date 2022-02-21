@@ -44,6 +44,7 @@ function IndexPage() {
               id
               shopifyId
               sku
+              inventoryQuantity
             }
             priceRangeV2 {
               maxVariantPrice {
@@ -61,6 +62,7 @@ function IndexPage() {
           node {
             frontmatter {
               sku
+              stock
               color
               cover {
                 image {
@@ -144,6 +146,10 @@ function IndexPage() {
               tutorialButton {
                 text
                 icon
+              }
+              productQuantity {
+                sold
+                remaining
               }
               description {
                 title

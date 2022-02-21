@@ -67,6 +67,9 @@ function Page({
     currency: product[0].node.priceRangeV2.maxVariantPrice.currencyCode,
     variantId: product[0].node.variants[0].shopifyId,
   };
+  const availableQuantity = product[0].node.variants[0].inventoryQuantity;
+  const { sold, remaining } = productData.productQuantity;
+  const { stock } = productData;
 
   return (
     <Wrapper active={active} clicked={clicked}>
@@ -83,6 +86,10 @@ function Page({
         tutorialButton={productData.tutorialButton}
         className={className}
         lang={lang}
+        availableQuantity={availableQuantity}
+        textSold={sold}
+        textRemaining={remaining}
+        productStock={stock}
       />
       <Features
         data={productData.features}

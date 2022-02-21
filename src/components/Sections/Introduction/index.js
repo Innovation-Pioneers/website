@@ -15,6 +15,8 @@ import Sitewidth from '../../Sitewidth';
 import { ButtonIcon, ButtonCheckout } from '../../Button';
 import Modal from '../../Modal';
 import VideoPlayer from '../../VideoPlayer';
+import Space from '../../Space';
+import ProductQuantity from '../../ProductQuantity';
 
 const Wrapper = styled.div`
   display: flex;
@@ -92,7 +94,7 @@ const Buttons = styled.div`
   flex-direction: row;
   position: relative;
   z-index: 1;
-  padding-top: ${themeGet('space.6')};
+  padding-top: ${themeGet('space.5')};
   padding-bottom: ${themeGet('space.6')};
   background: ${themeGet('colors.primary.base')};
 
@@ -116,7 +118,17 @@ const Buttons = styled.div`
 `;
 
 // eslint-disable-next-line react/function-component-definition
-const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
+const Introduction = ({
+  data,
+  buyButton,
+  tutorialButton,
+  className,
+  lang,
+  availableQuantity,
+  textSold,
+  textRemaining,
+  productStock,
+}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   let hackedVideoPath;
@@ -138,6 +150,13 @@ const Introduction = ({ data, buyButton, tutorialButton, className, lang }) => {
               text={data.text}
               as="h2"
             />
+            <Space height="25px" />
+            <ProductQuantity
+              total={productStock}
+              available={availableQuantity}
+              textSold={textSold}
+              textRemaining={textRemaining}
+              />
             <Buttons>
               <ButtonCheckout
                 className="introduction-buyButton-ar"

@@ -5,6 +5,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import Space from './Space';
 import { Title, Paragraph } from './Text';
 import { ButtonText } from './Button';
+import ProductQuantity from './ProductQuantity';
 
 const Wrapper = styled.div`
   position: absolute;
@@ -72,7 +73,15 @@ function Cover({
   index,
   setClicked,
   lang,
+  product,
+  sku,
+  textSold,
+  textRemaining,
+  productStock,
 }) {
+  const productBySku = product.filter((p) => p.node.variants[0].sku === sku);
+  const availableQuantity = productBySku[0].node.variants[0].inventoryQuantity;
+
   return (
     <Wrapper active={active} clicked={clicked} index={index} lang={lang}>
       {
@@ -111,6 +120,14 @@ function Cover({
           </>
         )
         : null}
+      <Space height="20px" />
+      <ProductQuantity
+        total={productStock}
+        available={availableQuantity}
+        lang={lang}
+        textSold={textSold}
+        textRemaining={textRemaining}
+      />
       {
         button
           ? (

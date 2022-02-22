@@ -4,19 +4,29 @@ import { themeGet } from '@styled-system/theme-get';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as GatsbyLink } from 'gatsby';
 
-import { ButtonCheckout } from '../Button';
+import { ButtonCheckoutCart } from '../Button';
 import { Link } from '../Text';
 import Space from '../Space';
 
 const Header = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
 
   padding: ${themeGet('space.4')};
   background: ${themeGet('colors.primary.base')};
+
+  @media(min-width: ${themeGet('breakpoints.0')}) {
+    align-items: flex-end;
+  }
+
+  @media(min-width: 650px) {
+    flex-direction: row;
+    gap: 0;
+  } 
 
   @media(min-width: ${themeGet('breakpoints.2')}) {
     padding: ${themeGet('space.6')};
@@ -101,14 +111,13 @@ function Navigation({ /* social, */ items, buyButton, className, lang }) {
           {lang === 'en' ? 'عربى' : 'English'}
         </Item>
         <Space width="30px" />
-        <ButtonCheckout
-          className="introduction-buyButton-ar"
-          text={buyButton.text}
-          price={parseInt(buyButton.price, 10)}
-          currency={buyButton.currency}
-          variantId={buyButton.variantId}
-        />
       </Row>
+      <ButtonCheckoutCart
+        className="introduction-buyButton-ar"
+        text={buyButton.text}
+        price={parseInt(buyButton.price, 10)}
+        currency={buyButton.currency}
+      />
     </Header>
   );
 }

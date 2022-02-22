@@ -7,6 +7,7 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import Sitewidth from '../../Sitewidth';
 import TextBlock from '../../TextBlock';
 import { ButtonCheckout } from '../../Button';
+import Space from '../../Space';
 
 const Wrapper = styled.div`
   background: ${themeGet('colors.primary.base')};
@@ -30,10 +31,6 @@ const LayoutSitewidth = styled(Sitewidth)`
 const Content = styled.div`
   width: 100%;
   height: 100%;
-
-  ${ButtonCheckout} {
-    margin-top: ${themeGet('space.6')};
-  }
 
   & > ${ButtonCheckout} {
     @media(max-width: ${themeGet('breakpoints.1')}) {
@@ -73,7 +70,7 @@ const ProductImage = styled.div`
   transform-origin: center 80%;
 `;
 
-function Footer({ data, buyButton, className }) {
+function Description({ data, buyButton, className, availableQuantity }) {
   return (
     <ThemeProvider theme={{ mode: 'light' }}>
       <Wrapper>
@@ -84,13 +81,17 @@ function Footer({ data, buyButton, className }) {
               subtitle={data.subtitle}
               text={data.text}
             />
+            <Space height="30px" />
             <ButtonCheckout
               className="introduction-buyButton-ar"
               text={buyButton.text}
               price={parseInt(buyButton.price, 10)}
               currency={buyButton.currency}
               variantId={buyButton.variantId}
+              maxWidth="360px"
+              disabled={availableQuantity <= 0}
             />
+            <Space height="30px" />
           </Content>
           <ImageWidth>
             <ImageWrapper>
@@ -108,4 +109,4 @@ function Footer({ data, buyButton, className }) {
     </ThemeProvider>
   );
 }
-export default Footer;
+export default Description;

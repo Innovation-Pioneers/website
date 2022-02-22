@@ -108,6 +108,7 @@ function Page({
         data={productData.description}
         buyButton={BUTTON}
         className={className}
+        availableQuantity={availableQuantity}
       />
       <Footer
         data={pageData.footer}

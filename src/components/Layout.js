@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import App from './App';
-import { Quantity } from './Button/ButtonCheckout';
+import { Cart } from './Button/ButtonCheckout';
 
 function Layout({ children, lang }) {
   const data = useStaticQuery(graphql`
@@ -25,13 +25,13 @@ function Layout({ children, lang }) {
     }
   `);
 
-  const [quantity, setQuantity] = useState(1);
+  const [state, setState] = useState({ items: [] });
   const cart = useMemo(
     () => ({
-      quantity,
-      setQuantity,
+      state,
+      setState,
     }),
-    [quantity, setQuantity]
+    [state, setState]
   );
 
   const { title, siteUrl } = data.site.siteMetadata;
@@ -50,11 +50,11 @@ function Layout({ children, lang }) {
         <meta property="og:url" content={siteUrl} />
         <meta charSet="utf-8" />
       </Helmet>
-      <Quantity.Provider value={cart}>
+      <Cart.Provider value={cart}>
         <App lang={lang}>
           {children}
         </App>
-      </Quantity.Provider>
+      </Cart.Provider>
     </>
   );
 }

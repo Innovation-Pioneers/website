@@ -77,6 +77,7 @@ const ProductImage = styled.div`
   top: 0; right: 0; bottom: 0; left: 0;
   transform-origin: center 80%;
   transform: scale(1.1);
+  pointer-events: none;
 `;
 
 const Content = styled.div`
@@ -92,6 +93,7 @@ const Content = styled.div`
 const Buttons = styled.div`
   display: flex;
   flex-direction: row;
+  gap: 20px;
   position: relative;
   z-index: 1;
   padding-top: ${themeGet('space.5')};
@@ -101,18 +103,8 @@ const Buttons = styled.div`
   @media(max-width: ${themeGet('breakpoints.1')}) {
     flex-direction: column;
 
-    ${ButtonCheckout} {
-      margin-bottom: 20px;
-    }
-
     ${ButtonCheckout}{
       height: 56px;
-    }
-  }
-
-  ${ButtonCheckout} {
-    @media(min-width: ${themeGet('breakpoints.1')}) {
-      margin-right: 20px;
     }
   }
 `;
@@ -164,6 +156,7 @@ const Introduction = ({
                 price={parseInt(buyButton.price, 10)}
                 currency={buyButton.currency}
                 variantId={buyButton.variantId}
+                disabled={availableQuantity <= 0}
               />
               {
                 data.video

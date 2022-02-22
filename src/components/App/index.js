@@ -28,8 +28,8 @@ const Global = createGlobalStyle`
     }
 
     .introduction-buyButton-ar {
-      margin-right: 0 !important;
-      margin-left: 20px !important;
+      /* margin-right: 0 !important; */
+      /* margin-left: 20px !important; */
 
       @media(min-width: ${themeGet('breakpoints.2')}) {
         margin-right: -20px !important;

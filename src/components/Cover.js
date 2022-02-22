@@ -55,7 +55,11 @@ const Wrapper = styled.div`
 
 const Image = styled(GatsbyImage)`
   width: 100%;
-  max-width: 350px;
+  max-width: 230px;
+
+  @media(min-width: 376px) {
+    max-width: 350px;
+  }
 `;
 
 const ButtonWrapper = styled.div`

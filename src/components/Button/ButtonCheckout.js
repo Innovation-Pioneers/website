@@ -1,9 +1,13 @@
-import React, { useContext } from 'react';
+import React, { useMemo, useContext } from 'react';
 import styled, { css } from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import Client from 'shopify-buy';
 
 import { noJitter } from '../../utils';
+import { decimalize } from '../../helpers';
+import { Title } from '../Text';
+
+import minusSrc from '../../assets/icons/minus.svg';
+import plusSrc from '../../assets/icons/plus.svg';
 
 const Wrapper = styled.div`
   position: relative;
@@ -15,6 +19,13 @@ const Wrapper = styled.div`
   color: ${themeGet('colors.white.base')};
   font-size: ${themeGet('fontSizes.1')};
   font-weight: ${themeGet('fontWeights.regular')};
+  min-width: 300px;
+
+  @media(min-width: ${themeGet('breakpoints.1')}) {
+    min-width: 350px;
+  }
+
+  max-width: ${({ maxWidth }) => maxWidth};
 `;
 
 const Text = styled.div`
@@ -54,7 +65,7 @@ const Text = styled.div`
   }
 
   background: ${themeGet('colors.white.base')};
-  height: 100%;
+  height: 50px;
 
   cursor: pointer;
   transition: opacity 300ms;
@@ -66,14 +77,18 @@ const Price = styled.div`
   flex: 0 1 auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   white-space: nowrap;
   padding: 0 10px;
   color: ${themeGet('colors.secondary.base')};
   transition: opacity 300ms;
 
   @media (min-width: 375px) {
-    min-width: 170px;
+    min-width: 200px;
+  }
+
+  @media(min-width: 768px) {
+    flex: 1 1 auto;
   }
   
   border-bottom-left-radius: 100px;
@@ -86,14 +101,15 @@ const Price = styled.div`
   }
 
   background: ${themeGet('colors.white.base')};
-  height: 100%;
+  height: 50px;
 `;
 
 const Symbol = styled.div`
   ${noJitter};
+  display: flex;
 
   color: ${themeGet('colors.secondary.base')};
-  padding: 16px 12px 16px 10px;
+  padding: 16px 12px;
 
   cursor: pointer;
   transition: opacity 300ms;
@@ -129,7 +145,18 @@ const Notification = styled.div`
   `}
 `;
 
-export const Quantity = React.createContext(null);
+const Flex = styled.div`
+  display: flex;
+  ${Title} {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+`;
+
+export const Cart = React.createContext({
+  items: [],
+});
 
 const ButtonCheckout = styled(({
   text,
@@ -137,57 +164,118 @@ const ButtonCheckout = styled(({
   currency,
   className,
   variantId,
+  disabled,
+  maxWidth,
 }) => {
-  const { quantity, setQuantity } = useContext(Quantity);
+  const { state, setState } = useContext(Cart);
 
-  const handleCheckout = async () => {
-    const client = Client.buildClient({
-      domain: 'checkout.lag6a.com',
-      storefrontAccessToken: '2852f2ee022208a16a87322fc6f251a2',
+  const addItemToCart = (id, q = 1) => {
+    let productAlreadyInCart = false;
+    const items = state.items.map((item) => {
+      const { variantId: itemId, quantity } = item;
+      if (itemId === id) {
+        productAlreadyInCart = true;
+        const newQuantity = quantity + q;
+        return {
+          variantId: itemId,
+          quantity: newQuantity,
+          price: price * newQuantity,
+        };
+      }
+      return item;
     });
 
-    async function createCheckout() {
-      const { id: checkoutId } = await client.checkout.create();
-      const checkoutWithProducts = await client.checkout.addLineItems(
-        checkoutId,
-        [
-          {
-            variantId,
-            quantity,
-          },
-        ]
-      );
-
-      if (typeof window !== 'undefined') {
-        window.location = checkoutWithProducts.webUrl;
-      }
-      setQuantity(1);
+    if (!productAlreadyInCart) {
+      items.push({
+        variantId: id,
+        quantity: q,
+        price,
+      });
     }
 
-    createCheckout();
+    setState({ items });
   };
 
+  const removeFromCart = (id, q = 1) => {
+    const items = state.items.reduce(
+      (agr, item) => {
+        if (item.variantId === id) {
+          const newQuantity = item.quantity - q;
+          if (newQuantity > 0) {
+            agr.push({
+              ...item,
+              quantity: newQuantity,
+              price: price * newQuantity,
+            });
+          }
+        } else {
+          agr.push(item);
+        }
+        return agr;
+      },
+      [],
+    );
+
+    setState({ items });
+  };
+
+  const quantity = useMemo(() => {
+    const item = state.items.find(
+      ({ variantId: itemId }) => variantId === itemId
+    );
+    if (item) {
+      return item.quantity;
+    }
+    return 0;
+  }, [state]);
+
+  const priceToShow = (
+    quantity > 0
+    ? decimalize(quantity * price)
+    : decimalize(price)
+  );
+
   return (
-    <Wrapper className={className}>
-      <Text onClick={handleCheckout}><span>{text}</span></Text>
-      <Price className="price">
-        <Symbol onClick={() => setQuantity(Math.max(1, quantity - 1))}>
-          -
-        </Symbol>
-        {currency}
-        {' '}
-        {(quantity * price).toFixed(2)}
-        <Symbol onClick={() => setQuantity(quantity + 1)}>
-          +
-        </Symbol>
-        {quantity > 0
-          && (
-          <Notification quantity={quantity > 1 ? true : false}>
-            {Math.max(quantity, 2)}
-          </Notification>
-        )}
-      </Price>
-    </Wrapper>
+    <Flex>
+      {
+        disabled
+          ? (
+            <Title
+              as="h3"
+            >
+              Sold out
+            </Title>
+          )
+          : (
+            <Wrapper
+              className={className}
+              disabled={disabled}
+              maxWidth={maxWidth}
+            >
+              <Text onClick={() => addItemToCart(variantId, 1)}>
+                {text}
+              </Text>
+              <Price className="price">
+                <Symbol onClick={() => removeFromCart(variantId, 1)}>
+                  <img src={minusSrc} alt="minus" />
+                </Symbol>
+                {currency}
+                {' '}
+                {priceToShow}
+                <Symbol onClick={() => addItemToCart(variantId, 1)}>
+                  <img src={plusSrc} alt="plus" />
+                </Symbol>
+                {quantity > 0
+                  && (
+                  <Notification quantity={quantity >= 1 ? true : false}>
+                    {Math.max(quantity, 1)}
+                  </Notification>
+                )}
+              </Price>
+            </Wrapper>
+          )
+      }
+    </Flex>
   );
 })(css`
 `);

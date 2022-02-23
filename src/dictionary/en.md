@@ -11,9 +11,9 @@ navigation:
 footer:
   links:
     - text: Contact Support
-      link: mailto:support@lag6a.com
+      link: mailto:info@innovpc.com
     - text: Contact Sales
-      link: mailto:sales@lag6a.com
+      link: mailto:info@innovpc.com
     - text: Privacy Policy
       link: /privacy-policy.pdf
     - text: Terms & Conditions

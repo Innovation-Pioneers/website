@@ -8,6 +8,7 @@
 import React, { useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
+import FloatingWhatsApp from 'react-floating-whatsapp';
 import PropTypes from 'prop-types';
 
 import App from './App';
@@ -54,6 +55,14 @@ function Layout({ children, lang }) {
         <App lang={lang}>
           {children}
         </App>
+        <FloatingWhatsApp
+          phoneNumber="+966549097777"
+          accountName="Lag6a"
+          allowClickAway
+          allowEsc
+          avatar="/whatsappAvatar.png"
+          className="whatsapp"
+        />
       </Cart.Provider>
     </>
   );

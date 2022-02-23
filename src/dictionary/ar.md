@@ -12,9 +12,9 @@ navigation:
 footer:
   links:
     - text: تواصل للدعم
-      link: mailto:support@lag6a.com
+      link: mailto:info@innovpc.com
     - text: تواصل للمبيعات
-      link: mailto:sales@lag6a.com
+      link: mailto:info@innovpc.com
     - text: سياسة الخصوصية
       link: /privacy-policy.pdf
     - text: الشروط و الأحكام

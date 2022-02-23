@@ -20,6 +20,25 @@ const Global = createGlobalStyle`
   ${reset};
   img { pointer-events: none; }
 
+  .whatsapp {
+    font-family: 'Montserrat';
+
+    input {
+      font-family: 'Montserrat';
+    }
+    direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
+  }
+
+  .whatsapp div:first-child[aria-hidden] {
+    left: ${({ lang }) => (lang === 'en' ? 'auto' : '2rem')};
+    right: ${({ lang }) => (lang === 'en' ? '2rem' : 'auto')};
+  }
+  
+  .whatsapp div:last-child[aria-hidden] {
+    left: ${({ lang }) => (lang === 'en' ? 'auto' : '4rem')};
+    right: ${({ lang }) => (lang === 'en' ? '4rem' : 'auto')};
+  }
+
   .rtl {
     direction: rtl;
 
@@ -66,7 +85,7 @@ function App({ children, lang }) {
     <ThemeProvider theme={{ ...theme, mode: 'light' }}>
       <>
         <Fonts />
-        <Global />
+        <Global lang={lang} />
         <Wrapper lang={lang} data-lang={lang}>
           {children}
         </Wrapper>

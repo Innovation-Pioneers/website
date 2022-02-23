@@ -3,7 +3,7 @@ backend:
   branch: master
 
 # DEVELOPMENT MODE
-# access server via command: npx netlify-cms-proxy-server
+# access to /admin; run: npx netlify-cms-proxy-server
 # backend:
 #   name: proxy
 #   proxy_url: http://localhost:8081/api/v1

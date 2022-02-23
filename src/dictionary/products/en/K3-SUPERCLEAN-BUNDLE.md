@@ -10,7 +10,6 @@ cover:
   text: The K3 Follow Me is a high-pressure cleaner that uses a concentrated jet
     of water to clean even the most stubborn of stains across your outdoor
     spaces.
-  button: Get the Deal!
 introduction:
   introLine: ""
   label: ""
@@ -89,14 +88,6 @@ store:
         easy rinse. Saves a lot of water and leaves no residue or marks after
         rinsing. Totally safe to use with aluminum, enameled edges, matte paints
         and wax layers.
-buyButton:
-  text: Buy Now
-tutorialButton:
-  text: Watch Video
-  icon: play
-productQuantity:
-  sold: sold
-  remaining: remaining
 description:
   title: Get it Today!
   subtitle: ""

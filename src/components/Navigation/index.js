@@ -98,7 +98,7 @@ function Navigation({ /* social, */ items, buyButton, className, lang }) {
             to={item.path}
             smooth="easeOutQuart"
             duration={1000}
-            offset={-50}
+            offset={-200}
           >
             {item.name}
           </Item>
@@ -115,6 +115,7 @@ function Navigation({ /* social, */ items, buyButton, className, lang }) {
       <ButtonCheckoutCart
         className="introduction-buyButton-ar"
         text={buyButton.text}
+        textTotal={buyButton.textTotal}
         price={parseInt(buyButton.price, 10)}
         currency={buyButton.currency}
       />

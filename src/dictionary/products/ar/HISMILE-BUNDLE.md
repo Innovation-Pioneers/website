@@ -8,7 +8,6 @@ cover:
   image: /img/hismile_cover.png
   title: حزمة هايسمايل للعناية بالأسنان
   text: استمتع بآخر ما توصلت له تكنولوجيا تبييض الأسنان مع حزمة منتجات هايسمايل
-  button: احصل على اللقطه
 introduction:
   introLine: ""
   label: ""
@@ -81,14 +80,6 @@ store:
         جل التبييض. أفضل خيار يساعدك للمحافظة على ابتسامة أبيض وأكثر صحّة
         وانتعاش. - خيار مثالي للحفاظ على النتائج. - كميّة جل تكفي لـ 6  جلسات
         تبييض. - تركيبة تبييض أسنان خالية من البيروكسيد.
-buyButton:
-  text: اشتري الآن
-tutorialButton:
-  text: شاهد الفيديو
-  icon: play
-productQuantity:
-  remaining: متبقي
-  sold: تم البيع
 description:
   title: احصل عليها الآن !
   subtitle: ""

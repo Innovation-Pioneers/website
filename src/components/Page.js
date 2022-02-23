@@ -55,20 +55,28 @@ function Page({
     pageData,
     productData,
     product,
+    settings,
   },
   className,
   lang,
   active,
   clicked,
 }) {
-  const BUTTON = {
-    text: productData.buyButton.text,
+  const BUTTON_CHECKOUT = {
+    text: settings.buttons.addToCart,
+    textSoldOut: settings.texts.soldOut,
+    price: product[0].node.priceRangeV2.maxVariantPrice.amount,
+    currency: product[0].node.priceRangeV2.maxVariantPrice.currencyCode,
+    variantId: product[0].node.variants[0].shopifyId,
+  };
+  const BUTTON_CHECKOUT_CART = {
+    text: settings.buttons.checkout,
+    textTotal: settings.buttons.total,
     price: product[0].node.priceRangeV2.maxVariantPrice.amount,
     currency: product[0].node.priceRangeV2.maxVariantPrice.currencyCode,
     variantId: product[0].node.variants[0].shopifyId,
   };
   const availableQuantity = product[0].node.variants[0].inventoryQuantity;
-  const { sold, remaining } = productData.productQuantity;
   const { stock } = productData;
 
   return (
@@ -76,19 +84,22 @@ function Page({
       <Navigation
         social={pageData.footer.social}
         items={pageData.navigation}
-        buyButton={BUTTON}
+        buyButton={BUTTON_CHECKOUT_CART}
         lang={lang}
         className={className}
       />
       <Introduction
         data={productData.introduction}
-        buyButton={BUTTON}
-        tutorialButton={productData.tutorialButton}
+        buyButton={BUTTON_CHECKOUT}
+        tutorialButton={{
+          watchVideo: settings.buttons.watchVideo,
+          watchVideoIcon: settings.buttons.watchVideoIcon,
+        }}
         className={className}
         lang={lang}
         availableQuantity={availableQuantity}
-        textSold={sold}
-        textRemaining={remaining}
+        textSold={settings.texts.sold}
+        textRemaining={settings.texts.remaining}
         productStock={stock}
       />
       <Features
@@ -106,7 +117,7 @@ function Page({
       />
       <Description
         data={productData.description}
-        buyButton={BUTTON}
+        buyButton={BUTTON_CHECKOUT}
         className={className}
         availableQuantity={availableQuantity}
       />

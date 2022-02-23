@@ -8,7 +8,6 @@ cover:
   image: /img/icebreaker_cover.png
   title: بوب آيسبريكر®
   text: صانع مكعبات الثلج سهل الاستخدام
-  button: احصل على اللقطه
 introduction:
   introLine: ""
   label: ""
@@ -84,14 +83,6 @@ store:
       subtitle: ""
       image: /img/icebreaker_bundle_3.png
       description: ""
-buyButton:
-  text: اشتري الآن
-tutorialButton:
-  text: شاهد الفيديو
-  icon: play
-productQuantity:
-  sold: تم البيع
-  remaining: متبقي
 description:
   title: احصل عليه اليوم!
   subtitle: ""

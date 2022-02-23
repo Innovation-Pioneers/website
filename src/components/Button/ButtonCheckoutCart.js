@@ -45,8 +45,8 @@ const Text = styled.div`
   }
 
   @media (min-width: 375px) {
-    min-width: 130px;
-    max-width: 130px;
+    min-width: 140px;
+    max-width: 140px;
   }
 
   &:after {
@@ -167,6 +167,7 @@ function ClearCartIcon({ onClick, disabled }) {
 const ButtonCheckoutCart = styled(({
   className,
   text,
+  textTotal,
   currency,
 }) => {
   const { state, setState } = useContext(Cart);
@@ -226,7 +227,7 @@ const ButtonCheckoutCart = styled(({
         {text}
       </Text>
       <Price className="price">
-        {`Total: ${currency} ${decimalize(totalPrice)}`}
+        {`${textTotal}: ${currency} ${decimalize(totalPrice)}`}
         <ClearCartIcon onClick={() => clearCart()} disabled={quantity <= 0} />
         {quantity > 0
           && (

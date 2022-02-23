@@ -112,6 +112,7 @@ function Pages({
     pageData,
     productData,
     product,
+    settings,
   },
   lang,
   className,
@@ -185,6 +186,7 @@ function Pages({
                   product: product.filter(
                     (p) => p.node.variants[0].sku === item.node.frontmatter.sku
                   ),
+                  settings,
                 }}
                 lang={lang}
                 className={className}
@@ -200,7 +202,7 @@ function Pages({
                   }
                   title={item.node.frontmatter.cover.title}
                   text={item.node.frontmatter.cover.text}
-                  button={item.node.frontmatter.cover.button}
+                  button={settings.buttons.getTheDeal}
                   active={active !== index}
                   clicked={clicked && active === index}
                   setActive={setActive}
@@ -209,10 +211,8 @@ function Pages({
                   lang={lang}
                   product={product}
                   sku={item.node.frontmatter.sku}
-                  textSold={item.node.frontmatter.productQuantity.sold}
-                  textRemaining={
-                    item.node.frontmatter.productQuantity.remaining
-                  }
+                  textSold={settings.texts.sold}
+                  textRemaining={settings.texts.remaining}
                   productStock={item.node.frontmatter.stock}
                 />
               )}

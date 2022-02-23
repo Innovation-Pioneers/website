@@ -9,7 +9,6 @@ cover:
   title: HiSmile Package Dental Care
   text: Enjoy the latest technology in teeth whitening with the HiSmile products
     package
-  button: Get the Deal!
 introduction:
   introLine: ""
   label: ""
@@ -91,14 +90,6 @@ store:
         whiter, healthier and fresher smile. An ideal choice for preserving
         results. A quantity of gel that is sufficient for 6 whitening sessions.
         Peroxide-free teeth whitening formula.
-buyButton:
-  text: Buy Now
-tutorialButton:
-  text: Watch Video
-  icon: play
-productQuantity:
-  sold: sold
-  remaining: remaining
 description:
   title: Get it now!
   subtitle: ""

@@ -153,6 +153,7 @@ const Introduction = ({
               <ButtonCheckout
                 className="introduction-buyButton-ar"
                 text={buyButton.text}
+                textSoldOut={buyButton.textSoldOut}
                 price={parseInt(buyButton.price, 10)}
                 currency={buyButton.currency}
                 variantId={buyButton.variantId}
@@ -162,9 +163,9 @@ const Introduction = ({
                 data.video
                 ? (
                   <ButtonIcon
-                    data-text={tutorialButton.text}
+                    data-text={tutorialButton.watchVideo}
                     // fix bottom line
-                    data-icon={tutorialButton.icon}
+                    data-icon={tutorialButton.watchVideoIcon}
                     onClick={() => setIsModalOpen(true)}
                   />
                 )

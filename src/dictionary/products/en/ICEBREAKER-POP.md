@@ -8,7 +8,6 @@ cover:
   image: /img/icebreaker_cover.png
   title: ICEBREAKER® POP
   text: The easy-to-use ice cube maker
-  button: Get the Deal!
 introduction:
   introLine: ""
   label: ""
@@ -85,14 +84,6 @@ store:
       subtitle: ""
       image: /img/icebreaker_bundle_3.png
       description: ""
-buyButton:
-  text: Buy Now
-tutorialButton:
-  text: Watch Video
-  icon: play
-productQuantity:
-  sold: sold
-  remaining: remaining
 description:
   title: Get it Today!
   subtitle: ""

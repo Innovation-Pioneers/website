@@ -33,6 +33,7 @@ const Text = styled.div`
   
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
   padding: 17px 24px;
   color: ${themeGet('colors.black.base')};
@@ -46,9 +47,9 @@ const Text = styled.div`
     border-top-left-radius: 100px;
   }
 
-  @media (min-width: 375px) {
-    min-width: 130px;
-    max-width: 130px;
+  @media (min-width: 360px) {
+    min-width: 155px;
+    max-width: 155px;
   }
 
   &:after {
@@ -79,12 +80,13 @@ const Price = styled.div`
   align-items: center;
   justify-content: space-between;
   white-space: nowrap;
-  padding: 0 10px;
+  padding: 0;
   color: ${themeGet('colors.secondary.base')};
   transition: opacity 300ms;
 
-  @media (min-width: 375px) {
+  @media (min-width: 376px) {
     min-width: 200px;
+    padding: 0 10px;
   }
 
   @media(min-width: 768px) {
@@ -109,13 +111,18 @@ const Symbol = styled.div`
   display: flex;
 
   color: ${themeGet('colors.secondary.base')};
-  padding: 16px 12px;
+  padding: 16px 8px;
 
   cursor: pointer;
   transition: opacity 300ms;
   margin-top: -1px;
   font-size: 120%;
   &:hover { opacity: 0.4; }
+
+  @media(min-width: ${themeGet('brealpoints.0')}) {
+
+    padding: 16px 12px;
+  }
 `;
 
 const Notification = styled.div`
@@ -160,6 +167,7 @@ export const Cart = React.createContext({
 
 const ButtonCheckout = styled(({
   text,
+  textSoldOut,
   price,
   currency,
   className,
@@ -243,7 +251,7 @@ const ButtonCheckout = styled(({
             <Title
               as="h3"
             >
-              Sold out
+              {textSoldOut}
             </Title>
           )
           : (

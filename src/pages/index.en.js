@@ -9,6 +9,7 @@ function IndexPage() {
     markdownRemark,
     allShopifyProduct,
     allMarkdownRemark,
+    settings: markdownRemarkSettings,
   } = useStaticQuery(graphql`
     query enPage {
       markdownRemark (fileAbsolutePath: {regex: "/dictionary/en.md/"}) {
@@ -33,6 +34,25 @@ function IndexPage() {
               link
             }
             copyright
+          }
+        }
+      }
+      settings: markdownRemark (
+        fileAbsolutePath: {regex: "/dictionary/settings/en/en.md/"}
+      ) {
+        frontmatter {
+          buttons {
+            addToCart
+            checkout
+            getTheDeal
+            total
+            watchVideo
+            watchVideoIcon
+          }
+          texts {
+            remaining
+            sold
+            soldOut
           }
         }
       }
@@ -75,7 +95,6 @@ function IndexPage() {
                 }
                 title
                 text
-                button
               }
               introduction {
                 introLine
@@ -140,17 +159,6 @@ function IndexPage() {
                   description
                 }
               }
-              buyButton {
-                text
-              }
-              tutorialButton {
-                text
-                icon
-              }
-              productQuantity {
-                sold
-                remaining
-              }
               description {
                 title
                 subtitle
@@ -174,11 +182,12 @@ function IndexPage() {
   const product = allShopifyProduct.edges;
   const productData = allMarkdownRemark.edges;
   const pageData = markdownRemark.frontmatter;
+  const settings = markdownRemarkSettings.frontmatter;
 
   return (
     <Layout lang="en" product={product}>
       <Pages
-        data={{ product, productData, pageData }}
+        data={{ product, productData, pageData, settings }}
         lang="en"
       />
     </Layout>

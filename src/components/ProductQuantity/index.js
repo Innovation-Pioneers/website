@@ -15,14 +15,17 @@ const ProductQuantity = ({
   textSold,
   textRemaining,
 }) => (
-  <div>
-    <Paragraph style={{ fontSize: '120%' }}>
+  <Paragraph as="div" style={{ fontSize: '120%', display: 'flex' }}>
+    <div>
       <Span>{`${total - available} `}</Span>
-      {`${textSold} /`}
+      <span>{`${textSold} `}</span>
+    </div>
+    <div style={{ opacity: 0.5, margin: '0 5px' }}> | </div>
+    <div>
       <Span>{` ${available} `}</Span>
-      {textRemaining}
-    </Paragraph>
-  </div>
+      <span>{textRemaining}</span>
+    </div>
+  </Paragraph>
 );
 
 export default ProductQuantity;

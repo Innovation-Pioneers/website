@@ -63,9 +63,6 @@ collections:
           - name: text
             label: Text
             widget: string
-          - name: button
-            label: Button text
-            widget: string
       - name: introduction
         label: Introduction
         widget: object
@@ -175,36 +172,6 @@ collections:
               - name: image
                 label: Image
                 widget: image
-      - name: buyButton
-        label: Buy button text
-        widget: object
-        fields:
-          - name: text
-            label: Text
-            widget: string
-      - name: tutorialButton
-        label: Watch video button text
-        widget: object
-        fields:
-          - name: text
-            label: Button text
-            widget: string
-          - name: icon
-            label: Icon
-            default: play
-            widget: hidden
-      - name: productQuantity
-        label: text for product availability
-        widget: object
-        fields:
-          - name: sold
-            label: Sold
-            widget: string
-            default: sold
-          - name: remaining
-            label: Remaining
-            widget: string
-            default: remaining
       - name: description
         label: Description
         widget: object
@@ -241,7 +208,7 @@ collections:
       - name: language
         label: Language
         widget: hidden
-        default: en
+        default: ar
       - name: sku
         label: SKU
         widget: string
@@ -270,9 +237,6 @@ collections:
             widget: string
           - name: text
             label: Text
-            widget: string
-          - name: button
-            label: Button text
             widget: string
       - name: introduction
         label: Introduction
@@ -383,36 +347,6 @@ collections:
               - name: image
                 label: Image
                 widget: image
-      - name: buyButton
-        label: Buy button text
-        widget: object
-        fields:
-          - name: text
-            label: Text
-            widget: string
-      - name: tutorialButton
-        label: Watch video button text
-        widget: object
-        fields:
-          - name: text
-            label: Button text
-            widget: string
-          - name: icon
-            label: Icon
-            default: play
-            widget: hidden
-      - name: productQuantity
-        label: text for product availability
-        widget: object
-        fields:
-          - name: sold
-            label: Sold
-            widget: string
-            default: sold
-          - name: remaining
-            label: Remaining
-            widget: string
-            default: remaining
       - name: description
         label: Description
         widget: object
@@ -430,3 +364,115 @@ collections:
           - name: image
             label: Image
             widget: image
+# SETTINGS EN
+  - name: settingsEn
+    label: English Settings
+    label_singular: setting
+    slug: "{{fields.language}}"
+    editor:
+      preview: false
+    create: true
+    delete: false
+    folder: src/dictionary/settings/en
+    identifier_field: language
+    fields:
+      - name: templateKey
+        label: Template Key
+        widget: hidden
+        default: post
+      - name: language
+        label: Language
+        widget: hidden
+        default: en
+      - name: buttons
+        label: Buttons text
+        widget: object
+        fields:
+          - name: addToCart
+            label: Add to cart
+            widget: string
+          - name: watchVideo
+            label: Watch video
+            widget: string
+          - name: getTheDeal
+            label: Get the deal
+            widget: string
+          - name: checkout
+            label: Checkout
+            widget: string
+          - name: total
+            label: Total
+            widget: string
+          - name: watchVideoIcon
+            label: watchVideoIcon
+            widget: hidden
+            default: play
+      - name: texts
+        label: Texts
+        widget: object
+        fields:
+          - name: sold
+            label: Sold
+            widget: string
+          - name: remaining
+            label: Remaining
+            widget: string
+          - name: soldOut
+            label: Sold out
+            widget: string
+# SETTINGS AR
+  - name: settingsAr
+    label: Arabic Settings
+    label_singular: setting
+    slug: "{{fields.language}}"
+    editor:
+      preview: false
+    create: true
+    delete: false
+    folder: src/dictionary/settings/ar
+    identifier_field: language
+    fields:
+      - name: templateKey
+        label: Template Key
+        widget: hidden
+        default: post
+      - name: language
+        label: Language
+        widget: hidden
+        default: ar
+      - name: buttons
+        label: Buttons text
+        widget: object
+        fields:
+          - name: addToCart
+            label: Add to cart
+            widget: string
+          - name: watchVideo
+            label: Watch video
+            widget: string
+          - name: getTheDeal
+            label: Get the deal
+            widget: string
+          - name: checkout
+            label: Checkout
+            widget: string
+          - name: total
+            label: Total
+            widget: string
+          - name: watchVideoIcon
+            label: watchVideoIcon
+            widget: hidden
+            default: play
+      - name: texts
+        label: Texts
+        widget: object
+        fields:
+          - name: sold
+            label: Sold
+            widget: string
+          - name: remaining
+            label: Remaining
+            widget: string
+          - name: soldOut
+            label: Sold out
+            widget: string

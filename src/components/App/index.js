@@ -37,6 +37,16 @@ const Global = createGlobalStyle`
   .whatsapp div:last-child[aria-hidden] {
     left: ${({ lang }) => (lang === 'en' ? 'auto' : '4rem')};
     right: ${({ lang }) => (lang === 'en' ? '4rem' : 'auto')};
+    transform-origin: ${({ lang }) => (
+      lang === 'en' ? 'initial' : 'bottom left !important'
+    )};
+  }
+
+  @media(max-width: 420px) {
+    .whatsapp div:last-child[aria-hidden] {
+      left: ${({ lang }) => (lang === 'en' ? 'auto' : '1rem')};
+      right: ${({ lang }) => (lang === 'en' ? '1rem' : 'auto')};
+    }
   }
 
   .rtl {

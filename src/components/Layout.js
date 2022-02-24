@@ -62,6 +62,21 @@ function Layout({ children, lang }) {
           allowEsc
           avatar="/whatsappAvatar.png"
           className="whatsapp"
+          statusMessage={
+            lang === 'en'
+              ? 'Typically replies within 1 hour'
+              : 'يتم الرد عادة في غضون ساعة واحدة'
+          }
+          chatMessage={
+            lang === 'en'
+              ? 'Hello there! How can we help?'
+              : 'أهلا بك! كيف يمكن أن نساعد؟'
+          }
+          placeholder={
+            lang === 'en'
+              ? 'Type a message...'
+              : 'اكتب رسالة ...'
+          }
         />
       </Cart.Provider>
     </>

@@ -115,6 +115,8 @@ const Actions = styled.div`
     gap: 28px;
   }
 
+  direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
+
   ${ButtonCheckoutCart} {
     direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
   }
@@ -122,7 +124,6 @@ const Actions = styled.div`
 
 const ActionLinks = styled.div`
   display: flex;
-  flex-direction: ${({ lang }) => (lang === 'en' ? 'row' : 'row-reverse')};
   align-items: center;
   gap: 30px;
   align-self: center;

@@ -25,6 +25,7 @@ const Global = createGlobalStyle`
 
     input {
       font-family: 'Montserrat';
+      direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
     }
     direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
   }
@@ -32,6 +33,23 @@ const Global = createGlobalStyle`
   .whatsapp div:first-child[aria-hidden] {
     left: ${({ lang }) => (lang === 'en' ? 'auto' : '2rem')};
     right: ${({ lang }) => (lang === 'en' ? '2rem' : 'auto')};
+    background: #000;
+
+    &:after {
+      animation-name: newPulse;
+    }
+
+    @keyframes newPulse {
+      0% {
+        box-shadow: 0 0 0 0 #000;
+        opacity: 1;
+      }
+
+      100% {
+        box-shadow: 0 0 0 15px #000;
+        opacity: 0;
+      }
+    }
   }
   
   .whatsapp div:last-child[aria-hidden] {
@@ -40,6 +58,30 @@ const Global = createGlobalStyle`
     transform-origin: ${({ lang }) => (
       lang === 'en' ? 'initial' : 'bottom left !important'
     )};
+  }
+
+  .whatsapp div:last-child[aria-hidden] > div > div,
+  .whatsapp div:last-child[aria-hidden] > header > div:nth-child(2) {
+    text-align: ${({ lang }) => (lang === 'en' ? 'left' : 'right')};
+  }
+  .whatsapp div:last-child[aria-hidden] > div > div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: ${({ lang }) => (
+      lang === 'en' ? '0 8px 8px 8px' : '8px 0 8px 8px'
+    )};
+  }
+
+  .whatsapp div:last-child[aria-hidden] > div > div > span:first-child {
+    left: ${({ lang }) => (lang === 'en' ? '-10px' : 'auto')};
+    right: ${({ lang }) => (lang === 'en' ? 'auto' : '-10px')};
+    top: ${({ lang }) => (lang === 'en' ? '0' : '-10px')};
+    transform: ${({ lang }) => `rotate(${lang === 'en' ? 0 : 135}deg)`};
+  }
+
+  .whatsapp div:last-child[aria-hidden] > footer > form > button {
+    transform: ${({ lang }) => `rotate(${lang === 'en' ? 0 : 180}deg)`};
   }
 
   @media(max-width: 420px) {

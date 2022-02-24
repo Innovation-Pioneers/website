@@ -110,14 +110,24 @@ function Page({
         slides={productData.slider}
         className={className}
       />
-      <Gallery gallery={productData.highlights} lang={lang} />
-      <InStore
-        slides={productData.slides}
-        store={productData.store}
-        testimonials={productData.testimonials}
-        lang={lang}
-        className={className}
-      />
+      {
+        productData?.highlights?.length > 0
+          ? <Gallery gallery={productData.highlights} lang={lang} />
+          : null
+      }
+      {
+        productData?.slides?.length > 0
+          ? (
+              <InStore
+                slides={productData.slides}
+                store={productData.store}
+                testimonials={productData.testimonials}
+                lang={lang}
+                className={className}
+              />
+            )
+        : null
+      }
       <Description
         data={productData.description}
         buyButton={BUTTON_CHECKOUT}

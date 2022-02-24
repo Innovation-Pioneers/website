@@ -89,10 +89,12 @@ function Gallery({ gallery, lang }) {
       {gallery.gallery.map((item, index) => {
         let hackedVideoPath;
         // Since Gatsby cant resolve path normally
-        if (item.video.startsWith('https://')) {
-          hackedVideoPath = item.video;
-        } else {
-          hackedVideoPath = item?.video?.split('/static')[1]; // @ HACK
+        if (item.video) {
+          if (item.video.startsWith('https://')) {
+            hackedVideoPath = item.video;
+          } else {
+            hackedVideoPath = item?.video?.split('/static')[1]; // @ HACK
+          }
         }
 
         if (item.type === 'image') {

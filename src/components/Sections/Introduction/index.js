@@ -125,10 +125,12 @@ const Introduction = ({
 
   let hackedVideoPath;
   // Since Gatsby cant resolve path normally
-  if (data.video.startsWith('https://')) {
-    hackedVideoPath = data.video;
-  } else {
-    hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+  if (data.video) {
+    if (data.video.startsWith('https://')) {
+      hackedVideoPath = data.video;
+    } else {
+      hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+    }
   }
 
   return (

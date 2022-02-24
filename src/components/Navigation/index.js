@@ -19,10 +19,10 @@ const Header = styled.div`
   background: ${themeGet('colors.primary.base')};
 
   @media(min-width: ${themeGet('breakpoints.0')}) {
-    align-items: flex-end;
+    align-items: center;
   }
 
-  @media(min-width: 650px) {
+  @media(min-width: 768px) {
     flex-direction: row;
     gap: 0;
   } 

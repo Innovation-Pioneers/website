@@ -8,6 +8,7 @@ import { createColor } from '../theme/helpers';
 
 import Page from './Page';
 import Cover from './Cover';
+import { ButtonCheckoutCart } from './Button';
 
 import logoSrcEn from '../assets/logos/logo-en.svg';
 import logoSrcAr from '../assets/logos/logo-ar.svg';
@@ -50,7 +51,7 @@ const PageWrapper = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-
+    min-height: ${({ index }) => (index === 0 ? '200vw' : 'auto')};
     height: ${({ active, clicked }) => (
       active
         ? 'auto'
@@ -71,23 +72,25 @@ const TopBar = styled.div`
   z-index: 1;
 
   width: 100%;
-  padding: 25px;
+  padding: ${themeGet('space.6')};
   pointer-events: none;
 
   @media (max-width: 1024px) {
     position: absolute;
+    padding: 25px;
   }
 `;
 
 const Logo = styled.img`
-  width: 100px;
+  height: 30px;
   pointer-events: initial;
   cursor: pointer;
   pointer-events: ${({ active }) => (active ? 'none' : 'all')};
+  position: absolute;
 
-  @media(min-width: ${themeGet('breakpoints.2')}) {
-    width: 165px;
-    height: 100px;
+  @media(min-width: ${themeGet('breakpoints.1')}) {
+    height: 50px;
+    position: relative;
   }
 `;
 
@@ -102,9 +105,31 @@ const LanguageSwitch = styled(GatsbyLink)`
 
 const Actions = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  width: auto;
+  gap: 30px;
+
+  @media(max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    gap: 28px;
+  }
+
+  ${ButtonCheckoutCart} {
+    direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
+  }
+`;
+
+const ActionLinks = styled.div`
+  display: flex;
+  flex-direction: ${({ lang }) => (lang === 'en' ? 'row' : 'row-reverse')};
+  align-items: center;
+  gap: 30px;
+  align-self: center;
+
+  @media(max-width: 768px) {
+    align-self: ${({ lang }) => (lang === 'en' ? 'flex-end' : 'flex-start')};
+  }
 `;
 
 function Pages({
@@ -140,21 +165,37 @@ function Pages({
         {
           active === null
             ? (
-              <Actions>
-                <LanguageSwitch
-                  to={lang === 'en' ? '/' : '/en'}
-                  fontFamily={lang === 'en' ? 'GESSTwo' : 'Montserrat'}
-                >
-                  {lang === 'en' ? 'عربى' : 'English'}
-                </LanguageSwitch>
-                <a
-                  href="https://maroof.sa/215084"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ pointerEvents: 'all' }}
-                >
-                  <img src={maroofSrc} alt="" width={60} />
-                </a>
+              <Actions lang={lang}>
+                <ActionLinks lang={lang}>
+                  <a
+                    href="https://maroof.sa/215084"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ pointerEvents: 'all' }}
+                  >
+                    <img src={maroofSrc} alt="" width={60} />
+                  </a>
+                  <LanguageSwitch
+                    to={lang === 'en' ? '/' : '/en'}
+                    fontFamily={lang === 'en' ? 'GESSTwo' : 'Montserrat'}
+                  >
+                    {lang === 'en' ? 'عربى' : 'English'}
+                  </LanguageSwitch>
+                </ActionLinks>
+                <ButtonCheckoutCart
+                  className="introduction-buyButton-ar"
+                  text={settings.buttons.checkout}
+                  textTotal={settings.buttons.total}
+                  price={
+                    parseInt(
+                      product[0].node.priceRangeV2.maxVariantPrice.amount,
+                      10
+                    )
+                  }
+                  currency={
+                    product[0].node.priceRangeV2.maxVariantPrice.currencyCode
+                  }
+                />
               </Actions>
           )
           : null
@@ -178,6 +219,7 @@ function Pages({
               active={active === index}
               flex={active === null ? 1 : active === index ? 1 : 0}
               clicked={clicked}
+              index={index}
             >
               <Page
                 data={{

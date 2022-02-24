@@ -2,6 +2,9 @@
 language: en
 path: "/en/"
 navigation:
+  - type: link
+    name: All Deals
+    path: /en
   - type: item
     name: Features
     path: features

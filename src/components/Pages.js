@@ -193,6 +193,7 @@ function Pages({
                 active={active === index}
                 clicked={clicked && active === index}
                 flex={active === index ? 1 : 0}
+                setActiveCoverScreen={setActive}
               />
               {active === null && (
                 <Cover

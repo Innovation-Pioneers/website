@@ -3,6 +3,9 @@ language: ar
 path: "/ar/"
 order: 1
 navigation:
+  - type: link
+    name: كل الصفقات
+    path: /
   - type: item
     name: الميّزات
     path: features

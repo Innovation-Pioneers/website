@@ -6,7 +6,6 @@ import { Link as GatsbyLink } from 'gatsby';
 
 import { ButtonCheckoutCart } from '../Button';
 import { Link } from '../Text';
-import Space from '../Space';
 
 const Header = styled.div`
   width: 100%;
@@ -78,7 +77,13 @@ const Item = styled(Link)`
   ${(props) => props.fontFamily && css`font-family: ${props.fontFamily};`};
 `;
 
-function Navigation({ /* social, */ items, buyButton, className, lang }) {
+function Navigation({
+  setActiveCoverScreen,
+  items,
+  buyButton,
+  className,
+  lang,
+}) {
   return (
     <Header className={className}>
       <LogoContainer>
@@ -94,11 +99,14 @@ function Navigation({ /* social, */ items, buyButton, className, lang }) {
         {items.map((item) => (
           <Item
             key={item.name}
-            as={ScrollLink}
+            as={item.type === 'link' ? 'div' : ScrollLink}
+            onClick={() => (
+              item.type === 'link' ? setActiveCoverScreen(null) : null
+            )}
             to={item.path}
             smooth="easeOutQuart"
             duration={1000}
-            offset={-200}
+            offset={-50}
           >
             {item.name}
           </Item>
@@ -110,7 +118,6 @@ function Navigation({ /* social, */ items, buyButton, className, lang }) {
         >
           {lang === 'en' ? 'عربى' : 'English'}
         </Item>
-        <Space width="30px" />
       </Row>
       <ButtonCheckoutCart
         className="introduction-buyButton-ar"

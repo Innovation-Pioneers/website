@@ -57,8 +57,15 @@ const Video = styled.video`
 `;
 
 function Features({ data, slides, className }) {
-  const hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+  let hackedVideoPath;
   // Since Gatsby cant resolve path normally
+  if (data.video) {
+    if (data.video.startsWith('https://')) {
+      hackedVideoPath = data.video;
+    } else {
+      hackedVideoPath = data?.video?.split('/static')[1]; // @ HACK
+    }
+  }
 
   return (
     <Wrapper>
@@ -73,7 +80,11 @@ function Features({ data, slides, className }) {
           />
         </Text>
         <Content pl={[null, null, 7]} py={[4, 5, 6]}>
-          <Slider slides={slides} className={className} />
+          {
+            slides.length > 0
+              ? <Slider slides={slides} className={className} />
+              : null
+          }
           <VideoWrapper>
             {data.video
               ? (

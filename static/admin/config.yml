@@ -3,7 +3,7 @@ backend:
   branch: master
 
 # DEVELOPMENT MODE
-# access to /admin; run: npx netlify-cms-proxy-server
+# access to /admin; run in terminal: npx netlify-cms-proxy-server
 # backend:
 #   name: proxy
 #   proxy_url: http://localhost:8081/api/v1
@@ -41,7 +41,6 @@ collections:
         label: Stock
         widget: number
         value_type: int
-        default: 0
         min: 0
       - name: title
         label: Title
@@ -216,7 +215,6 @@ collections:
         label: Stock
         widget: number
         value_type: int
-        default: 0
         min: 0
       - name: title
         label: Title

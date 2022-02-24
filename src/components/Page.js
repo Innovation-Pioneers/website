@@ -7,6 +7,7 @@ import Features from './Sections/Features';
 import Gallery from './Sections/Gallery';
 import InStore from './Sections/InStore';
 import Description from './Sections/Description';
+import AllDeals from './Sections/AllDeals';
 import Footer from './Footer';
 
 const Wrapper = styled.div`
@@ -61,6 +62,7 @@ function Page({
   lang,
   active,
   clicked,
+  setActiveCoverScreen,
 }) {
   const BUTTON_CHECKOUT = {
     text: settings.buttons.addToCart,
@@ -87,6 +89,7 @@ function Page({
         buyButton={BUTTON_CHECKOUT_CART}
         lang={lang}
         className={className}
+        setActiveCoverScreen={setActiveCoverScreen}
       />
       <Introduction
         data={productData.introduction}
@@ -120,6 +123,13 @@ function Page({
         buyButton={BUTTON_CHECKOUT}
         className={className}
         availableQuantity={availableQuantity}
+      />
+      <AllDeals
+        title={pageData.deals.title}
+        text={pageData.deals.text}
+        buttonText={settings.buttons.deals}
+        setActiveCoverScreen={setActiveCoverScreen}
+        lang={lang}
       />
       <Footer
         data={pageData.footer}

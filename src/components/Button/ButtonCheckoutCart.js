@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   color: ${themeGet('colors.white.base')};
   font-size: ${themeGet('fontSizes.1')};
   font-weight: ${themeGet('fontWeights.regular')};
-  min-width: 330px;
+  min-width: 320px;
 
   @media(min-width: ${themeGet('breakpoints.1')}) {
     min-width: 350px;

@@ -2,12 +2,18 @@
 language: en
 path: "/en/"
 navigation:
+  - type: link
+    name: All Deals
+    path: /en
   - type: item
     name: Features
     path: features
   - type: item
     name: Gallery
     path: gallery
+deals:
+  title: Wanna shop more?
+  text: Go back to our deals homepage!
 footer:
   links:
     - text: Contact Support

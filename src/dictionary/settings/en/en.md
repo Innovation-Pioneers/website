@@ -8,6 +8,7 @@ buttons:
   getTheDeal: Get the Deal!
   checkout: Checkout
   total: Total
+  deals: Deals
 texts:
   sold: sold
   remaining: remaining

@@ -3,12 +3,18 @@ language: ar
 path: "/ar/"
 order: 1
 navigation:
+  - type: link
+    name: كل الصفقات
+    path: /
   - type: item
     name: الميّزات
     path: features
   - type: item
     name: معرض الصور
     path: gallery
+deals:
+  title: هل تريد التسوق أكثر؟
+  text: العودة إلى صفقاتنا الصفحة الرئيسية!
 footer:
   links:
     - text: تواصل للدعم

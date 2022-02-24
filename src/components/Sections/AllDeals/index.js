@@ -10,11 +10,12 @@ import Space from '../../Space';
 const Wrapper = styled.div`
   background: ${themeGet('colors.secondary.shade.0')};
   padding: ${themeGet('space.6')} 0;
+  direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
 `;
 
-const AllDeals = ({ title, text, buttonText, setActiveCoverScreen }) => (
+const AllDeals = ({ title, text, buttonText, setActiveCoverScreen, lang }) => (
   <ThemeProvider theme={{ mode: 'dark' }}>
-    <Wrapper>
+    <Wrapper lang={lang}>
       <Sitewidth>
         <TextBlock
           as="h2"

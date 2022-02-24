@@ -129,6 +129,7 @@ function Page({
         text={pageData.deals.text}
         buttonText={settings.buttons.deals}
         setActiveCoverScreen={setActiveCoverScreen}
+        lang={lang}
       />
       <Footer
         data={pageData.footer}

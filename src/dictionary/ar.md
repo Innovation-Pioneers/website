@@ -12,6 +12,9 @@ navigation:
   - type: item
     name: معرض الصور
     path: gallery
+deals:
+  title: هل تريد التسوق أكثر؟
+  text: العودة إلى صفقاتنا الصفحة الرئيسية!
 footer:
   links:
     - text: تواصل للدعم

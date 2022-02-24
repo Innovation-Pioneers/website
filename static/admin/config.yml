@@ -403,6 +403,9 @@ collections:
           - name: total
             label: Total
             widget: string
+          - name: deals
+            label: Deals
+            widget: string
           - name: watchVideoIcon
             label: watchVideoIcon
             widget: hidden
@@ -458,6 +461,9 @@ collections:
             widget: string
           - name: total
             label: Total
+            widget: string
+          - name: deals
+            label: Deals
             widget: string
           - name: watchVideoIcon
             label: watchVideoIcon

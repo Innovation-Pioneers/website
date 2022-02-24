@@ -8,6 +8,7 @@ buttons:
   getTheDeal: احصل على اللقطه
   checkout: الدفع
   total: المجموع
+  deals: صفقات
 texts:
   sold: تم البيع
   remaining: متبقي

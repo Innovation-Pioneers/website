@@ -19,6 +19,10 @@ function IndexPage() {
             name
             path
           }
+          deals {
+            title
+            text
+          }
           footer {
             links {
               text
@@ -48,6 +52,7 @@ function IndexPage() {
             total
             watchVideo
             watchVideoIcon
+            deals
           }
           texts {
             remaining

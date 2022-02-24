@@ -7,6 +7,7 @@ import Features from './Sections/Features';
 import Gallery from './Sections/Gallery';
 import InStore from './Sections/InStore';
 import Description from './Sections/Description';
+import AllDeals from './Sections/AllDeals';
 import Footer from './Footer';
 
 const Wrapper = styled.div`
@@ -122,6 +123,12 @@ function Page({
         buyButton={BUTTON_CHECKOUT}
         className={className}
         availableQuantity={availableQuantity}
+      />
+      <AllDeals
+        title={pageData.deals.title}
+        text={pageData.deals.text}
+        buttonText={settings.buttons.deals}
+        setActiveCoverScreen={setActiveCoverScreen}
       />
       <Footer
         data={pageData.footer}

@@ -11,6 +11,9 @@ navigation:
   - type: item
     name: Gallery
     path: gallery
+deals:
+  title: Wanna shop more?
+  text: Go back to our deals homepage!
 footer:
   links:
     - text: Contact Support

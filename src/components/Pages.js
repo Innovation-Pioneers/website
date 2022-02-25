@@ -55,7 +55,7 @@ const PageWrapper = styled.div`
       active
         ? 'auto'
         : !clicked
-          ? index === 0 ? '120vh' : '100vh'
+          ? index === 0 ? '110vh' : '100vh'
           : 0
       )};
   }

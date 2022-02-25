@@ -13,7 +13,14 @@ const Wrapper = styled.div`
   direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
 `;
 
-const AllDeals = ({ title, text, buttonText, setActiveCoverScreen, lang }) => (
+const AllDeals = ({
+  title,
+  text,
+  buttonText,
+  setActiveCoverScreen,
+  lang,
+  setActiveCoverClicked,
+}) => (
   <ThemeProvider theme={{ mode: 'dark' }}>
     <Wrapper lang={lang}>
       <Sitewidth>
@@ -25,7 +32,10 @@ const AllDeals = ({ title, text, buttonText, setActiveCoverScreen, lang }) => (
         <Space height="50px" />
         <ButtonText
           data-text={buttonText}
-          onClick={() => setActiveCoverScreen(null)}
+          onClick={() => {
+            setActiveCoverScreen(null);
+            setActiveCoverClicked(false);
+          }}
         />
       </Sitewidth>
     </Wrapper>

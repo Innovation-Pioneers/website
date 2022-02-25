@@ -79,6 +79,7 @@ const Item = styled(Link)`
 
 function Navigation({
   setActiveCoverScreen,
+  setActiveCoverClicked,
   items,
   buyButton,
   className,
@@ -100,9 +101,13 @@ function Navigation({
           <Item
             key={item.name}
             as={item.type === 'link' ? 'div' : ScrollLink}
-            onClick={() => (
-              item.type === 'link' ? setActiveCoverScreen(null) : null
-            )}
+            onClick={() => {
+              if (item.type === 'link') {
+                setActiveCoverScreen(null);
+                setActiveCoverClicked(false);
+              }
+              return null;
+            }}
             to={item.path}
             smooth="easeOutQuart"
             duration={1000}

@@ -51,12 +51,11 @@ const PageWrapper = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-    min-height: ${({ index }) => (index === 0 ? '220vw' : 'auto')};
-    height: ${({ active, clicked }) => (
+    height: ${({ active, clicked, index }) => (
       active
         ? 'auto'
         : !clicked
-          ? '100vh'
+          ? index === 0 ? '120vh' : '100vh'
           : 0
       )};
   }
@@ -235,6 +234,7 @@ function Pages({
                 clicked={clicked && active === index}
                 flex={active === index ? 1 : 0}
                 setActiveCoverScreen={setActive}
+                setActiveCoverClicked={setClicked}
               />
               {active === null && (
                 <Cover

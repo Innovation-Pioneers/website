@@ -51,7 +51,7 @@ const PageWrapper = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-    min-height: ${({ index }) => (index === 0 ? '200vw' : 'auto')};
+    min-height: ${({ index }) => (index === 0 ? '220vw' : 'auto')};
     height: ${({ active, clicked }) => (
       active
         ? 'auto'
@@ -114,8 +114,6 @@ const Actions = styled.div`
     width: 100%;
     gap: 28px;
   }
-
-  direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};
 
   ${ButtonCheckoutCart} {
     direction: ${({ lang }) => (lang === 'en' ? 'ltr' : 'rtl')};

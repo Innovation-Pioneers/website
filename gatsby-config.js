@@ -67,6 +67,18 @@ module.exports = {
       options: {
         useLangKeyLayout: false,
       },
+    }, {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-139039678-1',
+        head: true,
+      },
+    }, {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-PNC868C',
+        includeInDevelopment: false,
+      },
     },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-netlify',

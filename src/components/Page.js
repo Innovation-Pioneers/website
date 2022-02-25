@@ -63,6 +63,7 @@ function Page({
   active,
   clicked,
   setActiveCoverScreen,
+  setActiveCoverClicked,
 }) {
   const BUTTON_CHECKOUT = {
     text: settings.buttons.addToCart,
@@ -90,6 +91,7 @@ function Page({
         lang={lang}
         className={className}
         setActiveCoverScreen={setActiveCoverScreen}
+        setActiveCoverClicked={setActiveCoverClicked}
       />
       <Introduction
         data={productData.introduction}
@@ -139,6 +141,7 @@ function Page({
         text={pageData.deals.text}
         buttonText={settings.buttons.deals}
         setActiveCoverScreen={setActiveCoverScreen}
+        setActiveCoverClicked={setActiveCoverClicked}
         lang={lang}
       />
       <Footer

@@ -56,7 +56,7 @@ function Layout({ children, lang }) {
           {children}
         </App>
         <FloatingWhatsApp
-          phoneNumber="+966549097777"
+          phoneNumber="+966557776006"
           accountName="Lag6a"
           allowClickAway
           allowEsc

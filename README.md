@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b31212e6-d609-40ad-9aa0-d84fb0b85148/deploy-status)](https://app.netlify.com/sites/nervous-hermann-d1ee1a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eaef6bf0-d583-4bb4-b048-f037832532bd/deploy-status)](https://app.netlify.com/sites/festive-mcclintock-1ab170/deploys)
 
 ![lag6a](./static/OGImage.png)
 # Lag6a

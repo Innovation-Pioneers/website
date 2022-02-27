@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: HISMILE-BUNDLE
-stock: 1000
+stock: 1003
 title: HISMILE-BUNDLE
 color: hsl(340, 78%, 84%)
 cover:

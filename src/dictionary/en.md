@@ -3,14 +3,14 @@ language: en
 path: "/en/"
 navigation:
   - type: link
-    name: All Deals
+    name: Back to All Deals
     path: /en
-  - type: item
-    name: Features
-    path: features
-  - type: item
-    name: Gallery
-    path: gallery
+  # - type: item
+  #   name: Features
+  #   path: features
+  # - type: item
+  #   name: Gallery
+  #   path: gallery
 deals:
   title: Wanna shop more?
   text: Go back to our deals homepage!

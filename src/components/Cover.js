@@ -55,10 +55,10 @@ const Wrapper = styled.div`
 
 const Image = styled(GatsbyImage)`
   width: 100%;
-  max-width: 230px;
+  max-width: 240px;
 
   @media(min-width: 376px) {
-    max-width: 350px;
+    max-width: 280px;
   }
 `;
 
@@ -136,7 +136,7 @@ function Cover({
         button
           ? (
             <ButtonWrapper active={active}>
-              <Space height="25px" />
+              <Space height="10px" />
               <ButtonText
                 onClick={() => {
                   setActive(index);

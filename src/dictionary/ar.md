@@ -4,14 +4,14 @@ path: "/ar/"
 order: 1
 navigation:
   - type: link
-    name: كل الصفقات
+    name: عودة إلى جميع الصفقات
     path: /
-  - type: item
-    name: الميّزات
-    path: features
-  - type: item
-    name: معرض الصور
-    path: gallery
+  # - type: item
+  #   name: الميّزات
+  #   path: features
+  # - type: item
+  #   name: معرض الصور
+  #   path: gallery
 deals:
   title: هل تريد التسوق أكثر؟
   text: العودة إلى صفقاتنا الصفحة الرئيسية!

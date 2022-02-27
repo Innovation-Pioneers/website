@@ -1,7 +1,7 @@
 ---
 language: en
 sku: THE-SUPERCLEAN-BUNDLE
-stock: 1000
+stock: 2000
 title: THE SUPERCLEAN BUNDLE
 color: hsl(56, 100%, 50%)
 cover:

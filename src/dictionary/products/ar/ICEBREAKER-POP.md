@@ -4,6 +4,7 @@ sku: ICEBREAKER-POP
 stock: 750
 title: ICEBREAKER-POP
 color: hsl(179, 37%, 40%)
+sort: 30
 cover:
   image: /img/icebreaker_cover.png
   title: بوب آيسبريكر®

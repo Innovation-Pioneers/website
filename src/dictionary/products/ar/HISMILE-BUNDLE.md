@@ -4,6 +4,7 @@ sku: HISMILE-BUNDLE
 stock: 1003
 title: HISMILE-BUNDLE
 color: hsl(340, 78%, 84%)
+sort: 20
 cover:
   image: /img/hismile_cover.png
   title: حزمة هايسمايل للعناية بالأسنان

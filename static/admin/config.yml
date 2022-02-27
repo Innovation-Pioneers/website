@@ -49,6 +49,11 @@ collections:
         label: Color
         hint: Brand color of product in HSL or HEX format
         widget: string
+      - name: sort
+        label: Sort
+        widget: number
+        value_type: int
+        min: 0
       - name: cover
         label: Cover
         widget: object

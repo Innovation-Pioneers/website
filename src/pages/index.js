@@ -82,6 +82,7 @@ function IndexPage() {
       }
       allMarkdownRemark(
           filter: { fileAbsolutePath: { regex: "/dictionary/products/ar/" } }
+          sort: { fields: frontmatter___sort }
         ) {
         edges {
           node {

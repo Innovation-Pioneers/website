@@ -4,6 +4,7 @@ sku: THE-SUPERCLEAN-BUNDLE
 stock: 2506
 title: THE SUPERCLEAN BUNDLE
 color: hsl(56, 100%, 50%)
+sort: 10
 cover:
   image: /img/k3_cover.png
   title: مجموعة سوبر كلين

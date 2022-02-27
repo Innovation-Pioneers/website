@@ -1,7 +1,7 @@
 ---
 language: en
 sku: ICEBREAKER-POP
-stock: 1000
+stock: 750
 title: ICEBREAKER-POP
 color: hsl(179, 37%, 40%)
 cover:

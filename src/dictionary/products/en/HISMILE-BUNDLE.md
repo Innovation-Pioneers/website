@@ -1,8 +1,8 @@
 ---
 language: en
-sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
+sku: HISMILE-BUNDLE
 stock: 1003
-title: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
+title: HISMILE-BUNDLE
 color: hsl(340, 78%, 84%)
 sort: 20
 cover:
@@ -95,5 +95,5 @@ description:
   title: Get it now!
   subtitle: ""
   text: Your attractive smile deserves this step!
-  image: /img/4-person-picnic-bag-2.jpg
+  image: /img/hismile_footer.png
 ---

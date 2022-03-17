@@ -5,7 +5,7 @@ stock: 1003
 title: عدّة غورميه الفاخرة لرحلات التخييم
 color: hsl(179, 37%, 40%)
 cover:
-  image: /img/ice-cooling-bag-with-bbq-kit-6.jpg
+  image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
   title: عدّة غورميه الفاخرة لرحلات التخييم
   text: تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم جهوزيّة
     خلال رحلات الشوّاء والنزهات!
@@ -19,7 +19,7 @@ introduction:
     خلال رحلات الشوّاء والنزهات! تقدّم لكم KAMPIT عدّة غورميه الفاخرة المؤلّفة
     من شنطة عازلة للحرارة وحافظة للبرودة – مثاليّة لتخزين الّلحوم والمشروبات
     الباردة – مع عدّة الشوّاء المؤلّفة من 12 قطعة. خطّطوا لحفل شوّاء كالمحترفين!
-  image: /img/ice-cooling-bag-with-bbq-kit-1.jpg
+  image: /img/ice-cooling-bag-with-bbq-kit-1-modified.png
   video: ""
 features:
   title: عدّة غورميه الفاخرة لرحلات التخييم
@@ -28,7 +28,7 @@ features:
     خلال رحلات الشوّاء والنزهات! تقدّم لكم KAMPIT عدّة غورميه الفاخرة المؤلّفة
     من شنطة عازلة للحرارة وحافظة للبرودة – مثاليّة لتخزين الّلحوم والمشروبات
     الباردة – مع عدّة الشوّاء المؤلّفة من 12 قطعة. خطّطوا لحفل شوّاء كالمحترفين!
-  image: /img/ice-cooling-bag-with-bbq-kit-2.jpg
+  image: /img/ice-cooling-bag-with-bbq-kit-2-modified.png
   video: ""
 slider:
   - type: slide
@@ -52,6 +52,6 @@ description:
   title: احصل عليها الآن !
   subtitle: ""
   text: عدّة غورميه الفاخرة لرحلات التخييم
-  image: /img/ice-cooling-bag-with-bbq-kit-6.jpg
+  image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
 sort: 20
 ---

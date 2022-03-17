@@ -37,9 +37,6 @@ highlights:
   - type: image
     image: /img/ice-cooling-bag-with-bbq-kit-1.jpg
     video: ""
-  - type: image
-    image: /img/ice-cooling-bag-with-bbq-kit-6.jpg
-    video: ""
 store:
   title: "THE PREMIUM GOURMET CAMPER KIT "
   text: Here’s the next generation of BBQ Kits for those who like to be super

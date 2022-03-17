@@ -3,7 +3,7 @@ language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 1003
 title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
-color: hsl(340, 78%, 84%)
+color: hsl(179, 37%, 40%)
 cover:
   image: /img/4-person-picnic-bag-3.jpg
   title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص

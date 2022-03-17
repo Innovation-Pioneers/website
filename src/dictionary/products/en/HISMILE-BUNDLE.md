@@ -2,7 +2,7 @@
 language: en
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 1003
-title: HISMILE-BUNDLE
+title: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 color: hsl(340, 78%, 84%)
 sort: 20
 cover:

@@ -95,5 +95,5 @@ description:
   title: Get it now!
   subtitle: ""
   text: Your attractive smile deserves this step!
-  image: /img/hismile_footer.png
+  image: /img/4-person-picnic-bag-2.jpg
 ---

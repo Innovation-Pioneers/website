@@ -34,16 +34,7 @@ slider:
   - type: slide
     title: عدّة غورميه الفاخرة لرحلات التخييم
     text: عدّة غورميه الفاخرة لرحلات التخييم
-highlights:
-  - type: image
-    image: /img/ice-cooling-bag-with-bbq-kit-2.jpg
-    video: ""
-  - type: image
-    image: /img/ice-cooling-bag-with-bbq-kit-1.jpg
-    video: ""
-  - type: image
-    image: /img/ice-cooling-bag-with-bbq-kit-6.jpg
-    video: ""
+highlights: []
 store:
   title: عدّة غورميه الفاخرة لرحلات التخييم
   text: ""

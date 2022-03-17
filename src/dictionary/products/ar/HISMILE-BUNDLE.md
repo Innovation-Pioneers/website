@@ -3,7 +3,7 @@ language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
 stock: 1003
 title: عدّة غورميه الفاخرة لرحلات التخييم
-color: hsl(340, 78%, 84%)
+color: hsl(179, 37%, 40%)
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-6.jpg
   title: عدّة غورميه الفاخرة لرحلات التخييم

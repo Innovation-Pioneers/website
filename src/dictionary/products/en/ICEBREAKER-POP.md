@@ -6,7 +6,7 @@ title: "The Extreme Survival Kit "
 color: hsl(179, 37%, 40%)
 sort: 30
 cover:
-  image: /img/123-modified.png
+  image: /img/11111-modified.png
   title: "The Extreme Survival Kit "
   text: "Don’t let fear of the unknown stand in your way! "
 introduction:
@@ -42,5 +42,5 @@ description:
     explorer and embark on endless adventures with our Extreme Survival Kit,
     comprising 47 different survival tools to help you overcome any obstacle or
     emergency!
-  image: /img/123-modified.png
+  image: /img/11111-modified.png
 ---

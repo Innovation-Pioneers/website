@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
-stock: 1003
+stock: 500
 title: عدّة غورميه الفاخرة لرحلات التخييم
 color: hsl(179, 37%, 40%)
 cover:

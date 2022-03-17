@@ -8,8 +8,8 @@ sort: 20
 cover:
   image: /img/hismile_cover.png
   title: HiSmile Package Dental Care
-  text: Enjoy the latest technology in teeth whitening with the HiSmile products
-    package
+  text: Always Enjoy the latest technology in teeth whitening with the HiSmile
+    products package
 introduction:
   introLine: ""
   label: ""

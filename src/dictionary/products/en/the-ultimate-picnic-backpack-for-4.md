@@ -3,7 +3,7 @@ templateKey: post
 language: en
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 400
-title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
+title: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 color: "#FF7900"
 sort: 5
 cover:

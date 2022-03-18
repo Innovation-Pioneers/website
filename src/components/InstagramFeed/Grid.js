@@ -139,7 +139,7 @@ function Gallery({ gallery, lang }) {
             }
             <FeatureImage
               onClick={() => item.video && setIsOpenItem(item)}
-              hasVideo={item?.video.length > 0}
+              hasVideo={item?.video?.length > 0}
             >
               <Image
                 image={item.image?.childImageSharp?.gatsbyImageData}

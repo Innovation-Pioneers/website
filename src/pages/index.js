@@ -116,7 +116,6 @@ function IndexPage() {
                     )
                   }
                 }
-                video
               }
               features {
                 title
@@ -130,7 +129,6 @@ function IndexPage() {
                     )
                   }
                 }
-                video
               }
               slider {
                 title
@@ -146,7 +144,6 @@ function IndexPage() {
                     )
                   }
                 }
-                video
               }
               store {
                 title

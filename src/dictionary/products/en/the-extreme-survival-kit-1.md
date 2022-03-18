@@ -40,6 +40,7 @@ store:
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
   text: ""
+  items: []
 description:
   title: Get it Today!
   subtitle: ""

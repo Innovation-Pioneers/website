@@ -4,6 +4,7 @@ sku: THE-PREMIUM-GOURMET-CAMPER-KIT
 stock: 500
 title: THE PREMIUM GOURMET CAMPER KIT
 color: hsl(56, 100%, 50%)
+sort: 10
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
   title: شنطة الشواء والكشتات
@@ -39,10 +40,14 @@ store:
   title: شنطة الشواء والكشتات
   text: تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم جهوزيّة
     خلال رحلات الشوّاء والنزهات!
+  items:
+    - subtitle: ""
+      description: ""
+      title: شنطة الشواء والكشتات
+      image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
 description:
   title: احصل عليها الآن !
   subtitle: ""
   text: شنطة الشواء والكشتات
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
-sort: 10
 ---

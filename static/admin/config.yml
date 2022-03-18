@@ -75,10 +75,12 @@ collections:
             label: Introline
             widget: string
             required: false
+            default: ""
           - name: label
             label: Label
             widget: string
             required: false
+            default: ""
           - name: title
             label: Title
             widget: string
@@ -92,6 +94,7 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
           - name: image
             label: Image
             widget: image
@@ -106,6 +109,7 @@ collections:
             label: Subtitle
             widget: string
             required: false
+            default: ""
           - name: text
             label: Text
             widget: string
@@ -116,9 +120,11 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
       - name: slider
         label: Slider
         widget: list
+        min: 1
         fields:
           - name: type
             label: Type
@@ -133,6 +139,7 @@ collections:
       - name: highlights
         label: Gallery
         widget: list
+        min: 1
         fields:
           - name: type
             label: Type
@@ -147,6 +154,7 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
       - name: store
         label: Bundle images
         widget: object
@@ -158,9 +166,11 @@ collections:
             label: Text
             widget: string
             required: false
+            default: ""
           - name: items
             label: Items
             widget: list
+            min: 1
             fields:
               - name: title
                 label: Title
@@ -169,10 +179,12 @@ collections:
                 label: Subtitle
                 widget: string
                 required: false
+                default: ""
               - name: description
                 label: Description
                 widget: string
                 required: false
+                default: ""
               - name: image
                 label: Image
                 widget: image
@@ -187,6 +199,7 @@ collections:
             label: Subtitle
             widget: string
             required: false
+            default: ""
           - name: text
             label: Text
             widget: string
@@ -254,10 +267,12 @@ collections:
             label: Introline
             widget: string
             required: false
+            default: ""
           - name: label
             label: Label
             widget: string
             required: false
+            default: ""
           - name: title
             label: Title
             widget: string
@@ -271,6 +286,7 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
           - name: image
             label: Image
             widget: image
@@ -285,6 +301,7 @@ collections:
             label: Subtitle
             widget: string
             required: false
+            default: ""
           - name: text
             label: Text
             widget: string
@@ -295,9 +312,11 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
       - name: slider
         label: Slider
         widget: list
+        min: 1
         fields:
           - name: type
             label: Type
@@ -312,6 +331,7 @@ collections:
       - name: highlights
         label: Gallery
         widget: list
+        min: 1
         fields:
           - name: type
             label: Type
@@ -326,6 +346,7 @@ collections:
             label: Video
             widget: file
             required: false
+            default: ""
       - name: store
         label: Bundle images
         widget: object
@@ -337,9 +358,11 @@ collections:
             label: Text
             widget: string
             required: false
+            default: ""
           - name: items
             label: Items
             widget: list
+            min: 1
             fields:
               - name: title
                 label: Title
@@ -348,10 +371,12 @@ collections:
                 label: Subtitle
                 widget: string
                 required: false
+                default: ""
               - name: description
                 label: Description
                 widget: string
                 required: false
+                default: ""
               - name: image
                 label: Image
                 widget: image
@@ -366,6 +391,7 @@ collections:
             label: Subtitle
             widget: string
             required: false
+            default: ""
           - name: text
             label: Text
             widget: string

@@ -2,17 +2,17 @@
 language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 399
-title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
+title: شنطة الكشتة لـ4 اشخاص
 color: hsl(340, 78%, 84%)
 cover:
   image: /img/4-person-picnic-bag-3-modified.png
-  title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
+  title: شنطة الكشتة لـ4 اشخاص
   text: "إليك طقم النزهات الخارجيّة من KAMPIT المثالي لأربع أصدقاء، عائلة من 4
     أفراد أو حتى زوجين من الأصدقاء المقرّبين! "
 introduction:
   introLine: ""
   label: ""
-  title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
+  title: شنطة الكشتة لـ4 اشخاص
   subtitle: "إليك طقم النزهات الخارجيّة من KAMPIT المثالي لأربع أصدقاء، عائلة من 4
     أفراد أو حتى زوجين من الأصدقاء المقرّبين! "
   text: تمّ تصميم هذا الطقم على شكل شنطة ظهر ليكون سهل الحمل وهو يتضمّن كل ما
@@ -42,13 +42,13 @@ highlights:
     image: /img/4-person-picnic-bag-1.jpg
     video: ""
 store:
-  title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
+  title: شنطة الكشتة لـ4 اشخاص
   text: ""
   items: []
 description:
   title: احصل عليها الآن !
   subtitle: ""
-  text: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
+  text: شنطة الكشتة لـ4 اشخاص
   image: /img/4-person-picnic-bag-3-modified.png
 sort: 20
 ---

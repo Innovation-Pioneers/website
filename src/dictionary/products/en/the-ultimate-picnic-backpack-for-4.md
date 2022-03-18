@@ -10,7 +10,7 @@ cover:
   image: /img/4-person-picnic-bag-3-modified.png
   title: "THE ULTIMATE PICNIC BACKPACK FOR 4 "
   text: "Whether your four friends, a family of four, or even double dating with a
-    close couple, here’s the ideal picnic set from KAMPIT. "
+    close couple, here’s the ideal picnic set from KAMPIT! "
 introduction:
   title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
   subtitle: Whether your four friends, a family of four, or even double dating

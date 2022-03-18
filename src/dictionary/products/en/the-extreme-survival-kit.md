@@ -4,7 +4,7 @@ sku: The-Extreme-Survival-Kit
 stock: 500
 title: The-Extreme-Survival-Kit
 color: hsl(179, 37%, 40%)
-sort: 30
+sort: 10
 cover:
   image: /img/11111-modified.png
   title: "The Extreme Survival Kit "

@@ -5,7 +5,7 @@ sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 400
 title: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 color: "#FF7900"
-sort: 5
+sort: 30
 cover:
   image: /img/4-person-picnic-bag-3-modified.png
   title: "THE ULTIMATE PICNIC BACKPACK FOR 4 "

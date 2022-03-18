@@ -3,7 +3,8 @@ language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 399
 title: The ULTIMATE PICNIC BACKPACK FOR 4
-color: hsl(340, 78%, 84%)
+color: "#e58236"
+sort: 20
 cover:
   image: /img/4-person-picnic-bag-3-modified.png
   title: شنطة الكشتة لـ4 اشخاص
@@ -44,5 +45,4 @@ description:
   subtitle: ""
   text: شنطة الكشتة لـ4 اشخاص
   image: /img/4-person-picnic-bag-3-modified.png
-sort: 20
 ---

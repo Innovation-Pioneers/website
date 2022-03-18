@@ -2,7 +2,7 @@
 language: ar
 sku: The-Extreme-Survival-Kit
 stock: 2506
-title: K3-SUPERCLEAN-BUNDLE
+title: aaa-K3-SUPERCLEAN-BUNDLE
 color: hsl(179, 37%, 40%)
 cover:
   image: /img/11111-modified.png

@@ -40,7 +40,11 @@ store:
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
   text: ""
-  items: []
+  items:
+    - subtitle: ""
+      description: ""
+      title: "The Extreme Survival Kit "
+      image: /img/4-person-picnic-bag-3-modified.png
 description:
   title: Get it Today!
   subtitle: ""

@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
-stock: 501
+stock: 500
 title: THE-PREMIUM-GOURMET-CAMPER-KIT
 color: hsl(56, 100%, 50%)
 cover:

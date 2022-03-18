@@ -2,7 +2,7 @@
 language: en
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
 stock: 600
-title: aaa-THE-PREMIUM-GOURMET-CAMPER-KIT
+title: THE-PREMIUM-GOURMET-CAMPER-KIT
 color: hsl(56, 100%, 50%)
 sort: 10
 cover:

@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
-stock: 399
+stock: 400
 title: The ULTIMATE PICNIC BACKPACK FOR 4
 color: "#e58236"
 sort: 20

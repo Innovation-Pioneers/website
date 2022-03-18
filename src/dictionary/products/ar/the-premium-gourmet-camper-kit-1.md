@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
-stock: 500
+stock: 600
 title: THE PREMIUM GOURMET CAMPER KIT
 color: "#ffe047"
 sort: 10

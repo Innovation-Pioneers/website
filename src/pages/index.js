@@ -183,7 +183,8 @@ function IndexPage() {
   `);
 
   const product = allShopifyProduct.edges;
-  const productData = allMarkdownRemark.edges;
+  const productData = allMarkdownRemark.edges
+  .filter(({ node: { frontmatter: { sku } } }) => sku !== 'DO-NOT-DELETE');
   const pageData = markdownRemark.frontmatter;
   const settings = markdownRemarkSettings.frontmatter;
 

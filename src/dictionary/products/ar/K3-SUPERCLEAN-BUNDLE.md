@@ -2,7 +2,7 @@
 language: ar
 sku: The-Extreme-Survival-Kit
 stock: 2506
-title: عدة الاسعافات الأولية للكشتات
+title: The-Extreme-Survival-Kit
 color: hsl(179, 37%, 40%)
 cover:
   image: /img/11111-modified.png

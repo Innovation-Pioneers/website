@@ -124,8 +124,6 @@ collections:
       - name: slider
         label: Slider
         widget: list
-        default:
-          - { type: "slide", title: "", text: "" }
         min: 1
         fields:
           - name: type
@@ -141,8 +139,6 @@ collections:
       - name: highlights
         label: Gallery
         widget: list
-        default:
-          - { type: "image", image: "", video: "" }
         min: 1
         fields:
           - name: type
@@ -174,8 +170,6 @@ collections:
           - name: items
             label: Items
             widget: list
-            default:
-              - { title: "", subtitle: "", description: "", image: "" }
             min: 1
             fields:
               - name: title
@@ -322,8 +316,6 @@ collections:
       - name: slider
         label: Slider
         widget: list
-        default:
-          - { type: "slide", title: "", text: "" }
         min: 1
         fields:
           - name: type
@@ -339,8 +331,6 @@ collections:
       - name: highlights
         label: Gallery
         widget: list
-        default:
-          - { type: "image", image: "", video: "" }
         min: 1
         fields:
           - name: type
@@ -372,8 +362,6 @@ collections:
           - name: items
             label: Items
             widget: list
-            default:
-              - { title: "", subtitle: "", description: "", image: "" }
             min: 1
             fields:
               - name: title

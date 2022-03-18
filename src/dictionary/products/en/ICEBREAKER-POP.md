@@ -2,7 +2,7 @@
 language: en
 sku: The-Extreme-Survival-Kit
 stock: 500
-title: "The Extreme Survival Kit "
+title: The-Extreme-Survival-Kit
 color: hsl(179, 37%, 40%)
 sort: 30
 cover:

@@ -3,7 +3,7 @@ language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
 stock: 500
 title: THE PREMIUM GOURMET CAMPER KIT
-color: hsl(56, 100%, 50%)
+color: "#ffe047"
 sort: 10
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png

@@ -31,6 +31,10 @@ slider:
     text: Embrace your inner explorer and embark on endless adventures with our
       Extreme Survival Kit, comprising 47 different survival tools to help you
       overcome any obstacle or emergency!
+highlights:
+  - video: ""
+    type: image
+    image: /img/123-modified.png
 store:
   title: Embrace your inner explorer and embark on endless adventures with our
     Extreme Survival Kit, comprising 47 different survival tools to help you

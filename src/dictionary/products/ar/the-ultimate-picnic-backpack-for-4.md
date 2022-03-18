@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
-stock: 398
+stock: 399
 title: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 color: hsl(340, 78%, 84%)
 cover:

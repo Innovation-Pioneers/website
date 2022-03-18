@@ -18,14 +18,12 @@ introduction:
   text: تمّ تصميم هذا الطقم على شكل شنطة ظهر ليكون سهل الحمل وهو يتضمّن كل ما
     تحتاجه لقضاء أجمل الأوقات خلال نزهتك من دون القلق حيال التفاصيل الصغيرة!
   image: /img/4-person-picnic-bag-2-modified.png
-  video: ""
 features:
   title: كل ما تحتاجه لقضاء أجمل الأوقات
   subtitle: ""
   text: تمّ تصميم هذا الطقم على شكل شنطة ظهر ليكون سهل الحمل وهو يتضمّن كل ما
     تحتاجه لقضاء أجمل الأوقات خلال نزهتك من دون القلق حيال التفاصيل الصغيرة!
   image: /img/4-person-picnic-bag-1-modified.png
-  video: ""
 slider:
   - type: slide
     title: "القياسات: 29سم (طول) 20سم (عرض) 39.5سم (إرتفاع)"
@@ -34,17 +32,13 @@ slider:
 highlights:
   - type: image
     image: /img/4-person-picnic-bag-3.jpg
-    video: ""
   - type: image
     image: /img/4-person-picnic-bag-2.jpg
-    video: ""
   - type: image
     image: /img/4-person-picnic-bag-1.jpg
-    video: ""
 store:
   title: شنطة الكشتة لـ4 اشخاص
   text: ""
-  items: []
 description:
   title: احصل عليها الآن !
   subtitle: ""

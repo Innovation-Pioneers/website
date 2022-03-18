@@ -27,10 +27,8 @@ slider:
     title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
     text: Designed as a backpack for easy carrying, it has everything you need to
       enjoy your next picnic hassle-free!
-highlights: []
 store:
   title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
-  items: []
   text: Designed as a backpack for easy carrying, it has everything you need to
     enjoy your next picnic hassle-free!
 description:

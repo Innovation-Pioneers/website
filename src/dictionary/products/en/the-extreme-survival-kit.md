@@ -18,7 +18,6 @@ introduction:
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
   image: /img/123-modified.png
-  video: ""
 features:
   title: "The Extreme Survival Kit "
   subtitle: Don’t let fear of the unknown stand in your way!
@@ -26,20 +25,17 @@ features:
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
   image: /img/123-modified.png
-  video: ""
 slider:
   - type: slide
     title: The Extreme Survival Kit
     text: Embrace your inner explorer and embark on endless adventures with our
       Extreme Survival Kit, comprising 47 different survival tools to help you
       overcome any obstacle or emergency!
-highlights: []
 store:
   title: Embrace your inner explorer and embark on endless adventures with our
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
   text: ""
-  items: []
 description:
   title: Get it Today!
   subtitle: ""

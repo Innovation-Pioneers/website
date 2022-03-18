@@ -2,17 +2,17 @@
 language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
 stock: 500
-title: عدّة غورميه الفاخرة لرحلات التخييم
+title: شنطة الشواء والكشتات
 color: hsl(56, 100%, 50%)
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
-  title: عدّة غورميه الفاخرة لرحلات التخييم
+  title: شنطة الشواء والكشتات
   text: تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم جهوزيّة
     خلال رحلات الشوّاء والنزهات!
 introduction:
   introLine: ""
   label: ""
-  title: عدّة غورميه الفاخرة لرحلات التخييم
+  title: شنطة الشواء والكشتات
   subtitle: "تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم
     جهوزيّة خلال رحلات الشوّاء والنزهات! "
   text: تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم جهوزيّة
@@ -22,7 +22,7 @@ introduction:
   image: /img/ice-cooling-bag-with-bbq-kit-1-modified.png
   video: ""
 features:
-  title: عدّة غورميه الفاخرة لرحلات التخييم
+  title: شنطة الشواء والكشتات
   subtitle: ""
   text: تعرّف على عدّة شوّاء من نوعٍ جديد لكلّ من يحبّ أن يكون على أتم جهوزيّة
     خلال رحلات الشوّاء والنزهات! تقدّم لكم KAMPIT عدّة غورميه الفاخرة المؤلّفة
@@ -36,13 +36,13 @@ slider:
     text: عدّة غورميه الفاخرة لرحلات التخييم
 highlights: []
 store:
-  title: عدّة غورميه الفاخرة لرحلات التخييم
+  title: شنطة الشواء والكشتات
   text: ""
   items: []
 description:
   title: احصل عليها الآن !
   subtitle: ""
-  text: عدّة غورميه الفاخرة لرحلات التخييم
+  text: شنطة الشواء والكشتات
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
 sort: 20
 ---

@@ -4,6 +4,7 @@ sku: The-Extreme-Survival-Kit
 stock: 2506
 title: The Extreme Survival Kit
 color: hsl(179, 37%, 40%)
+sort: 10
 cover:
   image: /img/11111-modified.png
   title: عدة الاسعافات الأولية للكشتات
@@ -37,6 +38,11 @@ store:
   text: "لا تدع الخوف يقف في طريق مغامراتك! إستكشف كما شئت ولا تخشى المجهول مع
     عدّة الصمود الكاملة المؤلّفة من 47 أداة تساعدك على مواجهة التحديّات والحالات
     الطارئة بنجاح، مهما كانت! "
+  items:
+    - subtitle: ""
+      description: ""
+      title: عدة الاسعافات الأولية للكشتات
+      image: /img/123-modified.png
 description:
   title: احصل عليها اليوم!
   subtitle: ""
@@ -44,5 +50,4 @@ description:
     عدّة الصمود الكاملة المؤلّفة من 47 أداة تساعدك على مواجهة التحديّات والحالات
     الطارئة بنجاح، مهما كانت! "
   image: /img/11111-modified.png
-sort: 10
 ---

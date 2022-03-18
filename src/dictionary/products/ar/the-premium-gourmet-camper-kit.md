@@ -1,10 +1,9 @@
 ---
 language: ar
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
-stock: 500
+stock: 501
 title: THE-PREMIUM-GOURMET-CAMPER-KIT
 color: hsl(56, 100%, 50%)
-sort: 10
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
   title: شنطة الشواء والكشتات
@@ -45,4 +44,5 @@ description:
   subtitle: ""
   text: شنطة الشواء والكشتات
   image: /img/ice-cooling-bag-with-bbq-kit-6-modified.png
+sort: 10
 ---

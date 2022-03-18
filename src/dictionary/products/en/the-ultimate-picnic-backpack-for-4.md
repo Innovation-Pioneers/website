@@ -4,7 +4,7 @@ language: en
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 400
 title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
-color: hsl(340, 78%, 84%)
+color: hex(#FF7900)
 sort: 5
 cover:
   image: /img/4-person-picnic-bag-3-modified.png

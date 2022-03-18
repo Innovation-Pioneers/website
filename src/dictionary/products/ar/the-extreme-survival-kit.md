@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: The-Extreme-Survival-Kit
-stock: 2505
+stock: 2506
 title: The-Extreme-Survival-Kit
 color: hsl(179, 37%, 40%)
 cover:

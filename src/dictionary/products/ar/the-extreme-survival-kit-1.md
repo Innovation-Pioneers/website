@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: The-Extreme-Survival-Kit
-stock: 2506
+stock: 500
 title: The Extreme Survival Kit
 color: "#63afa3"
 sort: 10

@@ -107,6 +107,14 @@ function Page({
         textRemaining={settings.texts.remaining}
         productStock={stock}
       />
+      <AllDeals
+        title={pageData.deals.title}
+        text={pageData.deals.text}
+        buttonText={settings.buttons.deals}
+        setActiveCoverScreen={setActiveCoverScreen}
+        setActiveCoverClicked={setActiveCoverClicked}
+        lang={lang}
+      />
       <Features
         data={productData.features}
         slides={productData.slider}

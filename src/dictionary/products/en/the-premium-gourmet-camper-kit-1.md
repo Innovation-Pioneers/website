@@ -44,7 +44,6 @@ store:
     ready on their camping and picnic trips! KAMPIT brings you the premium Ice
     Cooling Bag – perfect for preserving meats and cool drinks - with a 12-piece
     BBQ Kit to plan your next BBQ event like a pro!
-  items: []
 description:
   title: Get it Today!
   subtitle: ""

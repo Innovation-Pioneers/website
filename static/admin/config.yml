@@ -122,7 +122,7 @@ collections:
             required: false
             default: ""
       - name: slider
-        label: Slider
+        label: Features
         widget: list
         min: 1
         fields:
@@ -156,7 +156,7 @@ collections:
             required: false
             default: ""
       - name: store
-        label: Bundle images
+        label: Bundles
         widget: object
         fields:
           - name: title
@@ -189,7 +189,7 @@ collections:
                 label: Image
                 widget: image
       - name: description
-        label: Description
+        label: Call To Action
         widget: object
         fields:
           - name: title
@@ -314,7 +314,7 @@ collections:
             required: false
             default: ""
       - name: slider
-        label: Slider
+        label: Features
         widget: list
         min: 1
         fields:
@@ -348,7 +348,7 @@ collections:
             required: false
             default: ""
       - name: store
-        label: Bundle images
+        label: Bundles
         widget: object
         fields:
           - name: title
@@ -381,7 +381,7 @@ collections:
                 label: Image
                 widget: image
       - name: description
-        label: Description
+        label: Call To Action
         widget: object
         fields:
           - name: title

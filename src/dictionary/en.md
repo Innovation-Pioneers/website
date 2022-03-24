@@ -43,5 +43,5 @@ footer:
       link: https://twitter.com/lag6acom
   copyright: 
     - Copyright  ©
-    - Karcher K3. All Rights Reserved.
+    - Lag6a. All Rights Reserved.
 ---

@@ -44,5 +44,5 @@ footer:
       link: https://twitter.com/lag6acom
   copyright: 
     - حقوق النشر ©
-    - كارشر K3. جميع الحقوق محفوظة.
+    - Lag6a. جميع الحقوق محفوظة.
 ---

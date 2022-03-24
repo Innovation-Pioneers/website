@@ -31,10 +31,6 @@ highlights:
   - video: ""
     type: image
     image: /img/4-person-picnic-bag-3-modified.png
-store:
-  title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
-  text: Designed as a backpack for easy carrying, it has everything you need to
-    enjoy your next picnic hassle-free!
 description:
   title: Get it now!
   text: The ideal picnic set from KAMPIT

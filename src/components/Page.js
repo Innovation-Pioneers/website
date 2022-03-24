@@ -5,8 +5,8 @@ import Navigation from './Navigation';
 import Introduction from './Sections/Introduction';
 import Features from './Sections/Features';
 import Gallery from './Sections/Gallery';
-import InStore from './Sections/InStore';
-import Description from './Sections/Description';
+import Bundles from './Sections/InStore';
+import CallToAction from './Sections/Description';
 import AllDeals from './Sections/AllDeals';
 import Footer from './Footer';
 
@@ -126,9 +126,9 @@ function Page({
           : null
       }
       {
-        productData?.slides?.length > 0
+        productData?.store?.items?.length > 0
           ? (
-              <InStore
+              <Bundles
                 slides={productData.slides}
                 store={productData.store}
                 testimonials={productData.testimonials}
@@ -138,7 +138,7 @@ function Page({
             )
         : null
       }
-      <Description
+      <CallToAction
         data={productData.description}
         buyButton={BUTTON_CHECKOUT}
         className={className}

@@ -15,13 +15,13 @@ introduction:
   title: ""
   subtitle: ""
   text: ""
-  image: ""
+  image: /img/DO_NOT_DELETE.jpg
   video: ""
 features:
   title: ""
   subtitle: ""
   text: ""
-  image: ""
+  image: /img/DO_NOT_DELETE.jpg
   video: ""
 slider:
   - type: slide
@@ -29,7 +29,7 @@ slider:
     text: ""
 highlights:
   - type: image
-    image: ""
+    image: /img/DO_NOT_DELETE.jpg
     video: ""
 store:
   title: ""
@@ -37,11 +37,11 @@ store:
   items:
     - title: ""
       subtitle: ""
-      image: ""
+      image: /img/DO_NOT_DELETE.jpg
       description: ""
 description:
   title: ""
   subtitle: ""
   text: ""
-  image: ""
+  image: /img/DO_NOT_DELETE.jpg
 ---

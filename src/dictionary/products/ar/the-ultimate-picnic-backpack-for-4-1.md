@@ -37,14 +37,6 @@ highlights:
     image: /img/4-person-picnic-bag-2.jpg
   - type: image
     image: /img/4-person-picnic-bag-1.jpg
-store:
-  title: شنطة الكشتة لـ4 اشخاص
-  text: ""
-  items:
-    - subtitle: ""
-      description: ""
-      title: Test
-      image: /img/4-person-picnic-bag-2.jpg
 description:
   title: احصل عليها الآن !
   subtitle: ""

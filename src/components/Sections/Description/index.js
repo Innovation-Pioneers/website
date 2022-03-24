@@ -70,7 +70,7 @@ const ProductImage = styled.div`
   transform-origin: center 80%;
 `;
 
-function Description({ data, buyButton, className, availableQuantity }) {
+function CallToAction({ data, buyButton, className, availableQuantity }) {
   return (
     <ThemeProvider theme={{ mode: 'light' }}>
       <Wrapper>
@@ -109,4 +109,4 @@ function Description({ data, buyButton, className, availableQuantity }) {
     </ThemeProvider>
   );
 }
-export default Description;
+export default CallToAction;

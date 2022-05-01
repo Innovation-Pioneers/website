@@ -52,10 +52,34 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/caf-modified.png
+    image: /img/cafetto-logo-modified.png
+  - video: ""
+    image: /img/11.jpg
+    type: image
   - video: ""
     type: image
-    image: /img/lod-green-modified.png
+    image: /img/12.jpg
+  - video: ""
+    type: image
+    image: /img/15.jpg
+  - video: ""
+    type: image
+    image: /img/16.jpg
+  - video: ""
+    type: image
+    image: /img/18.jpg
+  - video: ""
+    type: image
+    image: /img/14.jpg
+  - video: ""
+    type: image
+    image: /img/17.jpg
+  - video: ""
+    type: image
+    image: /img/19.jpg
+  - video: ""
+    type: image
+    image: /img/22.jpg
 store:
   title: Liquid Organic Descaler 4 Pieces
   text: Buy 4 pieces at 229 Saudi Riyals Only

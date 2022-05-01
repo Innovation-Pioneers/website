@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: "9345941254084"
-stock: 100
+stock: 1000
 title: Liquid Organic Descaler 4 Pieces
 color: "#ffe047"
 sort: 10

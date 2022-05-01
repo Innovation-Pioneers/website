@@ -40,9 +40,15 @@ features:
   image: /img/lod-green-modified.png
 slider:
   - type: slide
-    title: "THE PREMIUM GOURMET CAMPER KIT "
-    text: "Here’s the next generation of BBQ Kits for those who like to be super
-      ready on their camping and picnic trips! "
+    title: Liquid Organic Descaler 4 Pieces
+    text: An eco-friendly liquid descaler which rapidly and easily removes lime
+      scale and calcium build up from metal surfaces in contact with hot water
+      such as espresso machine water tanks, coffee brewing and other hot water
+      equipment.  Made with a formulation of organic acids which are naturally
+      occurring compounds produced by fermentation of simple sugars.  Certified
+      for organic use. All ingredients are all rapidly biodegradable meeting
+      international standards.  Free from phosphate and Genetically Modified
+      Organisms.
 highlights:
   - video: ""
     type: image

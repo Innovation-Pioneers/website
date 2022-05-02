@@ -72,6 +72,6 @@ store:
   title: ICEBREAKER-POP
 description:
   title: Get it now!
-  text: The ideal picnic set from KAMPIT
-  image: /img/icebreaker-pop-9-ice-cubes-stacked-2-1-.png
+  text: Meet ICEBREAKER® POP
+  image: /img/popped-open-saphire-blue.png
 ---

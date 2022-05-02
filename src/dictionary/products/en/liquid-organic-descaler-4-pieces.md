@@ -26,6 +26,7 @@ introduction:
     fresh water after decalcifying, and before re-filling and reusing the
     machine.
   image: /img/lod-green-modified.png
+  video: /img/caf-video.mp4
 features:
   title: Liquid Organic Descaler 4 Pieces
   subtitle: ""
@@ -49,10 +50,6 @@ slider:
       for organic use. All ingredients are all rapidly biodegradable meeting
       international standards.  Free from phosphate and Genetically Modified
       Organisms.
-  - type: slide
-    title: Clean your Steam Iron Machines!!
-    text: Liquid Organic Descaler can be used to clean your steam iron machines!! It
-      will be giving unimaginable results
 highlights:
   - video: ""
     type: image

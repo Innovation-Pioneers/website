@@ -4,7 +4,7 @@ sku: "9345941254084"
 stock: 1000
 title: Liquid Organic Descaler 4 Pieces
 color: "#ffe047"
-sort: 20
+sort: 10
 cover:
   image: /img/lod-green-modified.png
   title: Liquid Organic Descaler 4 Pieces
@@ -41,7 +41,7 @@ features:
   image: /img/lod-green-modified.png
 slider:
   - type: slide
-    title: Liquid Organic Descaler 4 Pieces
+    title: About
     text: An eco-friendly liquid descaler which rapidly and easily removes lime
       scale and calcium build up from metal surfaces in contact with hot water
       such as espresso machine water tanks, coffee brewing and other hot water
@@ -50,8 +50,21 @@ slider:
       for organic use. All ingredients are all rapidly biodegradable meeting
       international standards.  Free from phosphate and Genetically Modified
       Organisms.
+  - type: slide
+    title: Sanitizes & breaks down build-up that’s accumulated over time
+    text: Keeping Safe!!
+  - type: slide
+    title: Fast acting formula that descales in minutes
+    text: Quick!!
+  - type: slide
+    title: Prolongs appliance performance & life-time
+    text: Long Run!!
+  - type: slide
+    title: Where can be used?
+    text: Kettle, Steam Iron Machines, Dish washer, Clothes Washing Machines, Shower
+      Head
 highlights:
-  - video: ""
+  - video: /img/caf-video.mp4
     type: image
     image: /img/cafetto-logo-modified.png
   - video: ""

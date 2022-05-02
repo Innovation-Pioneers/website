@@ -65,7 +65,7 @@ store:
   items: []
   title: ICEBREAKER-POP
 description:
-  title: Get it now!
-  text: Meet ICEBREAKER® POP
-  image: /img/icebreaker_gallery_3.jpg
+  title: Get 3 pieces at 249 Saudi Riyals with free shipping now!!
+  text: Unavoidable Deal!!
+  image: /img/icebr-removebg-preview.png
 ---

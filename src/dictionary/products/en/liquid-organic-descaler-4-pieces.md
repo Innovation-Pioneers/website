@@ -8,10 +8,7 @@ sort: 10
 cover:
   image: /img/lod-green-modified.png
   title: Liquid Organic Descaler 4 Pieces
-  text: Perfectly suited to domestic or small office machines.  Organic Descaler
-    is a safe and effective solution for removing hard water scale from
-    thermoblock espresso machine lines, capsule machines and boilers.  This
-    product can also be used to descale kettles.
+  text: "Perfectly suited to domestic or small office machines. "
 introduction:
   introLine: ""
   label: ""
@@ -94,6 +91,9 @@ highlights:
   - video: ""
     type: image
     image: /img/22.jpg
+  - video: /img/caf-video.mp4
+    type: video
+    image: /img/lod-green-modified.png
 store:
   title: Liquid Organic Descaler 4 Pieces
   text: Buy 4 pieces at 229 Saudi Riyals Only

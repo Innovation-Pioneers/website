@@ -74,9 +74,6 @@ highlights:
     image: /img/18.jpg
   - video: ""
     type: image
-    image: /img/17.jpg
-  - video: ""
-    type: image
     image: /img/19.jpg
   - video: ""
     type: image

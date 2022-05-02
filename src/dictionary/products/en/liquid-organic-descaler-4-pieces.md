@@ -90,5 +90,5 @@ description:
   title: "Get 4 pieces at 249 Saudi Riyals with free shipping now!! "
   subtitle: ""
   text: The best deal ever!!
-  image: /img/screenshot-2022-05-03-004027-modified.png
+  image: /img/lod-green-modified.png
 ---

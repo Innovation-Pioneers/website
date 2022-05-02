@@ -87,11 +87,8 @@ store:
   text: Buy 4 pieces for 249 Saudi Riyals
   items: []
 description:
-  title: Get it Today!
+  title: "Get 4 pieces at 249 Saudi Riyals with free shipping now!! "
   subtitle: ""
-  text: Don’t let fear of the unknown stand in your way! Embrace your inner
-    explorer and embark on endless adventures with our Extreme Survival Kit,
-    comprising 47 different survival tools to help you overcome any obstacle or
-    emergency!
+  text: The best deal ever!!
   image: /img/screenshot-2022-05-03-004027-modified.png
 ---

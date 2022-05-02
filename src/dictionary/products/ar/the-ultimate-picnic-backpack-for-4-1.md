@@ -1,7 +1,7 @@
 ---
 language: ar
-sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
-stock: 400
+sku: ICEBREAKER-POP
+stock: 1200
 title: The ULTIMATE PICNIC BACKPACK FOR 4
 color: "#e58236"
 sort: 20
@@ -37,6 +37,8 @@ highlights:
     image: /img/4-person-picnic-bag-2.jpg
   - type: image
     image: /img/4-person-picnic-bag-1.jpg
+store:
+  title: ICEBREAKER-POP
 description:
   title: احصل عليها الآن !
   subtitle: ""

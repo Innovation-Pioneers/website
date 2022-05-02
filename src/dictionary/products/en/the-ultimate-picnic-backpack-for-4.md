@@ -18,7 +18,7 @@ introduction:
   image: /img/icebreaker_about.png
 features:
   title: ICEBREAKER-POP
-  image: /img/product_173870_product_shots1-modified.png
+  image: /img/packaging-py-darker-glass-fewer-ray-bounces.422.png
   text: Meet ICEBREAKER® POP ICEBREAKER® POP eliminates ice cube trays with its
     space-saving design and easy to serve technology. Enjoy 18 large
     slow-melting 1x1x1” ice cubes from the air-tight container anywhere without
@@ -60,9 +60,6 @@ highlights:
     image: /img/step4.jpg
   - video: ""
     type: image
-    image: /img/feat.jpg
-  - video: ""
-    type: image
     image: /img/o1cn01j6j6us27yg3u8cymk_382167866-1200x675.jpg
   - video: ""
     type: image
@@ -76,5 +73,5 @@ store:
 description:
   title: Get it now!
   text: The ideal picnic set from KAMPIT
-  image: /img/4-person-picnic-bag-3-modified.png
+  image: /img/icebreaker-pop-9-ice-cubes-stacked-2-1-.png
 ---

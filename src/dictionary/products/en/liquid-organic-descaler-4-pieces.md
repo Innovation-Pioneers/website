@@ -7,7 +7,7 @@ color: "#ffe047"
 sort: 10
 cover:
   image: /img/lod-green-modified.png
-  title: Liquid Organic Descaler 4 Pieces
+  title: Liquid Organic Descaler
   text: "Perfectly suited to domestic or small office machines. "
 introduction:
   introLine: ""

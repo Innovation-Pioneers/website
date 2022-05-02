@@ -48,18 +48,6 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/step_1.jpg
-  - video: ""
-    type: image
-    image: /img/step2.jpg
-  - video: ""
-    type: image
-    image: /img/step3.jpg
-  - video: ""
-    type: image
-    image: /img/step4.jpg
-  - video: ""
-    type: image
     image: /img/o1cn01j6j6us27yg3u8cymk_382167866-1200x675.jpg
   - video: ""
     type: image

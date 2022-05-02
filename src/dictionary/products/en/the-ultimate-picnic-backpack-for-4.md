@@ -67,5 +67,5 @@ store:
 description:
   title: Get it now!
   text: Meet ICEBREAKER® POP
-  image: /img/finalamazonpicyellow_71f84618-d82e-431c-a214-2fbae8ae51b6_823x.jpg
+  image: /img/icebreaker_gallery_3.jpg
 ---

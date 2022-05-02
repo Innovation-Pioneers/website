@@ -4,9 +4,9 @@ sku: The-Extreme-Survival-Kit
 stock: 500
 title: The Extreme Survival Kit
 color: "#63afa3"
-sort: 10
+sort: 20
 cover:
-  image: /img/11111-modified.png
+  image: /img/123-modified.png
   title: "The Extreme Survival Kit "
   text: "Don’t let fear of the unknown stand in your way! "
 introduction:
@@ -17,7 +17,7 @@ introduction:
   text: Embrace your inner explorer and embark on endless adventures with our
     Extreme Survival Kit, comprising 47 different survival tools to help you
     overcome any obstacle or emergency!
-  image: /img/123-modified.png
+  image: /img/11111-modified.png
 features:
   title: "The Extreme Survival Kit "
   subtitle: Don’t let fear of the unknown stand in your way!
@@ -35,6 +35,8 @@ highlights:
   - video: ""
     type: image
     image: /img/123-modified.png
+store:
+  title: "The Extreme Survival Kit "
 description:
   title: Get it Today!
   subtitle: ""

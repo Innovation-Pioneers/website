@@ -57,9 +57,6 @@ highlights:
     image: /img/cafetto-logo-modified.png
   - video: ""
     type: image
-    image: /img/cafeee.jpg
-  - video: ""
-    type: image
     image: /img/19.jpg
   - video: ""
     type: image
@@ -96,5 +93,5 @@ description:
     explorer and embark on endless adventures with our Extreme Survival Kit,
     comprising 47 different survival tools to help you overcome any obstacle or
     emergency!
-  image: /img/11111-modified.png
+  image: /img/screenshot-2022-05-03-004027-modified.png
 ---

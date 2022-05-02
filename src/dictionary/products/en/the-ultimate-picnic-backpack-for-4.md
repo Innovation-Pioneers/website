@@ -51,15 +51,21 @@ highlights:
     image: /img/o1cn01j6j6us27yg3u8cymk_382167866-1200x675.jpg
   - video: ""
     type: image
-    image: /img/finalamazonpicyellow_71f84618-d82e-431c-a214-2fbae8ae51b6_823x.jpg
+    image: /img/jay01374.jpg
   - video: ""
     type: image
     image: /img/icebreakerimage_750x.jpg
+  - video: ""
+    type: image
+    image: /img/jay01240.jpg
+  - video: ""
+    type: image
+    image: /img/water-blue-6.jpg
 store:
   items: []
   title: ICEBREAKER-POP
 description:
   title: Get it now!
   text: Meet ICEBREAKER® POP
-  image: /img/popped-open-saphire-blue.png
+  image: /img/finalamazonpicyellow_71f84618-d82e-431c-a214-2fbae8ae51b6_823x.jpg
 ---

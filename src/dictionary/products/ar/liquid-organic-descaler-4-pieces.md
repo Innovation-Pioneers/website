@@ -86,8 +86,8 @@ store:
   text: اشتري 4 قطع بـ 249 ريال سعودي
   items: []
 description:
-  title: احصل عليها الآن !
+  title: أحصل على 4 قطع بسعر 249 ريال سعودي مع الشحن المجاني الآن !!
   subtitle: ""
-  text: شنطة الشواء والكشتات
+  text: أفضل صفقة على الإطلاق !!
   image: /img/lod-green-modified.png
 ---

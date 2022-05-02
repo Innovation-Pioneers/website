@@ -3,34 +3,73 @@ templateKey: post
 language: en
 sku: ICEBREAKER-POP
 stock: 400
-title: The ULTIMATE PICNIC BACKPACK FOR 4
+title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30
 cover:
-  image: /img/4-person-picnic-bag-3-modified.png
-  title: "THE ULTIMATE PICNIC BACKPACK FOR 4 "
-  text: "Whether your four friends, a family of four, or even double dating with a
-    close couple, here’s the ideal picnic set from KAMPIT. "
+  image: /img/icebreaker_bundle_3.png
+  title: ICEBREAKER-POP
+  text: Serve Ice cubes without ever touching the Ice Cubes
 introduction:
-  title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
-  subtitle: Whether your four friends, a family of four, or even double dating
-    with a close couple, here’s the ideal picnic set from KAMPIT
-  text: Designed as a backpack for easy carrying, it has everything you need to
-    enjoy your next picnic hassle-free!
-  image: /img/ice-cooling-bag-with-bbq-kit-2-modified.png
+  title: ICEBREAKER-POP
+  subtitle: Serve Ice cubes without ever touching the Ice Cubes
+  text: No more touching the ice cubes with your hands - not even when serving. It
+    is the ORIGINAL, PATENTED and EASY TO USE ice cube tray from ICEBREAKER®
+  image: /img/icebreaker_about.png
 features:
-  title: "ULTIMATE PICNIC BACKPACK "
-  image: /img/4-person-picnic-bag-1-modified.png
-  text: "ULTIMATE PICNIC BACKPACK "
+  title: ICEBREAKER-POP
+  image: /img/product_173870_product_shots1-modified.png
+  text: Meet ICEBREAKER® POP ICEBREAKER® POP eliminates ice cube trays with its
+    space-saving design and easy to serve technology. Enjoy 18 large
+    slow-melting 1x1x1” ice cubes from the air-tight container anywhere without
+    foul-tasting freezer odors.  Made from BPA-free food grade rubber and
+    plastics and 100% non-toxic — safe for you, your family and friends. Plus
+    ICEBREAKER® POP is super durable and dishwasher safe, so you will never have
+    to replace it! Chill any of your favorite drinks — whiskey, craft cocktails,
+    juices, iced coffee or water!
+  subtitle: Just 4 steps for perfect Ice Cubes
 slider:
   - type: slide
-    title: "The ULTIMATE PICNIC BACKPACK FOR 4 "
-    text: Designed as a backpack for easy carrying, it has everything you need to
-      enjoy your next picnic hassle-free!
+    title: PUSH & FLEX
+    text: When ICEBREAKER® POP is frozen, place it on a hard surface, push down on
+      ICEBREAKER® POP several times with your palm until you hear the ice crack.
+  - type: slide
+    title: OPEN THE LID
+    text: It is necessary that you open the lid before you pull the handles. If this
+      is not done, it is nearly impossible to expand the sides due to vacuum.
+  - type: slide
+    title: PULL THE HANDLES
+    text: Pull both handles simultaneously to expand ICEBREAKER® POP and release the
+      ice cubes inside.
+  - type: slide
+    title: SHAKE AND SERVE
+    text: Place the lid back on and give ICEBREAKER® POP a good shake to ensure that
+      all ice cubes inside are separated and released from the icetray.
 highlights:
   - video: ""
     type: image
-    image: /img/4-person-picnic-bag-3-modified.png
+    image: /img/step_1.jpg
+  - video: ""
+    type: image
+    image: /img/step2.jpg
+  - video: ""
+    type: image
+    image: /img/step3.jpg
+  - video: ""
+    type: image
+    image: /img/step4.jpg
+  - video: ""
+    type: image
+    image: /img/feat.jpg
+  - video: ""
+    type: image
+    image: /img/o1cn01j6j6us27yg3u8cymk_382167866-1200x675.jpg
+  - video: ""
+    type: image
+    image: /img/finalamazonpicyellow_71f84618-d82e-431c-a214-2fbae8ae51b6_823x.jpg
+  - video: ""
+    type: image
+    image: /img/icebreakerimage_750x.jpg
 store:
   items: []
   title: ICEBREAKER-POP

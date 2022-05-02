@@ -49,6 +49,10 @@ slider:
       for organic use. All ingredients are all rapidly biodegradable meeting
       international standards.  Free from phosphate and Genetically Modified
       Organisms.
+  - type: slide
+    title: Clean your Steam Iron Machines!!
+    text: Liquid Organic Descaler can be used to clean your steam iron machines!! It
+      will be giving unimaginable results
 highlights:
   - video: ""
     type: image

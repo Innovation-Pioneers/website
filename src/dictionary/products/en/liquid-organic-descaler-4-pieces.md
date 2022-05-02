@@ -3,7 +3,7 @@ language: en
 sku: "9345941254084"
 stock: 999
 title: Liquid Organic Descaler 4 Pieces
-color: "#63afa3"
+color: "#ffe047"
 sort: 10
 cover:
   image: /img/lod-green-modified.png

@@ -48,14 +48,14 @@ slider:
       international standards.  Free from phosphate and Genetically Modified
       Organisms.
   - type: slide
-    title: Sanitizes & breaks down build-up that’s accumulated over time
-    text: Keeping Safe!!
+    title: Keeping Safe!!
+    text: "Sanitizes & breaks down build-up that’s accumulated over time "
   - type: slide
-    title: Fast acting formula that descales in minutes
-    text: Quick!!
+    title: Quick!!
+    text: "Fast acting formula that descales in minutes "
   - type: slide
-    title: Prolongs appliance performance & life-time
-    text: Long Run!!
+    title: Long Run!!
+    text: "Prolongs appliance performance & life-time "
   - type: slide
     title: Where can be used?
     text: Kettle, Steam Iron Machines, Dish washer, Clothes Washing Machines, Shower

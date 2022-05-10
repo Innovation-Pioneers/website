@@ -36,7 +36,7 @@ features:
   image: /img/lod-green-modified.png
 slider:
   - type: slide
-    text: For all appliances, use the correct dosage as displayed on the bottle.
+    text: For all appliances, use the correct dosage as shown below
     title: READ ALL INSTRUCTIONS THOROUGHLY BEFORE DESCALING WITH THIS PRODUCT.
   - type: slide
     text: Kettles – Boil 400ml water first. Once boiled, add 100ml solution to the

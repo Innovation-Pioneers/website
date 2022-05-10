@@ -7,7 +7,7 @@ title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30
 cover:
-  image: /img/icebreaker_bundle_3.png
+  image: /img/02-ice-popper-april-storiesartboard-1.jpg-modified.png
   title: ICEBREAKER-POP
   text: Serve Ice cubes without ever touching the Ice Cubes
 introduction:
@@ -65,7 +65,7 @@ store:
   items: []
   title: ICEBREAKER-POP
 description:
-  title: Get 3 pieces at 249 Saudi Riyals with free shipping now!!
+  title: Get 4 pieces at 299 Saudi Riyals with free shipping now!!
   text: Unavoidable Deal!!
-  image: /img/icebr-removebg-preview.png
+  image: /img/02-ice-popper-april-storiesartboard-1.jpg.png
 ---

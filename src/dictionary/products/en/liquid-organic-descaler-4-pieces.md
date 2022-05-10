@@ -17,11 +17,8 @@ introduction:
     Descaler is a safe and effective solution for removing hard water scale from
     thermoblock espresso machine lines, capsule machines and boilers. This
     product can also be used to descale kettles.
-  text: Add 125mL of Organic Descaler to 875mL of water to make up 1L of descaling
-    solution. Follow the machine manufacturer’s instructions to decalcify,
-    de-lime or descale the machine. Always rinse the machine at least twice with
-    fresh water after decalcifying, and before re-filling and reusing the
-    machine.
+  text: Sanitizes & breaks down build-up that’s accumulated over time. Fast acting
+    formula that descales in minutes. Prolongs appliance performance & life-time
   image: /img/lod-green-modified.png
 features:
   title: Liquid Organic Descaler
@@ -39,18 +36,63 @@ features:
   image: /img/lod-green-modified.png
 slider:
   - type: slide
-    text: Sanitizes & breaks down build-up that’s accumulated over time
-    title: Keeping Safe!!
+    text: For all appliances, use the correct dosage as displayed on the bottle.
+    title: READ ALL INSTRUCTIONS THOROUGHLY BEFORE DESCALING WITH THIS PRODUCT.
   - type: slide
-    text: Fast acting formula that descales in minutes
-    title: "Quick!! "
+    text: Kettles – Boil 400ml water first. Once boiled, add 100ml solution to the
+      boiled water. Allow to sit for 30 mins. Empty kettle of solution and water
+      and rinse thoroughly. Repeat if necessary
+    title: Kettles
   - type: slide
-    text: Prolongs appliance performance & life-time
-    title: "Long Run!! "
+    text: Coffee Machines – Always descale as per your manufacturer’s instructions.
+      With a ratio of 100ml solution to a full tank of water. Always rinse the
+      machine thoroughly with clean water after descaling
+    title: Coffee Machines
   - type: slide
-    text: Kettle, Steam Iron Machines, Dish washer, Clothes Washing Machines, Shower
-      Head
-    title: "Where can be used? "
+    text: Washing Machines – Pour 200ml into the detergent compartment of your
+      machine. DO NOT place clothes or detergent into machine during descaling
+      process. Set a hot wash and begin the cycle
+    title: "Washing Machines "
+  - type: slide
+    title: "Dishwashers "
+    text: Dishwashers – Pour 200ml into the bottom of the appliance (directly on to
+      the floor of the drum. DO NOT pour in to rinse aid reservoir or tablet
+      dispenser). DO NOT place cutlery or detergent into appliance during
+      descaling process. Set a hot wash and begin the cycle
+  - type: slide
+    title: Shower Heads
+    text: Shower Heads – This will require soaking the shower head in a
+      large/suitable basin or bowl. Pour 100ml to 1L hot water. Allow to sit
+      until water has cooled and limescale has been removed
+  - type: slide
+    title: "Nozzles "
+    text: Nozzles – This is suitable for small parts that are detachable from
+      appliances that develop limescale build-up. Pour 100ml to 1L hot water
+      into a large/suitable basin or bowl. Allow to sit until water has cooled
+      and limescale has been removed
+  - type: slide
+    title: Flasks
+    text: Flasks – Pour 100ml solution into a large/suitable basin or bowl and
+      ensure flask is submerged under water. Or, simply pour 100ml into the
+      flask and top up with hot water. Leave to soak for 30 mins and until water
+      has cooled
+  - type: slide
+    title: Other Appliances
+    text: This solution is suitable for other appliances such as food steamers,
+      steam mops, fabric steamers etc. Always check the manufacturer’s
+      instructions before descaling to ensure your appliances can be descaled.
+      Never pour more than 100ml of solution into the appliance for a descale
+      unless specified. Ecozone is not responsible for damage to appliances
+      caused by misuse of this product.
+  - type: slide
+    title: Caution
+    text: Always keep a close eye on kettles when being descaled.  Never touch hot
+      water directly with bare hands/skin while soaking parts.  Never touch
+      solution when concentrated or diluted with bare hands/skin.  With every
+      appliance, check manufacturers instructions of the appliance before
+      descaling. Ecozone is not responsible for damage to appliances caused by
+      misuse of this product.  When soaking parts always check the materials of
+      the object are suitable to be exposed to the ingredients in this product.
 highlights:
   - video: ""
     type: image

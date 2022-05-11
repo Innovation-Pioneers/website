@@ -90,7 +90,7 @@ slider:
       water directly with bare hands/skin while soaking parts.  Never touch
       solution when concentrated or diluted with bare hands/skin.  With every
       appliance, check manufacturers instructions of the appliance before
-      descaling. Ecozone is not responsible for damage to appliances caused by
+      descaling. Lag6a is not responsible for damage to appliances caused by
       misuse of this product.  When soaking parts always check the materials of
       the object are suitable to be exposed to the ingredients in this product.
 highlights:

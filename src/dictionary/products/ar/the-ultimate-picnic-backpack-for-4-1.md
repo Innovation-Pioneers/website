@@ -65,7 +65,7 @@ highlights:
 store:
   title: ICEBREAKER-POP
 description:
-  title: أحصل على 3 قطع بسعر 249 ريال سعودي مع الشحن المجاني الآن !!
+  title: أحصل على 4 قطع بسعر 299 ريال سعودي مع الشحن المجاني الآن !!
   subtitle: ""
   text: صفقة لا مفر منها !!
   image: /img/icebr-removebg-preview.png

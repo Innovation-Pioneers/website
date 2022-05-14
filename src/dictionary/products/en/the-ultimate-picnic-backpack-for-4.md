@@ -67,5 +67,5 @@ store:
 description:
   title: Get 4 pieces at 299 Saudi Riyals with free shipping now!!
   text: Unavoidable Deal!!
-  image: /img/02-ice-popper-april-storiesartboard-1.jpg.png
+  image: /img/icebr-removebg-preview.png
 ---

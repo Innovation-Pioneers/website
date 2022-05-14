@@ -82,8 +82,8 @@ slider:
       steam mops, fabric steamers etc. Always check the manufacturer’s
       instructions before descaling to ensure your appliances can be descaled.
       Never pour more than 100ml of solution into the appliance for a descale
-      unless specified. Ecozone is not responsible for damage to appliances
-      caused by misuse of this product.
+      unless specified. Lag6a is not responsible for damage to appliances caused
+      by misuse of this product.
   - type: slide
     title: Caution
     text: Always keep a close eye on kettles when being descaled.  Never touch hot

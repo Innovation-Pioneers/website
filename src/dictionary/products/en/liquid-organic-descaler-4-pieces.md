@@ -96,7 +96,7 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/eae3bfcd-a450-4206-a0b6-07dda6d8266c.jpeg
+    image: /img/5b6b6ba5-f39a-412f-b695-1a4ea9a17cd8.jpeg
   - video: ""
     type: image
     image: /img/dosageaaaa.jpeg

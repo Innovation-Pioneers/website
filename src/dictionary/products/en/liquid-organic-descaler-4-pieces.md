@@ -111,7 +111,7 @@ highlights:
     image: /img/9de49453-b080-4309-bed5-e6f168ea69be.jpeg
   - video: ""
     type: image
-    image: /img/af420f26-b38e-4bd9-a29a-0f06c4e96e23.jpeg
+    image: /img/11227beb-81c0-489f-acbf-9ef75316da40.jpeg
   - video: ""
     type: image
     image: /img/cd8b3e08-87a3-46df-9018-0eb402dcfad5.jpeg

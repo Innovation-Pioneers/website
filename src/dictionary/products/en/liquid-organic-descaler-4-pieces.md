@@ -102,25 +102,25 @@ highlights:
     image: /img/c050da50-c53d-4e45-8af2-42a256cf2efe.jpeg
   - video: ""
     type: image
-    image: /img/e73d72ec-6d4e-43cc-8101-f71263e9978f.jpeg
+    image: /img/e1dac1cb-cf42-4bf7-a999-d2707e5afc40.jpeg
   - video: ""
     type: image
-    image: /img/d25a46af-b7db-4337-bec3-1ba6965aea51.jpeg
+    image: /img/23fdc9c9-9059-452e-a94d-6844ef022e10.jpeg
   - video: ""
     type: image
-    image: /img/9de49453-b080-4309-bed5-e6f168ea69be.jpeg
+    image: /img/292d85e0-348d-4a1f-8f50-227a0c10887f.jpeg
   - video: ""
     type: image
-    image: /img/8abff575-d207-4c8b-b66b-51a5b86f4a33.jpeg
+    image: /img/ec1bdc83-85aa-4827-93a8-949bb45dab74.jpeg
   - video: ""
     type: image
-    image: /img/35ea175d-6803-4e5e-9c7c-aa0abca2297c.jpeg
+    image: /img/a7c62013-fa6e-4e0e-994c-6bfc975153c3.jpeg
   - video: ""
     type: image
-    image: /img/26de9961-999f-46d4-93bb-6967cf7132fc.jpeg
+    image: /img/e0ed4ead-1ab3-4b0c-8fd5-f5fb6e1202e1.jpeg
   - video: ""
     type: image
-    image: /img/180df065-eb2d-4bb2-be4c-0375b60681df.jpeg
+    image: /img/8f9d0b13-3236-47cf-887e-f4ac15f5b448.jpeg
 store:
   title: Liquid Organic Descaler 4 Pieces
   text: Buy 4 pieces for 249 Saudi Riyals

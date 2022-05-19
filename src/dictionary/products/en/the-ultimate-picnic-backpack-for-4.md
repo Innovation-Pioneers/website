@@ -2,7 +2,7 @@
 templateKey: post
 language: en
 sku: ICEBREAKER-POP
-stock: 1200
+stock: 1388
 title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30

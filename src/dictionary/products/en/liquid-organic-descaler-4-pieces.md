@@ -96,13 +96,31 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/all-cafeetoo-use.jpeg
-  - video: ""
-    type: image
     image: /img/genral-cafetto-use.jpeg
   - video: ""
     type: image
     image: /img/dosageaaaa.jpeg
+  - video: ""
+    type: image
+    image: /img/b1127a85-2313-44f5-8cfe-0402d70c855c.jpeg
+  - video: ""
+    type: image
+    image: /img/42c95a42-4ead-44c0-bcba-bdaf83da8f81.jpeg
+  - video: ""
+    type: image
+    image: /img/d7ab6571-0c4d-4634-8770-280b902e32b8.jpeg
+  - video: ""
+    type: image
+    image: /img/a86537cf-9210-4ee4-b15b-c13f4248b4ea.jpeg
+  - video: ""
+    type: image
+    image: /img/02a251d8-2f24-4e45-8c7b-d2e0fa7ea8ba.jpeg
+  - video: ""
+    type: image
+    image: /img/329d91c0-874c-4849-9a88-2e7db12a571d.jpeg
+  - video: ""
+    type: image
+    image: /img/3222949c-7210-4dfe-af1f-6421b59555d2.jpeg
 store:
   title: Liquid Organic Descaler 4 Pieces
   text: Buy 4 pieces for 249 Saudi Riyals

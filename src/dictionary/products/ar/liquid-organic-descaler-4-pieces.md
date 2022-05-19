@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: "9345941254084"
-stock: 999
+stock: 1000
 title: Organic Descaler
 color: "#ffe047"
 sort: 10

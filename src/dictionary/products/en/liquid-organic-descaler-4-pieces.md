@@ -99,7 +99,7 @@ highlights:
     image: /img/5b6b6ba5-f39a-412f-b695-1a4ea9a17cd8.jpeg
   - video: ""
     type: image
-    image: /img/dosageaaaa.jpeg
+    image: /img/c050da50-c53d-4e45-8af2-42a256cf2efe.jpeg
   - video: ""
     type: image
     image: /img/e73d72ec-6d4e-43cc-8101-f71263e9978f.jpeg

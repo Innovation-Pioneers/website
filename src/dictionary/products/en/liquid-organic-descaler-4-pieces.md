@@ -120,7 +120,7 @@ highlights:
     image: /img/e8ace005-a013-4102-b337-d0070c24c3e6.jpeg
   - video: ""
     type: image
-    image: /img/d1224148-6b5a-48cd-ad44-cf9dae7b0b04.jpeg
+    image: /img/e22e9240-cbcd-4083-a5f7-2fd95640d985.jpeg
 store:
   title: Liquid Organic Descaler 4 Pieces
   text: Buy 4 pieces for 249 Saudi Riyals

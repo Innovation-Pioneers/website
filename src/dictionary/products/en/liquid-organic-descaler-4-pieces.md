@@ -96,7 +96,7 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/genral-cafetto-use.jpeg
+    image: /img/eae3bfcd-a450-4206-a0b6-07dda6d8266c.jpeg
   - video: ""
     type: image
     image: /img/dosageaaaa.jpeg

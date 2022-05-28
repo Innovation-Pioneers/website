@@ -92,13 +92,31 @@ slider:
 highlights:
   - video: ""
     type: image
-    image: /img/all-cafeetoo-use.jpeg
+    image: /img/lod-coommon-ar.jpeg
   - video: ""
     type: image
-    image: /img/genral-cafetto-use-arab.jpeg
+    image: /img/lod-usage-ar.jpeg
   - video: ""
     type: image
-    image: /img/dosage-arab.jpeg
+    image: /img/lod-coffee-machinear.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-washing-ar.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-iron-box-ar.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-shower-ar.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-flask-ar.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-dishwasher-ar.jpeg
+  - video: ""
+    type: image
+    image: /img/lod-kettle-ar.jpeg
 store:
   title: مزيل الترسبات العضوية السائل 4 قطع
   text: اشتر ي 4 قطع بسعر 249 ريال سعودي

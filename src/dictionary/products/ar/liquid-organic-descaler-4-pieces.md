@@ -6,7 +6,7 @@ title: Organic Descaler
 color: "#ffe047"
 sort: 10
 cover:
-  image: /img/ca857519-64d1-4fd9-926e-771baf2df724-modified.png
+  image: /img/new-lod-dp-modified.png
   title: مزيل الترسبات العضوية
   text: مناسب تماما للأجهزة المنزلية أو أجهزة المكاتب الصغيرة.
 introduction:

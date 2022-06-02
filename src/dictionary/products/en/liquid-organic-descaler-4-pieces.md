@@ -6,7 +6,7 @@ title: Organic Descaler
 color: "#ffe047"
 sort: 10
 cover:
-  image: /img/ca857519-64d1-4fd9-926e-771baf2df724-modified.png
+  image: /img/new-lod-dp-modified.png
   title: Organic Descaler
   text: Perfectly suited to domestic or small office machines.
 introduction:

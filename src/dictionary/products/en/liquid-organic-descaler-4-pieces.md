@@ -2,7 +2,7 @@
 language: en
 sku: "9345941254084"
 stock: 1000
-title: Organic Descaler
+title: Organic Liquid for Descaling
 color: "#ffe047"
 sort: 10
 cover:

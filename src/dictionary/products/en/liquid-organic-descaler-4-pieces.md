@@ -7,12 +7,13 @@ color: "#ffe047"
 sort: 10
 cover:
   image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
-  title: Organic Descaler
-  text: Perfectly suited to domestic or small office machines.
+  title: "Organic Liquid for  Descaling "
+  text: Perfectly suited for coffee machines!! It can be used for Kettles, Washing
+    Machines, Garments Steamer, Dishwasher, Flasks, Nozzles and Shower Heads
 introduction:
   introLine: ""
   label: ""
-  title: Liquid Organic Descaler 4 Pieces
+  title: Organic Liquid for Descaling 4 Pieces
   subtitle: Perfectly suited to domestic or small office machines. Organic
     Descaler is a safe and effective solution for removing hard water scale from
     thermoblock espresso machine lines, capsule machines and boilers. This

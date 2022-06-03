@@ -20,9 +20,9 @@ introduction:
     product can also be used to descale kettles.
   text: Sanitizes & breaks down build-up that’s accumulated over time. Fast acting
     formula that descales in minutes. Prolongs appliance performance & life-time
-  image: /img/ca857519-64d1-4fd9-926e-771baf2df724-modified.png
+  image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
 features:
-  title: Liquid Organic Descaler
+  title: Organic Liquid for Descaling
   subtitle: An eco-friendly liquid descaler which rapidly and easily removes lime
     scale and calcium build up from metal surfaces in contact with hot water
     such as espresso machine water tanks, coffee brewing and other hot water
@@ -34,7 +34,7 @@ features:
   text: Organic Descaler is a safe and effective solution for removing hard water
     scale from thermoblock espresso machine lines, capsule machines and
     boilers.  This product can also be used to descale kettles.
-  image: /img/ca857519-64d1-4fd9-926e-771baf2df724-modified.png
+  image: /img/cafetto-logo-modified.png
 slider:
   - type: slide
     text: For all appliances, use the correct dosage as shown below
@@ -130,5 +130,5 @@ description:
   title: "Get 4 pieces at 249 Saudi Riyals with free shipping now!! "
   subtitle: ""
   text: The best deal ever!!
-  image: /img/ca857519-64d1-4fd9-926e-771baf2df724-modified.png
+  image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
 ---

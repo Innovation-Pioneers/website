@@ -4,7 +4,7 @@ sku: ICEBREAKER-POP
 stock: 1388
 title: ICEBREAKER-POP
 color: "#e58236"
-sort: 20
+sort: 10
 cover:
   image: /img/079b8496-8fa0-48c4-8089-154c45545ecc.png
   title: بوب آيسبريكر®

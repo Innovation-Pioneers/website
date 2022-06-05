@@ -6,7 +6,7 @@ title: Organic Liquid for Descaling
 color: "#ffe047"
 sort: 20
 cover:
-  image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
+  image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
   title: "Organic Liquid for  Descaling "
   text: Perfectly suited for coffee machines!! It can be used for Kettles, Washing
     Machines, Garments Steamer, Dishwasher, Flasks, Nozzles and Shower Heads

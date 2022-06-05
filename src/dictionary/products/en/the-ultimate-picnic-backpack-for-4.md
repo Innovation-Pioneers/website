@@ -7,7 +7,7 @@ title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30
 cover:
-  image: /img/02-ice-popper-april-storiesartboard-1.jpg-modified.png
+  image: /img/079b8496-8fa0-48c4-8089-154c45545ecc.png
   title: ICEBREAKER-POP
   text: Serve Ice cubes without ever touching the Ice Cubes
 introduction:

@@ -20,7 +20,7 @@ introduction:
     product can also be used to descale kettles.
   text: Sanitizes & breaks down build-up that’s accumulated over time. Fast acting
     formula that descales in minutes. Prolongs appliance performance & life-time
-  image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
+  image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
 features:
   title: Organic Liquid for Descaling
   subtitle: An eco-friendly liquid descaler which rapidly and easily removes lime
@@ -130,5 +130,5 @@ description:
   title: "Get 4 pieces at 249 Saudi Riyals with free shipping now!! "
   subtitle: ""
   text: The best deal ever!!
-  image: /img/30ed8602-900b-4652-a956-ae652eb4dcd3.png
+  image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
 ---

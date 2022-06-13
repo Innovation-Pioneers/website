@@ -6,7 +6,7 @@ title: K 3 FOLLOW ME
 color: "#63afa3"
 sort: 30
 cover:
-  image: /img/k3_footer.png
+  image: /img/4cf59942-0ebc-44e4-9304-d15ab35c1481.png
   title: K 3 FOLLOW ME
   text: The 1800 PSI K3 Follow Me is a unique 4-wheel pressure washer. It follows
     behind as you clean your home or vehicles and won't tip over. An ideal

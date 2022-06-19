@@ -5,7 +5,7 @@ sku: ICEBREAKER-POP
 stock: 1388
 title: ICEBREAKER-POP
 color: "#e58236"
-sort: 10
+sort: 20
 cover:
   image: /img/7dc2f41f-8760-4fab-93b4-ab078ce94dd5.png
   title: ICEBREAKER-POP

@@ -1,7 +1,7 @@
 ---
 language: ar
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
-stock: 1000
+stock: 500
 title: Picnic Backpack
 color: "#ffe047"
 sort: 40

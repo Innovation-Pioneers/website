@@ -6,7 +6,7 @@ title: Picnic Backpack
 color: "#ffe047"
 sort: 40
 cover:
-  image: /img/4-person-picnic-bag-3-modified.png
+  image: /img/4-person-picnic-bag-2-modified.png
   title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص
   text: إليك طقم النزهات الخارجيّة من KAMPIT المثالي لأربع أصدقاء، عائلة من 4
     أفراد أو حتى زوجين من الأصدقاء المقرّبين! تمّ تصميم هذا الطقم على شكل شنطة

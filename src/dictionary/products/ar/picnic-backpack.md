@@ -4,7 +4,7 @@ sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 1000
 title: Picnic Backpack
 color: "#ffe047"
-sort: 38
+sort: 40
 cover:
   image: /img/4-person-picnic-bag-3-modified.png
   title: شنطة ظهر بلوازم النزهات الكاملة ل4 أشخاص

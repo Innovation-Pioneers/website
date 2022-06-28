@@ -37,7 +37,7 @@ store:
   text: Perfect for 4 People
   items: []
 description:
-  title: "Get tours at 299 Saudi Riyals with free shipping now!! "
+  title: "Get yours at 299 Saudi Riyals with free shipping now!! "
   subtitle: Perfect for 4 People
   text: The best deal ever!!
   image: /img/4-person-picnic-bag-3-modified.png

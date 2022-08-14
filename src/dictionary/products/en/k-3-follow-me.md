@@ -44,22 +44,22 @@ slider: []
 highlights:
   - video: ""
     type: image
-    image: /img/bbce9c53-7629-40e3-acd4-01a93dd3cb6a.jpeg
+    image: /img/0d6a374f-8b0a-4589-879f-064a1cc8f9af.jpeg
   - video: ""
     type: image
-    image: /img/a0413cce-5110-4137-b12a-88caeb6cc434.jpeg
+    image: /img/3476ef79-3c3c-4dcd-962f-05c30b7348de.jpeg
   - video: ""
     type: image
-    image: /img/37d87de8-8d48-416c-9023-fcf96f324ff5.jpeg
+    image: /img/adb88272-2bf3-41b3-99e7-ec800e5edfc2.jpeg
   - video: ""
     type: image
-    image: /img/99cc0643-7cb2-4efa-ac77-09ce50137f04.jpeg
+    image: /img/80ba3332-32c7-4112-9619-0c02726c6191.jpeg
   - video: ""
     type: image
-    image: /img/5dd04304-3f95-4fdf-8ffe-23d120d51d2a.jpeg
+    image: /img/c54b2103-b6e8-46e4-aef7-5f9f49699103.jpeg
   - video: ""
     type: image
-    image: /img/4dcf817e-fe6a-46e5-a459-6257bd6f2a2d.jpeg
+    image: /img/c72833d4-cb8d-4102-8249-e746ba2ba182.jpeg
 store:
   title: Portable Blender - Bundle of Two
   items: []

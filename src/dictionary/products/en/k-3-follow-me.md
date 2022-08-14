@@ -3,7 +3,7 @@ language: en
 sku: PORTABUNDLE
 stock: 500
 title: Portable Blender - Bundle of Two
-color: "#0e2433"
+color: "#EC7C71"
 sort: 10
 cover:
   image: /img/blend-modified.png

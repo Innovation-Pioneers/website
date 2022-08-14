@@ -4,7 +4,7 @@ sku: "9345941254084"
 stock: 1000
 title: Organic Liquid for Descaling
 color: "#ffe047"
-sort: 10
+sort: 30
 cover:
   image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
   title: "Organic Liquid for  Descaling "

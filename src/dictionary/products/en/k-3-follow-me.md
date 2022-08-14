@@ -31,7 +31,7 @@ introduction:
     Just pour some water and an optional drop of soap into the blender bottle,
     and you need to double click the ON/OFF button to start automatic cleaning
     until it is clean. There is no need to disassemble and clean again."
-  image: /img/blend-pink-1-modified.png
+  image: /img/1db5eb67-2f85-4ede-b4e0-66eb0e69b558.png
 features:
   title: Portable Blender - Bundle of Two
   subtitle: Never be without your smoothie again!

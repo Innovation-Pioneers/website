@@ -67,5 +67,5 @@ description:
   title: Blend it Today!
   subtitle: Make your favorite smoothies like a Pro!!
   text: 299 Saudi Riyals including VAT
-  image: /img/whatsapp-image-2022-08-15-at-1.38.01-am-modified.png
+  image: /img/bb6f66a4-49c2-4374-acfa-18538ad2d456.png
 ---

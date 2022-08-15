@@ -39,7 +39,7 @@ features:
     hold 350ml of juice, weighs only 460g, beautiful in appearance, and easy to
     carry.After juicing, you can replace the bottom with a lid and take it away
     directly. It is suitable for home, work, school or travel.
-  image: /img/whatsapp-image-2022-08-15-at-1.31.58-am-modified.png
+  image: /img/82a882ae-4d81-4f32-bbe0-a74cb4ac2159.png
 slider: []
 highlights:
   - video: ""

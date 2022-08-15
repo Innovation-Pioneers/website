@@ -31,7 +31,7 @@ introduction:
     Just pour some water and an optional drop of soap into the blender bottle,
     and you need to double click the ON/OFF button to start automatic cleaning
     until it is clean. There is no need to disassemble and clean again."
-  image: /img/1db5eb67-2f85-4ede-b4e0-66eb0e69b558.png
+  image: /img/bb6f66a4-49c2-4374-acfa-18538ad2d456.png
 features:
   title: Portable Blender - Bundle of Two
   subtitle: Never be without your smoothie again!
@@ -67,5 +67,5 @@ description:
   title: Blend it Today!
   subtitle: Make your favorite smoothies like a Pro!!
   text: 299 Saudi Riyals including VAT
-  image: /img/bb6f66a4-49c2-4374-acfa-18538ad2d456.png
+  image: /img/8900af2e-8a68-4516-91c2-8ea198467c94.png
 ---

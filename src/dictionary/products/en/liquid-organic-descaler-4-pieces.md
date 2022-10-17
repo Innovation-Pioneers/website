@@ -4,7 +4,7 @@ sku: "9345941254084"
 stock: 1000
 title: Organic Liquid for Descaling
 color: "#ffe047"
-sort: 30
+sort: 10
 cover:
   image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
   title: "Organic Liquid for  Descaling "
@@ -124,10 +124,10 @@ highlights:
     image: /img/cc946166-947a-4189-b601-b423de1c8079.jpeg
 store:
   title: Liquid Organic Descaler 4 Pieces
-  text: Buy 4 pieces for 249 Saudi Riyals
+  text: Buy 4 pieces for 199 Saudi Riyals
   items: []
 description:
-  title: "Get 4 pieces at 249 Saudi Riyals with free shipping now!! "
+  title: "Get 4 pieces at 199 Saudi Riyals with free shipping now!! "
   subtitle: ""
   text: The best deal ever!!
   image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png

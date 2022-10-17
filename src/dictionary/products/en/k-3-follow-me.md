@@ -2,7 +2,7 @@
 language: en
 sku: PORTABUNDLE
 stock: 500
-title: Portable Blender - Bundle of Two
+title: Portable Blender
 color: "#EC7C71"
 sort: 20
 cover:

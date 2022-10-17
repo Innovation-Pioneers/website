@@ -6,7 +6,7 @@ title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30
 cover:
-  image: /img/378cc2c4-8225-4e10-8ca2-226dbacb528b.png
+  image: /img/e39d9770-4e40-4f47-b2de-5e10bfa5f185.png
   title: بوب آيسبريكر®
   text: قدم مكعبات الثلج دون لمس مكعبات الثلج
 introduction:

@@ -4,7 +4,7 @@ sku: "9345941254084"
 stock: 1000
 title: Organic Liquid for Descaling
 color: "#ffe047"
-sort: 30
+sort: 10
 cover:
   image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
   title: "  سائل عضوي لإزالة الترسبات"
@@ -120,10 +120,10 @@ highlights:
     image: /img/lod-kettle-ar.jpeg
 store:
   title: مزيل الترسبات العضوية السائل 4 قطع
-  text: اشتر ي 4 قطع بسعر 249 ريال سعودي
+  text: اشتر ي 4 قطع بسعر 199 ريال سعودي
   items: []
 description:
-  title: احصل الآن على 4 قطع بسعر 249 ريال سعودي مع شحن مجاني !!
+  title: احصل الآن على 4 قطع بسعر 199 ريال سعودي مع شحن مجاني !!
   subtitle: ""
   text: أفضل صفقة على الإطلاق!!
   image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png

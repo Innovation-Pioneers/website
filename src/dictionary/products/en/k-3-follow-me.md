@@ -6,7 +6,7 @@ title: Portable Blender
 color: "#EC7C71"
 sort: 20
 cover:
-  image: /img/13a7f8ae-a7ad-474a-aea9-bd58df755bb7.png
+  image: /img/dda0f272-b924-4111-a57b-89dce08f7c50.png
   title: Portable Blender - Bundle of Two
   text: "Never be without your smoothie again! "
 introduction:

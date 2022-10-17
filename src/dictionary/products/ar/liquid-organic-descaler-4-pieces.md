@@ -6,7 +6,7 @@ title: Organic Liquid for Descaling
 color: "#ffe047"
 sort: 10
 cover:
-  image: /img/09670c5f-4bea-4a6d-ad90-9c24aa10123b.png
+  image: /img/003d7f32-5421-47b6-b669-5f1597600bf1.png
   title: "  سائل عضوي لإزالة الترسبات"
   text: مناسب تمامًا لماكينات القهوة !!  يمكن استخدامه في الغلايات ، والغسالات ،
     وبخار الملابس ، وغسالة الأطباق ، والقوارير ، والفوهات ، ورؤوس الدش

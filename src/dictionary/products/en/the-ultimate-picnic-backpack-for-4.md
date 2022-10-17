@@ -7,7 +7,7 @@ title: ICEBREAKER-POP
 color: "#e58236"
 sort: 30
 cover:
-  image: /img/7dc2f41f-8760-4fab-93b4-ab078ce94dd5.png
+  image: /img/a0c28770-7866-485f-a90b-b0ba903f43d7.png
   title: ICEBREAKER-POP
   text: Serve Ice cubes without ever touching the Ice Cubes
 introduction:

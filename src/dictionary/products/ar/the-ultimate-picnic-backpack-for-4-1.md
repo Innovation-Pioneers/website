@@ -2,7 +2,7 @@
 language: ar
 sku: ICEBREAKER-POP
 stock: 1388
-title: ICEBREAKER-POP
+title: ICEBREAKER-POP 4 Pieces
 color: "#e58236"
 sort: 30
 cover:
@@ -63,9 +63,9 @@ highlights:
     type: image
     image: /img/water-blue-6.jpg
 store:
-  title: ICEBREAKER-POP
+  title: ICEBREAKER-POP 4 Pieces
 description:
-  title: أحصل على 4 قطع بسعر 299 ريال سعودي مع الشحن المجاني الآن !!
+  title: أحصل على 4 قطع بسعر 199ريال سعودي مع الشحن المجاني الآن !!
   subtitle: ""
   text: صفقة لا مفر منها !!
   image: /img/icebr-removebg-preview.png

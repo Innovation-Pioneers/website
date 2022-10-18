@@ -3,21 +3,21 @@ templateKey: post
 language: en
 sku: ICEBREAKER-POP
 stock: 1388
-title: ICEBREAKER-POP
+title: ICEBREAKER-POP 4 Pieces
 color: "#e58236"
 sort: 30
 cover:
   image: /img/a0c28770-7866-485f-a90b-b0ba903f43d7.png
-  title: ICEBREAKER-POP
+  title: ICEBREAKER-POP 4 Pieces
   text: Serve Ice cubes without ever touching the Ice Cubes
 introduction:
-  title: ICEBREAKER-POP
+  title: ICEBREAKER-POP 4 Pieces
   subtitle: Serve Ice cubes without ever touching the Ice Cubes
   text: No more touching the ice cubes with your hands - not even when serving. It
     is the ORIGINAL, PATENTED and EASY TO USE ice cube tray from ICEBREAKER®
   image: /img/icebreaker_about.png
 features:
-  title: ICEBREAKER-POP
+  title: ICEBREAKER-POP 4 Pieces
   image: /img/packaging-py-darker-glass-fewer-ray-bounces.422.png
   text: Meet ICEBREAKER® POP ICEBREAKER® POP eliminates ice cube trays with its
     space-saving design and easy to serve technology. Enjoy 18 large
@@ -63,9 +63,9 @@ highlights:
     image: /img/water-blue-6.jpg
 store:
   items: []
-  title: ICEBREAKER-POP
+  title: ICEBREAKER-POP 4 Pieces
 description:
-  title: Get 4 pieces at 299 Saudi Riyals with free shipping now!!
+  title: Get 4 pieces at 199 Saudi Riyals with free shipping now!!
   text: Unavoidable Deal!!
   image: /img/icebr-removebg-preview.png
 ---

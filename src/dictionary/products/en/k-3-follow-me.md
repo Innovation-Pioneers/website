@@ -7,12 +7,12 @@ color: "#EC7C71"
 sort: 20
 cover:
   image: /img/dda0f272-b924-4111-a57b-89dce08f7c50.png
-  title: Portable Blender - Bundle of Two
+  title: Portable Blender
   text: "Never be without your smoothie again! "
 introduction:
   introLine: ""
   label: ""
-  title: Portable Blender - Bundle of Two
+  title: Portable Blender
   subtitle: 🍓Portable Blender 🍊 Blends Ice and Frozen Fruits 🍉 Simple to use
     and clean. 🍇 Wireless 🥑 Healthy Living
   text: "Easy to Make Healthy Smoothies: This is a powerful High-speed Personal
@@ -33,7 +33,7 @@ introduction:
     until it is clean. There is no need to disassemble and clean again."
   image: /img/bb6f66a4-49c2-4374-acfa-18538ad2d456.png
 features:
-  title: Portable Blender - Bundle of Two
+  title: Portable Blender
   subtitle: Never be without your smoothie again!
   text: The mini blender is as easy to carry around as a water bottle that can
     hold 350ml of juice, weighs only 460g, beautiful in appearance, and easy to
@@ -61,11 +61,11 @@ highlights:
     type: image
     image: /img/c72833d4-cb8d-4102-8249-e746ba2ba182.jpeg
 store:
-  title: Portable Blender - Bundle of Two
+  title: Portable Blender
   items: []
 description:
   title: Blend it Today!
   subtitle: Make your favorite smoothies like a Pro!!
-  text: 299 Saudi Riyals including VAT
+  text: 149 Saudi Riyals including VAT
   image: /img/8900af2e-8a68-4516-91c2-8ea198467c94.png
 ---

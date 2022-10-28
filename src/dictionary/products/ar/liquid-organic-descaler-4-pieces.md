@@ -4,7 +4,7 @@ sku: "9345941254084"
 stock: 1000
 title: Organic Liquid for Descaling
 color: "#06a94d"
-sort: 10
+sort: 30
 cover:
   image: /img/003d7f32-5421-47b6-b669-5f1597600bf1.png
   title: "  سائل عضوي لإزالة الترسبات"

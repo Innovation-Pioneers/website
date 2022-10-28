@@ -57,13 +57,7 @@ slider:
     text: Soak group handles and filters in 500ml of hot water with 2 teaspoons of
       Espresso Clean® Espresso Machine Cleaner for 10 minutes. Rinse thoroughly
       in running hot water.
-highlights:
-  - video: https://youtu.be/TLlgj6V_oRI
-    type: image
-    image: /img/15.jpg
-  - video: https://youtu.be/egRLc08K9nE
-    type: image
-    image: /img/e14005.jpg
+highlights: []
 store:
   items: []
   title: MFC Blue & Espresso Clean

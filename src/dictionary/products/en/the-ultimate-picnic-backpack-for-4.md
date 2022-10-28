@@ -8,7 +8,7 @@ color: "#e58236"
 sort: 10
 cover:
   image: /img/cafetto-deal.png
-  title: MFC Blue & Espresso Clean
+  title: "MFC Blue & Espresso Clean "
   text: A high-performance alkaline milk line cleaner designed for machines used
     at a high frequency & A rapidly soluble and free-rinsing formulation that
     removes coffee oils, grounds and stains.

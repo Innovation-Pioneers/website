@@ -2,7 +2,7 @@
 templateKey: post
 language: en
 sku: The-Extreme-Survival-Kit
-stock: 460
+stock: 470
 title: Essential Survival Kit
 color: "#e58236"
 sort: 10

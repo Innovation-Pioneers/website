@@ -4,7 +4,7 @@ sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 450
 title: Backpack for Picnic
 color: "#EC7C71"
-sort: 10
+sort: 7
 cover:
   image: /img/4-person-picnic-bag-2-modified.png
   title: Backpack for Picnic

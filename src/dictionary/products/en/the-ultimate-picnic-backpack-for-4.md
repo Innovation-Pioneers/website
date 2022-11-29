@@ -5,7 +5,7 @@ sku: The-Extreme-Survival-Kit
 stock: 470
 title: Essential Survival Kit
 color: "#e58236"
-sort: 10
+sort: 20
 cover:
   image: /img/survival-kit-main-modified.png
   title: Essential Survival Kit

@@ -6,7 +6,7 @@ title: "Ice Cooling Bag with Barbeque Kit "
 color: "#06a94d"
 sort: 30
 cover:
-  image: /img/bunn-1000.png
+  image: /img/ice-cooling-bag-with-bbq-kit-addition-1-modified.png
   title: "Ice Cooling Bag with Barbeque Kit "
   text: "Here’s the next generation of BBQ Kits for those who like to be super
     ready on their camping and picnic trips! KAMPIT brings you the premium Ice

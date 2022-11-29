@@ -18,7 +18,7 @@ introduction:
   text: "This 18-piece Barbeque kit from KAMPIT is your own portable kitchen!
     Perfect for camping trips and barbecue parties, it comprises everything you
     need to become the next BBQ master! "
-  image: /img/bbq_set_addition_1-removebg-preview-modified.png
+  image: /img/6483e353-fb05-4e37-9f78-f34c4a0a1089.jpeg
 features:
   title: Barbeque Kit
   image: /img/bbq_set_addition_1-removebg-preview-modified.png

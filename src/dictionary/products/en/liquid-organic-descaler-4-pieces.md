@@ -8,10 +8,9 @@ sort: 21
 cover:
   image: /img/ice-cooling-bag-with-bbq-kit-addition-1-modified.png
   title: "Ice Cooling Bag with Barbeque Kit "
-  text: "Here’s the next generation of BBQ Kits for those who like to be super
-    ready on their camping and picnic trips! KAMPIT brings you the premium Ice
-    Cooling Bag – perfect for preserving meats and cool drinks - with a 12-piece
-    BBQ Kit to plan your next BBQ event like a pro! "
+  text: "KAMPIT brings you the premium Ice Cooling Bag – perfect for preserving
+    meats and cool drinks - with a 12-piece BBQ Kit to plan your next BBQ event
+    like a pro! "
 introduction:
   introLine: ""
   label: ""

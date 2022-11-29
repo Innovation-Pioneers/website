@@ -1,7 +1,7 @@
 ---
 language: en
 sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
-stock: 1000
+stock: 285
 title: Backpack for Picnic
 color: "#EC7C71"
 sort: 20

@@ -5,7 +5,7 @@ sku: "1017030301001"
 stock: 500
 title: Barbeque Kit
 color: "#e58236"
-sort: 40
+sort: 28
 cover:
   image: /img/bbq_set_addition_1-removebg-preview-modified.png
   title: Barbeque Kit

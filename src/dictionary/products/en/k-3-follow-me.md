@@ -8,9 +8,9 @@ sort: 7
 cover:
   image: /img/4-person-picnic-bag-2-modified.png
   title: Backpack for Picnic
-  text: "Whether your four friends, a family of four, here’s the ideal picnic set
-    from KAMPIT. Designed as a backpack for easy carrying, it has everything you
-    need to enjoy your next picnic hassle-free! "
+  text: "Here’s the ideal picnic set from KAMPIT. Designed as a backpack for easy
+    carrying, it has everything you need to enjoy your next picnic hassle-free!
+    "
 introduction:
   introLine: ""
   label: ""

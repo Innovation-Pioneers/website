@@ -1,7 +1,7 @@
 ---
 language: en
 sku: THE-PREMIUM-GOURMET-CAMPER-KIT
-stock: 500
+stock: 590
 title: "Ice Cooling Bag with Barbeque Kit "
 color: "#06a94d"
 sort: 30

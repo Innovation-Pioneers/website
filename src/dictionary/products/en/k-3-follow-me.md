@@ -1,49 +1,45 @@
 ---
 language: en
-sku: BUNN500
+sku: The-ULTIMATE-PICNIC-BACKPACK-FOR-4
 stock: 1000
-title: Bunn Filter (20138.1000)
+title: Backpack for Picnic
 color: "#EC7C71"
 sort: 20
 cover:
-  image: /img/bunn-500.png
-  title: Bunn Filter (20138.1000)
-  text: '"500 Filters per bag, 1 bag per case Overall measure: 13.75"" Base
-    diameter: 5.25"" Dual and single filters Use with Single TF, Dual TF, Single
-    SH, Dual SH, SINGLE GPR, DUAL GPR"'
+  image: /img/4-person-picnic-bag-2-modified.png
+  title: Backpack for Picnic
+  text: "Whether your four friends, a family of four, or even double dating with a
+    close couple, here’s the ideal picnic set from KAMPIT. Designed as a
+    backpack for easy carrying, it has everything you need to enjoy your next
+    picnic hassle-free! "
 introduction:
   introLine: ""
   label: ""
-  title: Bunn Filter (20138.1000)
-  subtitle: From BUNN
-  text: '"500 Filters per bag, 1 bag per case Overall measure: 13.75"" Base
-    diameter: 5.25"" Dual and single filters Use with Single TF, Dual TF, Single
-    SH, Dual SH, SINGLE GPR, DUAL GPR"'
-  image: /img/bunn-500.png
+  title: Backpack for Picnic
+  subtitle: For Camping
+  text: "Size: 29L20W39.5Hcm  Material: 600D/Pvc Polyester In Two Tone Color + 6Mm
+    Pe Foam Padding + Aluminum Foil Lining  Blanket: 120*135Cm, 150Gsm Fleece +
+    Pva Backing  Includes:  4 Forks   4 Spoons   4 Knifes  1 Bottle Opener   1
+    Chopping Board  4 Glasses  4 9-inch Plates  4 Cotton Napkins  Salt & Pepper
+    Shakers  1 Butter Knife "
+  image: /img/4-person-picnic-bag-3-modified.png
 features:
-  title: Bunn Filter (20138.1000)
-  subtitle: From BUNN
-  text: '"500 Filters per bag, 1 bag per case Overall measure: 13.75"" Base
-    diameter: 5.25"" Dual and single filters Use with Single TF, Dual TF, Single
-    SH, Dual SH, SINGLE GPR, DUAL GPR"'
-  image: /img/bunn-500.png
-slider:
-  - type: slide
-    title: Directions to use
-    text: '"1. Insert a BUNN® filter into the funnel. 2. Pour the fresh coffee into
-      the filter and level the bed of grounds by gently shaking. 3. Slide the
-      funnel into the funnel rails. 4. Put an empty dispenser beneath the
-      funnel. ... 5. Open the flip lid on top of the brewer and pour in one
-      pitcher of tap water. 6. When brewing is completed, simply discard the
-      grounds and filter."'
+  title: Backpack for Picnic
+  subtitle: For Camping
+  text: "Whether your four friends, a family of four, or even double dating with a
+    close couple, here’s the ideal picnic set from KAMPIT. Designed as a
+    backpack for easy carrying, it has everything you need to enjoy your next
+    picnic hassle-free! "
+  image: /img/4-person-picnic-bag-1-modified.png
+slider: []
 highlights: []
 store:
-  title: Bunn Filter (20138.1000)
+  title: Backpack
   items: []
-  text: Bunn Filter (20138.1000)
+  text: Camping
 description:
-  title: Bunn Filter (20138.1000)
-  subtitle: Make your favorite smoothies like a Pro!!
-  text: Get yours today at 269 Saudi Riyals
-  image: /img/bunn-500.png
+  title: Backpack for Picnic
+  subtitle: Perfect for Camping
+  text: Get yours today at 299 Saudi Riyals
+  image: /img/4-person-picnic-bag-2-modified.png
 ---

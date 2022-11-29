@@ -13,14 +13,14 @@ cover:
     is your own portable kitchen! Perfect for camping trips and barbecue
     parties, it comprises everything you need to become the next BBQ master! "
 introduction:
-  title: Barbecue Kit
+  title: Barbeque Kit
   subtitle: Portable Size
   text: "This 18-piece Barbeque kit from KAMPIT is your own portable kitchen!
     Perfect for camping trips and barbecue parties, it comprises everything you
     need to become the next BBQ master! "
   image: /img/bbq_set_addition_1-removebg-preview-modified.png
 features:
-  title: Barbecue Kit
+  title: Barbeque Kit
   image: /img/bbq_set_addition_1-removebg-preview-modified.png
   text: Portable & Travel Friendly   Perfect for family outings to the Beach, Park
     or Picnic, Hiking and Camping.  Folded, the pouch fits comfortably into
@@ -44,8 +44,8 @@ store:
     - subtitle: ""
       description: ""
       title: Barbecue Kit
-      image: /img/bbq_set_addition_1-removebg-preview-modified.png
-  title: Barbecue Kit
+      image: /img/bbq-set-addition-2.jpg
+  title: Barbeque Kit
 description:
   title: "Get yours at 299 Saudi Riyals "
   text: Unavoidable Deal!!

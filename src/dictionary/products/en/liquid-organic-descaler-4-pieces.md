@@ -31,15 +31,7 @@ features:
     6.5CM   Pepper Shaker - 6.5CM   Water-Proof Cooling Bag-42*21.5*36Cm
     Thickness:1.2MM "
   image: /img/ice-cooling-bag-with-bbq-kit-1-modified.png
-slider:
-  - type: slide
-    title: Directiions of Use
-    text: '"1. Insert a BUNN® filter into the funnel. 2. Pour the fresh coffee into
-      the filter and level the bed of grounds by gently shaking. 3. Slide the
-      funnel into the funnel rails. 4. Put an empty dispenser beneath the
-      funnel. ... 5. Open the flip lid on top of the brewer and pour in one
-      pitcher of tap water. 6. When brewing is completed, simply discard the
-      grounds and filter."'
+slider: []
 highlights: []
 store:
   title: "Ice Cooling Bag with Barbeque Kit "

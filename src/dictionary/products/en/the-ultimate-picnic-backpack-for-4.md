@@ -1,9 +1,9 @@
 ---
 templateKey: post
 language: en
-sku: CAFB
-stock: 2000
-title: MFC Blue & Espresso Clean
+sku: The-Extreme-Survival-Kit
+stock: 450
+title: Essential Survival Kit
 color: "#e58236"
 sort: 10
 cover:

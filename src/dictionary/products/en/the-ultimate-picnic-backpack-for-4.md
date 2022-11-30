@@ -22,7 +22,7 @@ introduction:
   image: /img/survival-kit-addition-1-modified.png
 features:
   title: Essential Survival Kit
-  image: /img/123-modified.png
+  image: /img/survival-kit-main-modified.png
   text: "Don’t let fear of the unknown stand in your way! Embrace your inner
     explorer and embark on endless adventures with our Extreme Survival Kit,
     comprising 47 different survival tools to help you overcome any obstacle or

@@ -35,6 +35,9 @@ highlights:
   - video: ""
     type: image
     image: /img/survival-kit-addition-3.jpg
+  - video: ""
+    type: image
+    image: /img/survival-kit-addition-4.jpg
 store:
   title: "عدّة الصمود الكاملة "
   items: []

@@ -41,7 +41,11 @@ highlights:
 store:
   title: "عدّة الشوي الكاملة لمحبّي الأماكن الخارجيّة "
   text: حجم محمول
-  items: []
+  items:
+    - subtitle: حجم محمول
+      description: ""
+      title: "عدّة الشوي الكاملة لمحبّي الأماكن الخارجيّة "
+      image: /img/bbq-set-addition-2.jpg
 description:
   title: احصل على 299 ريال سعودي الآن !!
   subtitle: ""

@@ -7,7 +7,7 @@ title: Essential Survival Kit
 color: "#e58236"
 sort: 14
 cover:
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
   title: Essential Survival Kit
   text: "The Extreme Survival Kit   Don’t let fear of the unknown stand in your
     way! Embrace your inner explorer and embark on endless adventures with our
@@ -19,10 +19,10 @@ introduction:
   text: "This professional emergency survival kit comprises 47 different items,
     including:  First Aid Kit  SOS Emergency Tools  Tactical
     Flashlight  Pen  Knife  Hook  Pliers "
-  image: /img/survival-kit-addition-1-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
 features:
   title: Essential Survival Kit
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
   text: "Don’t let fear of the unknown stand in your way! Embrace your inner
     explorer and embark on endless adventures with our Extreme Survival Kit,
     comprising 47 different survival tools to help you overcome any obstacle or
@@ -45,5 +45,5 @@ store:
 description:
   title: "Get yours at 299 Saudi Riyals "
   text: Unavoidable Deal!!
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
 ---

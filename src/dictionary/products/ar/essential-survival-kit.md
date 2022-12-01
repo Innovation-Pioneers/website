@@ -6,7 +6,7 @@ title: Essential Survival Kit
 color: "#EC7C71"
 sort: 14
 cover:
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
   title: "عدّة الصمود الكاملة "
   text: "لا تدع الخوف يقف في طريق مغامراتك! إستكشف كما شئت ولا تخشى المجهول مع
     عدّة الصمود الكاملة المؤلّفة من 47 أداة تساعدك على مواجهة التحديّات والحالات
@@ -19,14 +19,14 @@ introduction:
   text: "لا تدع الخوف يقف في طريق مغامراتك! إستكشف كما شئت ولا تخشى المجهول مع
     عدّة الصمود الكاملة المؤلّفة من 47 أداة تساعدك على مواجهة التحديّات والحالات
     الطارئة بنجاح، مهما كانت! إنطلق بحريّة!  "
-  image: /img/survival-kit-addition-1-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
 features:
   title: "عدّة الصمود الكاملة "
   subtitle: يشمل جميع العناصر الضرورية
   text: "تتضمّن عدّة الصمود المحترفة لأوقات الطوارئ 47 أداة مختلفة منها:  علبة
     إسعافات أوّلية  أدوات خاصّة لحالات الطوارئ والإستغاثة  مصباح
     كهربائي   قلم  سكّين  خطّاف  كمّاشة "
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
 slider: []
 highlights:
   - video: ""
@@ -46,5 +46,5 @@ description:
   title: احصل على 299 ريال سعودي الآن !!
   subtitle: لا تكن أبدًا بدون مجموعة أدوات الأمان
   text: صفقة مذهلة !!
-  image: /img/survival-kit-main-modified.png
+  image: /img/3918fb21-0ea6-4f35-992a-857cb0002ea9-modified.png
 ---

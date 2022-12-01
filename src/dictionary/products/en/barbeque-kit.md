@@ -7,7 +7,7 @@ title: Barbeque Kit
 color: "#FEFB41"
 sort: 28
 cover:
-  image: /img/bbq-set-addition-1-modified.png
+  image: /img/9d9bd7e1-d40e-4e6b-aa84-dcab1ace4988-modified.png
   title: Barbeque Kit
   text: "The Ultimate BBQ Kit For Outdoor Fans  This 18-piece BBQ kit from KAMPIT
     is your own portable kitchen! Perfect for camping trips and barbecue
@@ -49,5 +49,5 @@ store:
 description:
   title: "Get yours at 299 Saudi Riyals "
   text: Unavoidable Deal!!
-  image: /img/bbq-set-addition-1-modified.png
+  image: /img/9d9bd7e1-d40e-4e6b-aa84-dcab1ace4988-modified.png
 ---

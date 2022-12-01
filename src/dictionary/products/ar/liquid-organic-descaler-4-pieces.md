@@ -6,7 +6,7 @@ title: Barbeque Kit
 color: "#06a94d"
 sort: 28
 cover:
-  image: /img/bbq-set-addition-1-modified.png
+  image: /img/9d9bd7e1-d40e-4e6b-aa84-dcab1ace4988-modified.png
   title: "عدّة الشوي الكاملة لمحبّي الأماكن الخارجيّة "
   text: "تتألّف عدّة الشوّاء هذه من KAMPIT من 18 قطعة وهي بمثابة مطبخ مصغّر
     ومتنقّل تحمله معك أينما ذهبت! هي مثالية لرحلات التخييم وحفات الشوّاء،
@@ -49,5 +49,5 @@ description:
   title: احصل على 299 ريال سعودي الآن !!
   subtitle: ""
   text: أفضل صفقة على الإطلاق!!
-  image: /img/bbq-set-addition-1-modified.png
+  image: /img/9d9bd7e1-d40e-4e6b-aa84-dcab1ace4988-modified.png
 ---
